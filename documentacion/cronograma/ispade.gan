@@ -75,6 +75,7 @@ Como resultado de este proceso se obtiene el diagrama general del sistema
             <depend id="25" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="41" name="Desarrollo e Implementacion" color="#8cb6ce" meeting="false" start="2012-12-17" duration="37" complete="0" expand="true">
+            <notes><![CDATA[Desarrollo del Sistema	]]></notes>
             <task id="25" name="Implementar Funciones en la Base de Datos" color="#99ff99" meeting="false" start="2012-12-17" duration="2" complete="0" expand="true">
                 <notes><![CDATA[Una vez terminada la fase de diseño (se distingue por el color azul en los diagramas) se empieza a implementar la base de datos final a la misma que se agrega funcionalidades con la ayuda de Funciones Almacenas, Vistas y Disparadores encaso de ser necesario, terminada esta actividad tenemos un diagrama de clase final y real de nuestro sistema.]]></notes>
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
