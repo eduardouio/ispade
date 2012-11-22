@@ -18,3 +18,5 @@
 
 
 quitar el desarrollar de la primera hoja
+impresiones consumibrel
+mi sueldo
