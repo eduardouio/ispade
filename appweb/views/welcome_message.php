@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>INSTITUTO TECNOLOGICO ISPADE</title>
-        <meta name="description" content="">
+        <title>IanCMS</title>
+        <meta name="description" content="IanCMS">
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -18,7 +18,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-         <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+        <link rel="shortcut icon" href="ico/favicon.ico">
     
     </head>
     <body>
@@ -65,7 +65,7 @@
                   <li><a href="#">Firmar Libro de Visitas</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Administrador</li>
-                  <li><a href="#">Iniciar Sesión</a></li>
+                  <li><a href="#">Iniciar Sesión</a></li>                  
                 </ul>
               </li>
             </ul>
@@ -82,10 +82,10 @@
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/slide-01.jpg" alt="">
+          <img src="http://rosix.ru/media/carousel/2013/2/6/plx.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Eduardo Villota</h1>
+              <h1>Novedad 1</h1>
               <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <a class="btn btn-large btn-primary" href="#">Leer más...</a>
             </div>
@@ -93,7 +93,7 @@
         </div>
 
         <div class="item">
-          <img src="img/slide-02.jpg" alt="">
+          <img src="http://www.mjrtech.com.br/assets/img/examples/slide-01.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Cartera de Servicios.</h1>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="item">
-          <img src="img/slide-03.jpg" alt="">
+          <img src="http://layerjet.com/images/xintro_cover.jpg.pagespeed.ic.-8lj_Du2vI.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Ultimas Noticias.</h1>
@@ -116,7 +116,7 @@
       </div>
 
       <div class="item">
-          <img src="img/slide-03.jpg" alt="">
+          <img src="http://rosix.ru/media/carousel/2013/2/6/plx.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Solicitud de servicio.</h1>
@@ -141,19 +141,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
-          <img class="img-circle" src="http://placehold.it/140x140">
+          <img class="img-circle" src="http://escorpro.org/images/linux.png">
           <h2>Servicios</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" src="http://placehold.it/140x140">
+          <img class="img-circle" src="https://lh6.googleusercontent.com/-zKKAP-O2nzA/TqbJaOATpPI/AAAAAAAADO4/jn6D4_lutzs/archlinux-cool-logo-140px.png">
           <h2>Noticia 1</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" src="http://placehold.it/140x140">
+          <img class="img-circle" src="http://noticias.area7g.com/wp-content/mandriva-logo2.png">
           <h2>Noticia 2</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
@@ -161,13 +161,63 @@
       </div><!-- /.row -->
 
 
+
+<div class="container" style="color:#8f8f8f;"> 
+  <hr class="nav-tabs">
+  <div class="row-fluid">
+  <div class="span4">    
+  <h3>Certificaciones</h3>
+  <p>
+   <b>OHSAS 18001:2007</b><br>   
+    Certificado de seguridad industrial<br>
+    <a href="certificacion/ohsas18000/">Continuar...</a>
+  </p>          
+  <p>
+   <b>ISO 9001:2008</b><br>   
+    Certificado de calidad <br>
+    <a href=" certificacion/iso9001/">Continuar...</a>
+  </p>          
+  </div><!--/span-->       
+  <div class="span4">    
+  <h3>Servicios</h3>
+  <p>
+    </p><ul>
+    <li>Dewatering</li>
+    <li>Biorremediación</li>    
+    <li>Perforación de Pozos</li>
+    <li>Sistema De Tratamiento De Aguas</li>
+    <li>Manejo y tratamiento de cortes de perforación</li>    
+    <li><a href="servicios/">Continuar..</a></li>
+    </ul>
+  <p></p>          
+  </div><!--/span-->       
+  <div class="span4">    
+  <h3>Contactos</h3>
+  <p>
+  <b>Dirección: </b> Av. Cristóbal Colon 1133 y Av. Rio Amazonas Edificio Arista Piso 5 <b>Of:</b> 502
+  <b>Sudamerica-Ecuador</b><br>
+  <b>Telefonos: </b> 593 (2) 2563-733 593 (2) 2551-961 <b>Fax:</b> 593 (2) 2233-578
+  </p>
+  <p>
+  <b>Email: </b> <a class="btn btn-inverse" href="mailto:operaciones@sln-ec.com">operaciones@sln-ec.com </a>
+  </p>                    
+  </div><!--/span-->       
+  </div><!--/row-->    
+  
+<small style="font-size: 11px;">    
+  <footer style="text-align:center;;">  
+  
+        
+        <p>&copy; 2013 Instituto Para El Desarrollo ISPADE &middot; <a href="#">Términos</a> &middot; <a href="#">de Privacidad </a></p>
+        
+</small>
+  </footer>       
+  </div>
+
       
       <!-- FOOTER -->
       <footer>
-        <hr/>
-        <small style="aling:center;">
-        <p>&copy; 2013 Instituto Para El Desarrollo ISPADE &middot; <a href="#">Términos</a> &middot; <a href="#">de Privacidad </a></p>
-        </small>
+        
       </footer>
 
     </div><!-- /.container -->
