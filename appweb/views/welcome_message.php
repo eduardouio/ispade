@@ -202,7 +202,7 @@
           <a href="http://facebook.com/eduardo.villota">
             <img src="img/facebook.png" alt="Facebook" width="90" hight="90">
               <br/><div class="btn btn-info btn-mini"> Facebook </div>
-          </a>
+          </a><h21
         </div><!--/span-->       
         <div class="span4">    
           <a href="http://twitter.com/eduardouio">
@@ -216,5 +216,6 @@
       <p>&copy; 2013 Instituto Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a></p>
     </small>
     </div>       
+<h1>guilcapia@yahoo.es</h1>
   </body>
   </html>
