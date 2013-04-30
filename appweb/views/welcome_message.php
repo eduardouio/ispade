@@ -3,26 +3,57 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>IanCMS</title>
-        <meta name="description" content="IanCMS">
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>IanCMS</title>
+  <meta name="description" content="IanCMS">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="shortcut icon" href="ico/favicon.ico">
+  <script>
+  !function ($) {
+    $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+  }(window.jQuery)
+  </script>
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/slider.css">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/bootstrap-responsive.css" rel="stylesheet">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <link rel="shortcut icon" href="ico/favicon.ico">
-    
-    </head>
-    <body>
-       
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap-transition.js"></script>
+  <script src="js/bootstrap-alert.js"></script>
+  <script src="js/bootstrap-modal.js"></script>
+  <script src="js/bootstrap-dropdown.js"></script>
+  <script src="js/bootstrap-scrollspy.js"></script>
+  <script src="js/bootstrap-tab.js"></script>
+  <script src="js/bootstrap-tooltip.js"></script>
+  <script src="js/bootstrap-popover.js"></script>
+  <script src="js/bootstrap-button.js"></script>
+  <script src="js/bootstrap-collapse.js"></script>
+  <script src="js/bootstrap-carousel.js"></script>
+  <script src="js/bootstrap-typeahead.js"></script>
+</head>
+
+<body>
         <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -33,11 +64,11 @@
         <![endif]-->
         <!-- Fav and touch icons -->
 
-  
+
      <!-- NAVBAR
-    ================================================== -->
-    <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
-    <div class="container navbar-wrapper">
+     ================================================== -->
+     <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
+     <div class="container navbar-wrapper">
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">
           <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
@@ -54,8 +85,8 @@
               <li><a href="#about">Nosotros</a></li>
               <li><a href="#about">Noticias</a></li>
               <li><a href="#about">Servicios</a></li>
-              <li><a href="#about">Spliciudes</a></li>
-              <li><a href="#contact">Contacost</a></li>
+              <li><a href="#about">Soliciudes</a></li>
+              <li><a href="#contact">Contáctos</a></li>
               <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
@@ -72,171 +103,118 @@
           </div><!--/.nav-collapse -->
         </div><!-- /.navbar-inner -->
       </div><!-- /.navbar -->
-
     </div><!-- /.container -->
-
-
-
-    <!-- Carousel
-    ================================================== -->
+    
+    <!-- Carousel ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://rosix.ru/media/carousel/2013/2/6/plx.jpg" alt="">
+          <img src="img/slide1.jpg" alt="Ubuntu + Gnome 3">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Novedad 1</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Leer más...</a>
+              <h1>Qué es Ubuntu?</h1>
+              <p class="lead">Ubuntu es un sistema operativo basado en GNU/Linux desarrollado por la comunidad deusuarios que es perfecto para computadores de escritorio, portátiles y servidores.</p>
+              <a class="btn  btn-primary" href="#">Continuar...</a>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <img src="http://www.mjrtech.com.br/assets/img/examples/slide-01.jpg" alt="">
+          <img src="img/slide2.jpg" alt="Ubunto no es Windows">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Cartera de Servicios.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Leer más</a>
+              <h1>Diferencias con Windows.</h1>
+              <p class="lead">Existen algunas más, pero las que siguen son mis 10 razones fundamentales por las que desde hace ya unos años soy usuario convencido de Linux.</p>
+              <a class="btn  btn-primary" href="#">Continuar...</a>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <img src="http://layerjet.com/images/xintro_cover.jpg.pagespeed.ic.-8lj_Du2vI.jpg" alt="">
+          <img src="img/slide3.jpg" alt="Distribuciones linux">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Ultimas Noticias.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Lisitar Noticias</a>
+              <h1>Distribuciones.</h1>
+              <p class="lead">Una distribución Linux (coloquialmente llamada distro) es una distribución de software basada en el núcleo Linux que incluye determinados paquetes de software para satisfacer las necesidades de un grupo específico de usuarios</p>
+              <a class="btn  btn-primary" href="#">Continuar...</a>
             </div>
           </div>
         </div>
-      </div>
-
+      
       <div class="item">
-          <img src="http://rosix.ru/media/carousel/2013/2/6/plx.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Solicitud de servicio.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Solicitar Servicio</a>
-            </div>
+        <img src="img/slide4.jpg" alt="KDE Logo">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Noticias.</h1>
+            <p class="lead">Estamos de enhorabuena, y es que Canonical ha decidido aumentar el soporte extendido de sus versiones LTS a 5 años.</p>
+            <a class="btn  btn-primary" href="#">Continuar...</a>
           </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
     </div><!-- /.carousel -->
-
-
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
-          <img class="img-circle" src="http://escorpro.org/images/linux.png">
-          <h2>Servicios</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <img  src="img/instalar.png">
+          <h2>Como Instalar</h2>
+          <p>Si eres un recién iniciado en Linux probablemente te hayan recomendado probar Ubuntu: una distribución muy sencilla y fácil de usar que, además, tiene un aspecto visual amigable </p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" src="https://lh6.googleusercontent.com/-zKKAP-O2nzA/TqbJaOATpPI/AAAAAAAADO4/jn6D4_lutzs/archlinux-cool-logo-140px.png">
-          <h2>Noticia 1</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <img src="img/soporte.png">
+          <h2>Compatibilidad</h2>
+          <p>Si estás pensando en instalar Ubuntu necesitas un mínimo de hardware compatible. Normalmente hay una serie de dispositivos más conflictivos y otros que suelen funcionar sin ningún tipo de problemas.</p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" src="http://noticias.area7g.com/wp-content/mandriva-logo2.png">
-          <h2>Noticia 2</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
+          <img src="img/obtener.png">
+          <h2>Obtener SO</h2>
+          <p>Puedes descargarlo pinchando sobre el botón</p>
+          <br/>
+          <br/>
+          <br/>
+         
+          <p><a href="http://www.ubuntu.com/download/desktop" class="btn btn-success"> click aquí </a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
+    </div>
 
-
-
-<div class="container" style="color:#8f8f8f;"> 
-  <hr class="nav-tabs">
-  <div class="row-fluid">
-  <div class="span4">    
-  <h3>Certificaciones</h3>
-  <p>
-   conta
-  </p>          
-  </div><!--/span-->       
-  <div class="span4">    
-  <h3>Servicios</h3>
-  <p>
-    sl
-    </p>          
-  </div><!--/span-->       
-  <div class="span4">    
-  <h3>Contactos</h3>
-  <p>
-  ll
-  </p>                    
-  </div><!--/span-->       
-  </div><!--/row-->    
-  
-<small style="font-size: 11px;">    
-  <footer style="text-align:center;;">  
-  
-        
-        <p>&copy; 2013 Instituto Para El Desarrollo ISPADE &middot; <a href="#">Términos</a> &middot; <a href="#">de Privacidad </a></p>
-        
-</small>
-  </footer>       
-  </div>
-
-      
-      <!-- FOOTER -->
-      <footer>
-        
-      </footer>
-
-    </div><!-- /.container -->
-    
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
-    
-    <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-    </script>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
-</html>
+    <div class = "pie" style="text-align:center; background:#6A777F">  
+      <hr class="nav-tabs">
+         <p>&nbsp;</p>
+      <div class="row-fluid">
+        <div class="span4">    
+          <a href="https://plus.google.com/100547190152722659325/posts">
+            <img src="img/google.png" alt="Google plus" width="90" hight="90">
+         <br/><div class="btn btn-info btn-mini"> Google Plus </div>
+          </a>
+        </div><!--/span-->       
+        <div class="span4">    
+          <a href="http://facebook.com/eduardo.villota">
+            <img src="img/facebook.png" alt="Facebook" width="90" hight="90">
+              <br/><div class="btn btn-info btn-mini"> Facebook </div>
+          </a>
+        </div><!--/span-->       
+        <div class="span4">    
+          <a href="http://twitter.com/eduardouio">
+            <img src="img/twitter.png" alt="Twitter" width="90" hight="90">
+                    <br/><div class="btn btn-info btn-mini"> Twitter </div>
+          </a>
+        </div><!--/span-->       
+      </div><!--/row-->    
+          <p>&nbsp;</p>
+    <small style="font-size: 11px; color:#fff;">    
+      <p>&copy; 2013 Instituto Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a></p>
+    </small>
+    </div>       
+  </body>
+  </html>
