@@ -8,6 +8,10 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+ .articulo{
+  padding: 12px;
+ }
+
 article,
 aside,
 details,
@@ -4835,7 +4839,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 14.5px;
 }
 
 .pagination-large ul > li:first-child > a,
@@ -5843,14 +5847,20 @@ a.badge:hover {
   margin-bottom: 0;
 }
 
+.pie{
+  box-shadow: 0 15px 15px #a7a7a7, inset 0 1px 0 #fff;  
+}
 .hero-unit {
-  padding: 60px;
+  padding: 15px;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 20px;
   color: inherit;
-  background-color: #eeeeee;
+  border: 1px solid #b3b3b3;
+  box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+  background: #fcfcfc;
+  background-color: #fcfcfc;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
