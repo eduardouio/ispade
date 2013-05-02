@@ -22,7 +22,9 @@
   <script>window.jQuery || document.write('<script src="http://127.0.0.1/ispade/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
   <script src="http://127.0.0.1/ispade/js/plugins.js"></script>
   <script src="http://127.0.0.1/ispade/js/main.js"></script>
-
+  <script type="text/javascript">
+  $('#myModal').modal(options);
+  </script>
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
 var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
@@ -77,7 +79,6 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             <li><a href="#about"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
             <li><a href="#about"><i class="icon-inbox icon-white"></i>&nbsp; Noticias</a></li>
             <li><a href="#about"><i class="icon-th-large icon-white"></i>&nbsp; Servicios</a></li>
-            <li><a href="#about"><i class="icon-edit icon-white"></i>&nbsp; Soliciudes</a></li>
             <li><a href="#contact"><i class="icon-comment icon-white"></i>&nbsp; Contáctos</a></li>
             <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
             <li class="dropdown">
@@ -122,7 +123,7 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             Estos sitios aparecen gracias a la creación de programas informáticos desarrollados para el manejo de 
             información del lado del servidor, antes del aparecimiento de estos lenguajes de programación, las... 
           </p>
-            <a href="#" class="btn btn-inverse "><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
+            <a href="#myModal" class="btn btn-inverse " role="button" class="btn" data-toggle="modal" ><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
             <hr>
         </div>
         <div class="articulo">
@@ -132,7 +133,7 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             HTML sino que se puede cambiar directamente los contenidos a través del sistema de administración 
             de sitio, mismo que es capaz de realizar las tareas mecánicas necesarias para mostrar la información...
           </p>   
-          <a href="#" class="btn btn-inverse "><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
+          <a href="#myModal" class="btn btn-inverse " role="button" class="btn" data-toggle="modal" ><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
             <hr>
         </div>
         <div class="articulo">
@@ -142,7 +143,7 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             Podemos concluir diciendo que en un sistema dinámico, las páginas web no existen realmente porque son 
             el resultado del procesamiento de la petición del usuario, el cual fue formado luego de que el servidor... 
           </p>   
-          <a href="#" class="btn btn-inverse "><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
+          <a href="#myModal" class="btn btn-inverse " role="button" class="btn" data-toggle="modal" ><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
             <hr>
         </div>
         <div class="articulo">
@@ -153,7 +154,7 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             creación de los lenguajes de programación del lado del servidor, es posible crear una sola plantilla...
             
           </p>   
-          <a href="#" class="btn btn-inverse "><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
+          <a href="#myModal" class="btn btn-inverse " role="button" class="btn" data-toggle="modal" ><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
             <hr>
         </div>
         <div class="articulo">
@@ -164,7 +165,7 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             de sitio, mismo que es capaz de realizar las tareas mecánicas necesarias para ...
             
           </p>   
-          <a href="#" class="btn btn-inverse "><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
+          <a href="#myModal" class="btn btn-inverse " role="button" class="btn" data-toggle="modal" ><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
             <hr>
         </div>
       </div>
@@ -181,6 +182,39 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       <li class="disabled"><a href="#">Next</a></li>
     </ul>
   </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3 id="myModalLabel"><img src="http://127.0.0.1/ispade/img/forward.png" alt="forward"> &nbsp;Lenguaje Orientado a Objetos</h3>
+</div>
+<div class="modal-body">
+<p>
+  <img src="http://127.0.0.1/ispade/img/text_x_c++src.png" alt="C++">
+  La programación orientada a objetos (POO o OOP por sus siglas en inglés) es un paradigma es un 
+  paradigma de programación en el que los conceptos del mundo real relevantes para nuestro problema 
+  se modelan a través de clases y objetos.La gracia de la POO es que hace que los problemas sean más 
+  sencillos, al permitir dividir el problema en objetos, de manera que cada objeto funciona de forma 
+  independiente, siendo este una parte del programa que posee sus datos y un funcionamiento propio, es 
+  decir un objeto está formado por datos a los que llamaremos propiedades y métodos los que también son 
+  llamados procedimientos, cuyas definiciones veremos más adelante.
+
+</p>
+  <p>
+Los conceptos de la programación orientada a objetos tienen origen en un lenguaje usado para hacer 
+simulaciones de naves llamado  Simula 67, creado por Ole-Johan Dahl y Kristen Nygaard, del Centro de 
+Cómputo Noruego en Oslo. La idea surgió al agrupar los diversos tipos de naves en diversas clases de 
+objetos, siendo responsable cada clase de objetos de definir sus propios datos y comportamientos. 
+Fueron refinados más tarde en Smalltalk, diseñado para ser un sistema completamente dinámico en el 
+cual los objetos se podrían crear y modificar "sobre la marcha" (en tiempo de ejecución) en lugar de 
+tener un sistema basado en programas estáticos.
+  </p>
+</div>
+<div class="modal-footer">
+<button class="btn btn-success" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+</div>
 </div>
 
 <!-- Fin Contenidos -->

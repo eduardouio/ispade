@@ -84,7 +84,6 @@
             <li><a href="#about"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
             <li><a href="#about"><i class="icon-inbox icon-white"></i>&nbsp; Noticias</a></li>
             <li><a href="#about"><i class="icon-th-large icon-white"></i>&nbsp; Servicios</a></li>
-            <li><a href="#about"><i class="icon-edit icon-white"></i>&nbsp; Soliciudes</a></li>
             <li><a href="#contact"><i class="icon-comment icon-white"></i>&nbsp; Contáctos</a></li>
             <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
             <li class="dropdown">
