@@ -10,13 +10,13 @@
   <meta name="description" content="IanCMS">
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/css/normalize.css">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/css/main.css">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/css/slider.css">
-  <link href="http://127.0.0.1/ispade/css/bootstrap.css" rel="stylesheet">
-  <link href="http://127.0.0.1/ispade/css/bootstrap-responsive.css" rel="stylesheet">
-  <script src="http://127.0.0.1/ispade/js/vendor/modernizr-2.6.2.min.js"></script>
-  <link rel="shortcut icon" href="http://127.0.0.1/ispade/ico/favicon.ico">
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/normalize.css">
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/main.css">
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/slider.css">
+  <link href="http://127.0.0.1/ispade/sitio/css/bootstrap.css" rel="stylesheet">
+  <link href="http://127.0.0.1/ispade/sitio/css/bootstrap-responsive.css" rel="stylesheet">
+  <script src="http://127.0.0.1/ispade/sitio/js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="shortcut icon" href="http://127.0.0.1/ispade/sitio/ico/favicon.ico">
   <script>
   !function ($) {
     $(function(){
@@ -26,30 +26,30 @@
 </script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://127.0.0.1/ispade/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-<script src="http://127.0.0.1/ispade/js/plugins.js"></script>
-<script src="http://127.0.0.1/ispade/js/main.js"></script>
+<script>window.jQuery || document.write('<script src="http://127.0.0.1/ispade/sitio/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+<script src="http://127.0.0.1/ispade/sitio/js/plugins.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>http://127.0.0.1/ispade/
+  <script>http://127.0.0.1/ispade/sitio/
   var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-  <script src="http://127.0.0.1/ispade/js/jquery.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-transition.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-alert.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-modal.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-dropdown.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-scrollspy.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-tab.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-tooltip.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-popover.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-button.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-collapse.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-carousel.js"></script>
-  <script src="http://127.0.0.1/ispade/js/bootstrap-typeahead.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/jquery.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-transition.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-alert.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-modal.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-dropdown.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-scrollspy.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-tab.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-tooltip.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-popover.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-button.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-collapse.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-carousel.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-typeahead.js"></script>
 </head>
 
 <body>
@@ -78,7 +78,7 @@
         </a>
         <a class="brand" href="#">ISPADE</a>
         <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-        <div class="nav-collapse http://127.0.0.1/ispade/collapse">
+        <div class="nav-collapse http://127.0.0.1/ispade/sitio/collapse">
           <ul class="nav">
             <li class="active"><a href="#"><i class="icon-home icon-white"></i>&nbsp; Inicio</a></li>
             <li><a href="#about"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
@@ -107,7 +107,7 @@
 <div id="myCarousel" class="carousel slide">
   <div class="carousel-inner">
     <div class="item active">
-      <img src="http://127.0.0.1/ispade/img/slide1.jpg" alt="Ubuntu + Gnome 3">
+      <img src="http://127.0.0.1/ispade/sitio/img/slide1.jpg" alt="Ubuntu + Gnome 3">
       <div class="container">
         <div class="carousel-caption">
           <h1>Qué es Ubuntu?</h1>
@@ -118,7 +118,7 @@
 </div>
 
 <div class="item">
-  <img src="http://127.0.0.1/ispade/img/slide2.jpg" alt="Ubunto no es Windows">
+  <img src="http://127.0.0.1/ispade/sitio/img/slide2.jpg" alt="Ubunto no es Windows">
   <div class="container">
     <div class="carousel-caption">
       <h1>Diferencias con Windows.</h1>
@@ -129,7 +129,7 @@
 </div>
 
 <div class="item">
-  <img src="http://127.0.0.1/ispade/img/slide3.jpg" alt="Distribuciones linux">
+  <img src="http://127.0.0.1/ispade/sitio/img/slide3.jpg" alt="Distribuciones linux">
   <div class="container">
     <div class="carousel-caption">
       <h1>Distribuciones.</h1>
@@ -140,7 +140,7 @@
 </div>
 
 <div class="item">
-  <img src="http://127.0.0.1/ispade/img/slide4.jpg" alt="KDE Logo">
+  <img src="http://127.0.0.1/ispade/sitio/img/slide4.jpg" alt="KDE Logo">
   <div class="container">
     <div class="carousel-caption">
       <h1>Noticias.</h1>
@@ -162,19 +162,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
-          <img  src="http://127.0.0.1/ispade/img/instalar.png">
+          <img  src="http://127.0.0.1/ispade/sitio/img/instalar.png">
           <h2>Como Instalar</h2>
           <p>Si eres un recién iniciado en Linux probablemente te hayan recomendado probar Ubuntu: una distribución muy sencilla y fácil de usar que, además, tiene un aspecto visual amigable </p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
       </div><!-- /.span4 -->
       <div class="span4">
-          <img src="http://127.0.0.1/ispade/img/soporte.png">
+          <img src="http://127.0.0.1/ispade/sitio/img/soporte.png">
           <h2>Compatibilidad</h2>
           <p>Si estás pensando en instalar Ubuntu necesitas un mínimo de hardware compatible. Normalmente hay una serie de dispositivos más conflictivos y otros que suelen funcionar sin ningún tipo de problemas.</p>
           <p><a class="btn" href="#">Más Detalles &raquo;</a></p>
       </div><!-- /.span4 -->
       <div class="span4">
-          <img src="http://127.0.0.1/ispade/img/obtener.png">
+          <img src="http://127.0.0.1/ispade/sitio/img/obtener.png">
           <h2>Obtener SO</h2>
           <p>Puedes descargarlo pinchando sobre el botón</p>
           <br/>
@@ -193,19 +193,19 @@
   <div class="row-fluid">
     <div class="span4">    
       <a href="https://plus.google.com/100547190152722659325/posts">
-        <img src="http://127.0.0.1/ispade/img/google.png" alt="Google plus" width="90" hight="90">
+        <img src="http://127.0.0.1/ispade/sitio/img/google.png" alt="Google plus" width="90" hight="90">
         <br/><div class="btn btn-inverse btn-mini"> Google Plus </div>
     </a>
 </div><!--/span-->       
 <div class="span4">    
   <a href="http://facebook.com/eduardo.villota">
-    <img src="http://127.0.0.1/ispade/img/facebook.png" alt="Facebook" width="90" hight="90">
+    <img src="http://127.0.0.1/ispade/sitio/img/facebook.png" alt="Facebook" width="90" hight="90">
     <br/><div class="btn btn-inverse btn-mini"> Facebook </div>
 </a>
 </div><!--/span-->       
 <div class="span4">    
   <a href="http://twitter.com/eduardouio">
-    <img src="http://127.0.0.1/ispade/img/twitter.png" alt="Twitter" width="90" hight="90">
+    <img src="http://127.0.0.1/ispade/sitio/img/twitter.png" alt="Twitter" width="90" hight="90">
     <br/><div class="btn btn-inverse btn-mini"> Twitter </div>
 </a>
 </div><!--/span-->       

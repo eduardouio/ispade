@@ -10,18 +10,18 @@
   <meta name="description" content="IanCMS">
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/css/normalize.css">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/css/main.css">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/css/slider.css">
-  <link href="http://127.0.0.1/ispade/css/bootstrap.css" rel="stylesheet">
-  <link href="http://127.0.0.1/ispade/css/bootstrap-responsive.css" rel="stylesheet">
-  <script src="http://127.0.0.1/ispade/js/vendor/modernizr-2.6.2.min.js"></script>
-  <link rel="shortcut icon" href="http://127.0.0.1/ispade/ico/favicon.ico">
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/normalize.css">
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/main.css">
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/slider.css">
+  <link href="http://127.0.0.1/ispade/sitio/css/bootstrap.css" rel="stylesheet">
+  <link href="http://127.0.0.1/ispade/sitio/css/bootstrap-responsive.css" rel="stylesheet">
+  <script src="http://127.0.0.1/ispade/sitio/js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="shortcut icon" href="http://127.0.0.1/ispade/sitio/ico/favicon.ico">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="http://127.0.0.1/ispade/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-  <script src="http://127.0.0.1/ispade/js/plugins.js"></script>
-  <script src="http://127.0.0.1/ispade/js/main.js"></script>
+  <script>window.jQuery || document.write('<script src="http://127.0.0.1/ispade/sitio/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+  <script src="http://127.0.0.1/ispade/sitio/js/plugins.js"></script>
+  <script src="http://127.0.0.1/ispade/sitio/js/main.js"></script>
   <script type="text/javascript">
   $('#myModal').modal(options);
   </script>
@@ -32,19 +32,19 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
-<script src="http://127.0.0.1/ispade/js/jquery.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-transition.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-alert.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-modal.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-dropdown.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-scrollspy.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-tab.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-tooltip.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-popover.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-button.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-collapse.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-carousel.js"></script>
-<script src="http://127.0.0.1/ispade/js/bootstrap-typeahead.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/jquery.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-transition.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-alert.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-modal.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-dropdown.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-scrollspy.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-tab.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-tooltip.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-popover.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-button.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-collapse.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-carousel.js"></script>
+<script src="http://127.0.0.1/ispade/sitio/js/bootstrap-typeahead.js"></script>
 </head>
 
 <body>
@@ -73,7 +73,7 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
         </a>
         <a class="brand" href="#">ISPADE</a>
         <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-        <div class="nav-collapse http://127.0.0.1/ispade/collapse">
+        <div class="nav-collapse http://127.0.0.1/ispade/sitio/collapse">
           <ul class="nav">
             <li class="active"><a href="#"><i class="icon-home icon-white"></i>&nbsp; Inicio</a></li>
             <li><a href="#about"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
@@ -168,19 +168,19 @@ var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
   <div class="row-fluid">
     <div class="span4">    
       <a href="https://plus.google.com/100547190152722659325/posts">
-        <img src="http://127.0.0.1/ispade/img/google.png" alt="Google plus" width="90" hight="90">
+        <img src="http://127.0.0.1/ispade/sitio/img/google.png" alt="Google plus" width="90" hight="90">
         <br/><div class="btn btn-inverse btn-mini"> Google Plus </div>
       </a>
     </div><!--/span-->       
     <div class="span4">    
       <a href="http://facebook.com/eduardo.villota">
-        <img src="http://127.0.0.1/ispade/img/facebook.png" alt="Facebook" width="90" hight="90">
+        <img src="http://127.0.0.1/ispade/sitio/img/facebook.png" alt="Facebook" width="90" hight="90">
         <br/><div class="btn btn-inverse btn-mini"> Facebook </div>
       </a>
     </div><!--/span-->       
     <div class="span4">    
       <a href="http://twitter.com/eduardouio">
-        <img src="http://127.0.0.1/ispade/img/twitter.png" alt="Twitter" width="90" hight="90">
+        <img src="http://127.0.0.1/ispade/sitio/img/twitter.png" alt="Twitter" width="90" hight="90">
         <br/><div class="btn btn-inverse btn-mini"> Twitter </div>
       </a>
     </div><!--/span-->       

@@ -19,7 +19,7 @@ class Presentacion extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('sitio/presentacion');
+		$this->load->view('home');
 	}
 
 	public function inicio(){
