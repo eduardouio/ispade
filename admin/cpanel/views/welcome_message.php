@@ -15,13 +15,14 @@
   <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>  
   <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
   <script src="http://127.0.0.1/ispade/admin/js/modern/dialog.js"></script>
+  <!--Inicio de Dialogo-->
   <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/modern/dialog.js"></script>
   <script type="text/javascript">
   $(document).ready(function(){
                         //$('#staticDialog').click(function(e) {
                           $.Dialog({
-                            'title'      : 'My static dialog',
-                            'content'    : 'This content can be in HTML.<br />You can add custom function to your buttons!<br /><br /><b>Features:</b><ul><li>Easy to use!</li><li>Customizable</li><li>Powerful!</li></ul>',
+                            'title'      : 'Biuenvenido',
+                            'content'    : 'La contraseña que ingreso esta incorrecta!...',
                             'buttons'    : {
                               
                               'Cerrar'     : {
@@ -88,10 +89,8 @@
              </div>
            </div>
          </div>   
-         <div class="bg-color-red">&nbsp;</div>              
-         
-         <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                
-         
+         <div class="bg-color-red">&nbsp;</div>   
+         <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                         
          <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
          <script>
          var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
