@@ -10,15 +10,29 @@
   <meta name="description" content=" Pagina de login">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/main.css">
-  <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>
-  <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/assets/jquery.mousewheel.min.js"></script>
-  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/assets/moment.js"></script>
-  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/assets/moment_langs.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/modern.css" />  
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/normalize.css">
+  <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>  
+  <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
   <script src="http://127.0.0.1/ispade/admin/js/modern/dialog.js"></script>
+  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/modern/dialog.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+                        //$('#staticDialog').click(function(e) {
+                          $.Dialog({
+                            'title'      : 'My static dialog',
+                            'content'    : 'This content can be in HTML.<br />You can add custom function to your buttons!<br /><br /><b>Features:</b><ul><li>Easy to use!</li><li>Customizable</li><li>Powerful!</li></ul>',
+                            'buttons'    : {
+                              
+                              'Cerrar'     : {
+                                'action': function(){}
+                              }
+                            }
+                          //  });
+                        });                 
+                          
+                        });
+  </script>
   <style type="text/css">
   .metrouicss {
 
@@ -48,10 +62,10 @@
    position: absolute;   
    left: 0%;
    top: 100%;
-       }
-       </style>
-     </head>
-     <body class="metrouicss">
+ }
+ </style>
+</head>
+<body class="metrouicss">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
@@ -70,17 +84,14 @@
                  </div>
                  <button class="standart default" action="submit"> Entrar </button>            
                </form>
-              <div class="bg-color-blue">&nbsp;</div>                
+               <div class="bg-color-blue">&nbsp;</div>                
              </div>
            </div>
          </div>   
-         <div class="bg-color-red">&nbsp;</div>                                   
-                 <script  type="text/javascript" src="http://127.0.0.1/ispade/admin/js/modern/dropdown.js"></script>
-            <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>
-            <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
-            <script  type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                
-            <script type="text/javascript" >window.jQuery || document.write('<script src="http://127.0.0.1/ispade/admin/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>                
+         <div class="bg-color-red">&nbsp;</div>              
+         
+         <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                
+         
          <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
          <script>
          var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
