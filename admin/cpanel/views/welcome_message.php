@@ -7,19 +7,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Control Panel</title>
-  <meta name="description" content="">
+  <meta name="description" content=" Pagina de login">
   <meta name="viewport" content="width=device-width">
-
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/main.css">
   <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>
-
   <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/assets/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/assets/moment.js"></script>
+  <script type="text/javascript" src="http://127.0.0.1/ispade/admin/js/assets/moment_langs.js"></script>
   <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/modern.css" />
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/theme-dark.css" />
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/modern.css" />  
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/normalize.css">
+  <script src="http://127.0.0.1/ispade/admin/js/modern/dialog.js"></script>
   <style type="text/css">
   .metrouicss {
 
@@ -49,23 +48,13 @@
    position: absolute;   
    left: 0%;
    top: 100%;
-         /*
-         transform: translate(-50%, -10%);    
-         -webkit-transform: translate(-50%, -10%);
-         -moz-transform: translate(-50%, -10%);
-         -ms-transform: translate(-50%, -10%);
-       */}
-
+       }
        </style>
-
      </head>
-
-
      <body class="metrouicss">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
-
             <!-- Add your site or application content here -->
             <div id="pwordbox" >
               <div id="imgcont">
@@ -81,21 +70,23 @@
                  </div>
                  <button class="standart default" action="submit"> Entrar </button>            
                </form>
+              <div class="bg-color-blue">&nbsp;</div>                
              </div>
            </div>
-         </div>
-
-         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-         <script>window.jQuery || document.write('<script src="http://127.0.0.1/ispade/admin/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-         <script src="js/plugins.js"></script>
-         <script src="js/main.js"></script>
-
+         </div>   
+         <div class="bg-color-red">&nbsp;</div>                                   
+                 <script  type="text/javascript" src="http://127.0.0.1/ispade/admin/js/modern/dropdown.js"></script>
+            <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>
+            <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
+            <script  type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                
+            <script type="text/javascript" >window.jQuery || document.write('<script src="http://127.0.0.1/ispade/admin/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>                
          <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
          <script>
          var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
          (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
           g.src='//www.google-analytics.com/ga.js';
           s.parentNode.insertBefore(g,s)}(document,'script'));
-         </script>
+         </script>                  
        </body>
        </html>

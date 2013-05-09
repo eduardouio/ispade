@@ -2,17 +2,13 @@ body {
     background-color: #fff;
 }
 .metrouicss .page {
-    width: 940px ;
+    width: 1100px ;
     margin: auto;
     background-color: #fff;
 }
 .browsers-icons img {
     float: left;
     margin-right: 20px;
-}
-
-
-.github-info {
 }
 
 
