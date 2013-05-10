@@ -9,13 +9,12 @@
   <title>Control Panel</title>
   <meta name="description" content=" Panel de control IanCMS">
   <meta name="viewport" content="width=device-width" scale="1">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/main.css">  
-  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/main.css">    
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/modern.css" />  
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/normalize.css">
   <link rel="stylesheet" href="http://127.0.0.1/ispade/admin/css/sitio.css">
 </head>
-<body class="metrouicss">
+<body class="metrouicss" onload="prettyPrint()">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
@@ -102,13 +101,12 @@
                 </div>
               </div>
             </div> <!--Fin pie  de pagina-->       
-            <!--Scripts Adicionales-->       
-            <script  type="text/javascript" src="http://127.0.0.1/ispade/admin/js/modern/dropdown.js"></script>
-            <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>
-            <script src="http://127.0.0.1/ispade/admin/js/assets/jquery-1.9.0.min.js"></script>
+            <!--Scripts Adicionales-->                   
             <script  type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                
-            <script type="text/javascript" >window.jQuery || document.write('<script src="http://127.0.0.1/ispade/admin/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>                
+            <script src="http://127.0.0.1/ispade/admin/js/vendor/modernizr-2.6.2.min.js"></script>
+            <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+            <script  type="text/javascript" src="http://127.0.0.1/ispade/admin/js/modern/dropdown.js"></script>
+            <script  type="text/javascript" src="http://metroui.org.ua/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>                            
             <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
             <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
