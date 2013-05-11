@@ -66,10 +66,10 @@
     PRIMARY KEY (id_articulo),
     INDEX `fk_id_page_idx` (`id_page` ASC) ,
     CONSTRAINT `fk_id_page`
-      FOREIGN KEY (`id_page` )
-      REFERENCES `liposerv_ispade`.`page` (`id_page` )
-      ON DELETE RESTRICT
-      ON UPDATE CASCADE
+    FOREIGN KEY (`id_page` )
+    REFERENCES `liposerv_ispade`.`page` (`id_page` )
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE
     )
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
