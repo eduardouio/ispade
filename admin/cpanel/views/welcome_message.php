@@ -81,7 +81,7 @@
                 <form action="#" name="login">
                   <div class="input-control password span4" id="pworddiv">
                    <input type="password" name ="pass" />
-                   <button class="btn-reveal"></button>
+                   <span class="btn-reveal"></span>
                  </div>
                  <button class="standart default" action="submit"> Entrar </button>            
                </form>

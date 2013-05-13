@@ -13,7 +13,7 @@
   -- Base Datos
   -- -----------------------------------------------------
 
-  CREATE TABLE liposerv_ispade;
+  CREATE SCHEMA liposerv_ispade;
   USE liposerv_ispade;
 
   -- -----------------------------------------------------
@@ -41,10 +41,11 @@
   CREATE TABLE IF NOT EXISTS `liposerv_ispade`.`page`(
     `id_page` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
     `title` VARCHAR(500) NOT NULL,
+    `url` VARCHAR(500) NOT NULL UNIQUE COMMENT 'Se acorta el título de la página para controlar que no se repita',
     `keywords` VARCHAR(500) NOT NULL,
     `create_date` DATETIME NOT NULL,
     `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (id_articulo)
+    PRIMARY KEY (id_pag)
     )
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
@@ -57,13 +58,14 @@
     `id_article` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
     `id_page` SMALLINT UNSIGNED NOT NULL,    
     `title` VARCHAR(500) NOT NULL,
+    `url` VARCHAR(500) NOT NULL COMMENT 'Se acorta el título de la página para controlar que no se repita',
     `keywords` VARCHAR(500) NOT NULL,
     `image` VARCHAR(300) NOT NULL,
     `content` MEDIUMTEXT NOT NULL,
     `counter` SMALLINT UNSIGNED NOT NULL,
     `create_date` DATETIME NOT NULL,
     `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (id_articulo),
+    PRIMARY KEY (`id_article`),
     INDEX `fk_id_page_idx` (`id_page` ASC) ,
     CONSTRAINT `fk_id_page`
     FOREIGN KEY (`id_page` )
@@ -73,4 +75,5 @@
     )
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
-  COMMENT = 'Tabla encargada de manejar los articulos de la pagina, en imagen va el link de una imágen o un video';
+  COMMENT = 'Tabla encargada de manejar los articulos de la pagina, en imagen va el link de una imágen o un video'
+    );
