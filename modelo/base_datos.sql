@@ -45,7 +45,7 @@
     `keywords` VARCHAR(500) NOT NULL,
     `create_date` DATETIME NOT NULL,
     `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (id_pag)
+    PRIMARY KEY (`id_page`)
     )
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
@@ -54,25 +54,68 @@
   -- -----------------------------------------------------
   -- Table `Liposerv_ispade`.`articulos`
   -- -----------------------------------------------------  
-  CREATE TABLE IF NOT EXISTS `liposerv_ispade`.`article`(
+  CREATE TABLE IF NOT EXISTS `liposerv_ispade`.`article`(    
     `id_article` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
     `id_page` SMALLINT UNSIGNED NOT NULL,    
     `title` VARCHAR(500) NOT NULL,
     `url` VARCHAR(500) NOT NULL COMMENT 'Se acorta el título de la página para controlar que no se repita',
-    `keywords` VARCHAR(500) NOT NULL,
-    `image` VARCHAR(300) NOT NULL,
+    `image` VARCHAR(300) NOT NULL,        
     `content` MEDIUMTEXT NOT NULL,
     `counter` SMALLINT UNSIGNED NOT NULL,
+    `visible` SMALLINT UNSIGNED NOT NULL COMMENT 'booleano que inidica si un articulo es visible o no',
     `create_date` DATETIME NOT NULL,
     `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `publish_down` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
     PRIMARY KEY (`id_article`),
     INDEX `fk_id_page_idx` (`id_page` ASC) ,
     CONSTRAINT `fk_id_page`
     FOREIGN KEY (`id_page` )
     REFERENCES `liposerv_ispade`.`page` (`id_page` )
     ON DELETE RESTRICT
-    ON UPDATE CASCADE    )
+    ON UPDATE CASCADE
+)
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
   COMMENT = 'Tabla encargada de manejar los articulos de la pagina, en imagen va el link de una imágen o un video'
-    );
+;
+
+
+-- =====================================================
+-- -----------------------------------------------------
+--  Vistas Que ayudan a manejar la base
+-- -----------------------------------------------------
+-- =====================================================
+
+-- -----------------------------------------------------
+--  Vistas que muestra los 10 articulos mas leidos
+-- -----------------------------------------------------
+CREATE VIEW v_ratings
+AS
+SELECT 
+id_article, title, counter 
+FROM article 
+ORDER BY counter 
+DESC LIMIT 10;
+
+-- -----------------------------------------------------
+--  Vistas que muestra el listado de noticias general
+-- -----------------------------------------------------
+CREATE VIEW v_tablon
+as
+SELECT 
+id_article, id_page, url, title, CONCAT(LEFT(content,240),'...') AS content, counter, create_date 
+FROM liposerv_ispade.article;
+
+
+-- =====================================================
+-- -----------------------------------------------------
+--  Datos para la base
+-- -----------------------------------------------------
+-- =====================================================
+INSERT INTO `liposerv_ispade`.`page` (`title`, `url`, `keywords`, `create_date`) VALUES ('Inicio', '/index.php/home', 'IanCMS, CMS Ispade', '2013-05-14 13:57:55');
+INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Educación En el Ecuador', 'a', 'a', 'Este es el contenido de mi primer aerticulo', '0', '1', '2013-05-14 14:02:01');
+INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Especialidades ', 'a', 'a', 'Segundo articulo', '2', '1', '2013-05-14 14:02:01');
+INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Universidades', 'a', 'a', 'Tercer Articulo', '6', '1', '2013-05-14 00:00:00');
+INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Colegios del Ecuador', 'a', 'a', 'Cuarto Articulo', '50', '1', '2013-05-14 14:05:55');
+
+
