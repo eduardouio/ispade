@@ -52,6 +52,43 @@
   COMMENT = 'Listado de paginas del sitio, lás paginas se almacenan en forma de registros';
 
   -- -----------------------------------------------------
+  -- Table `Liposerv_ispade`.`formulario`
+  -- -----------------------------------------------------    
+  CREATE TABLE IF NOT EXISTS `liposerv_ispade`.`form`(
+    `id_form` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
+    `names` VARCHAR(100) ,
+    `email` VARCHAR(100) ,
+    `empresa` VARCHAR(50) ,
+    `telefono` VARCHAR(25) ,
+    `asunto` VARCHAR(100) ,
+    `descripcion` VARCHAR(1000),
+    `browser` VARCHAR(250),
+    `ip` VARCHAR(20),
+    `pais` VARCHAR(50),
+    `create_date` DATETIME,
+    `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id_page`)
+    )
+  ENGINE = InnoDB
+  AUTO_INCREMENT = 1
+  COMMENT = 'Listado de paginas del sitio, lás paginas se almacenan en forma de registros';
+
+  -- -----------------------------------------------------
+  -- Table `Liposerv_ispade`.`formulario`
+  -- -----------------------------------------------------    
+  CREATE TABLE IF NOT EXISTS  `sessions` (
+  session_id varchar(40) DEFAULT '0' NOT NULL,
+  ip_address varchar(45) DEFAULT '0' NOT NULL,
+  user_agent varchar(120) NOT NULL,
+  last_activity int(10) unsigned DEFAULT 0 NOT NULL,
+  user_data text NOT NULL,
+  PRIMARY KEY (session_id),
+  KEY `last_activity_idx` (`last_activity`)
+);
+
+
+
+  -- -----------------------------------------------------
   -- Table `Liposerv_ispade`.`articulos`
   -- -----------------------------------------------------  
   CREATE TABLE IF NOT EXISTS `liposerv_ispade`.`article`(    
