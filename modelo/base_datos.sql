@@ -71,8 +71,7 @@
     FOREIGN KEY (`id_page` )
     REFERENCES `liposerv_ispade`.`page` (`id_page` )
     ON DELETE RESTRICT
-    ON UPDATE CASCADE
-    )
+    ON UPDATE CASCADE    )
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
   COMMENT = 'Tabla encargada de manejar los articulos de la pagina, en imagen va el link de una imágen o un video'
