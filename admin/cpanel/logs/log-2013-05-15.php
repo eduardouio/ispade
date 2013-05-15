@@ -180,3 +180,25 @@ DEBUG - 2013-05-15 18:42:38 --> Controller Class Initialized
 DEBUG - 2013-05-15 18:42:38 --> File loaded: cpanel/views/cpanel.php
 DEBUG - 2013-05-15 18:42:38 --> Final output sent to browser
 DEBUG - 2013-05-15 18:42:38 --> Total execution time: 0.3088
+DEBUG - 2013-05-15 21:42:47 --> Config Class Initialized
+DEBUG - 2013-05-15 21:42:47 --> Hooks Class Initialized
+DEBUG - 2013-05-15 21:42:47 --> Utf8 Class Initialized
+DEBUG - 2013-05-15 21:42:47 --> UTF-8 Support Enabled
+DEBUG - 2013-05-15 21:42:47 --> URI Class Initialized
+DEBUG - 2013-05-15 21:42:47 --> Router Class Initialized
+DEBUG - 2013-05-15 21:42:48 --> Output Class Initialized
+DEBUG - 2013-05-15 21:42:48 --> Security Class Initialized
+DEBUG - 2013-05-15 21:42:48 --> Input Class Initialized
+DEBUG - 2013-05-15 21:42:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-15 21:42:48 --> Language Class Initialized
+DEBUG - 2013-05-15 21:42:48 --> Loader Class Initialized
+DEBUG - 2013-05-15 21:42:48 --> Config file loaded: cpanel/config/config.php
+DEBUG - 2013-05-15 21:42:48 --> Database Driver Class Initialized
+DEBUG - 2013-05-15 21:42:49 --> Session Class Initialized
+DEBUG - 2013-05-15 21:42:49 --> Helper loaded: string_helper
+DEBUG - 2013-05-15 21:42:49 --> Encrypt Class Initialized
+DEBUG - 2013-05-15 21:42:49 --> Session routines successfully run
+DEBUG - 2013-05-15 21:42:49 --> Controller Class Initialized
+DEBUG - 2013-05-15 21:42:49 --> File loaded: cpanel/views/cpanel.php
+DEBUG - 2013-05-15 21:42:49 --> Final output sent to browser
+DEBUG - 2013-05-15 21:42:49 --> Total execution time: 2.0315
