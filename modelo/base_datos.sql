@@ -67,7 +67,7 @@
     `pais` VARCHAR(50),
     `create_date` DATETIME,
     `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (`id_page`)
+    PRIMARY KEY (`id_form`)
     )
   ENGINE = InnoDB
   AUTO_INCREMENT = 1
