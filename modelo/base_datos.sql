@@ -142,17 +142,3 @@ as
 SELECT 
 id_article, id_page, url, title, CONCAT(LEFT(content,240),'...') AS content, counter, create_date 
 FROM liposerv_ispade.article;
-
-
--- =====================================================
--- -----------------------------------------------------
---  Datos para la base
--- -----------------------------------------------------
--- =====================================================
-INSERT INTO `liposerv_ispade`.`page` (`title`, `url`, `keywords`, `create_date`) VALUES ('Inicio', '/index.php/home', 'IanCMS, CMS Ispade', '2013-05-14 13:57:55');
-INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Educación En el Ecuador', 'a', 'a', 'Este es el contenido de mi primer aerticulo', '0', '1', '2013-05-14 14:02:01');
-INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Especialidades ', 'a', 'a', 'Segundo articulo', '2', '1', '2013-05-14 14:02:01');
-INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Universidades', 'a', 'a', 'Tercer Articulo', '6', '1', '2013-05-14 00:00:00');
-INSERT INTO `liposerv_ispade`.`article` (`id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`) VALUES ('1', 'Colegios del Ecuador', 'a', 'a', 'Cuarto Articulo', '50', '1', '2013-05-14 14:05:55');
-
-
