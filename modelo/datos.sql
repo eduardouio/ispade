@@ -24,7 +24,7 @@ USE `liposerv_ispade`;
 -- Volcado de datos para la tabla `page`
 --
 
-INSERT INTO `page` (`id_page`, `title`, `url`, `keywords`, `create_date`, `last_update`) VALUES
+INSERT INTO `page` (`id_page`, `title`, `controller`, `keywords`, `create_date`, `last_update`) VALUES
 (1, 'Inicio', 'inicio/', 'IanCms, Ispade, Instituto para el desarrollo ISPADE, Educacion Quito, Instituto Superior', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (2, 'Nosotros', 'nosotros/', 'Acerca de Ispade, Ispade Historia, Mision y vision Ispade', '0000-00-00 00:00:00', '2013-06-18 17:00:10'),
 (3, 'Noticias', 'noticias/', 'Noticias Ispade, Ispade', '0000-00-00 00:00:00', '2013-06-18 17:00:11'),
@@ -36,7 +36,7 @@ INSERT INTO `page` (`id_page`, `title`, `url`, `keywords`, `create_date`, `last_
 -- Volcado de datos para la tabla `article`
 --
 
-INSERT INTO `article` (`id_article`, `id_page`, `title`, `url`, `image`, `content`, `counter`, `visible`, `create_date`, `last_update`, `publish_down`) VALUES
+INSERT INTO `article` (`id_article`, `id_page`, `title`, `article`, `image`, `content`, `counter`, `visible`, `create_date`, `last_update`, `publish_down`) VALUES
 (1, 1, 'Bienvenidos', 'inicio/', 'img/bienvenidos.jpg', 'Sea usted bienvenido, síentase libre de explorar, y no dude en enviarnos sus consultas', 0, 1, '2013-06-18 10:41:55', '2013-06-18 15:52:22', '0000-00-00 00:00:00'),
 (2, 1, 'Nosotros', 'nosotros/', 'img/nosostros.jpg', 'Conozca un poco más de nuestra institución, nuestros orígenes y nuestros objetivos', 0, 1, '2013-06-18 10:41:55', '2013-06-18 15:52:22', '0000-00-00 00:00:00'),
 (3, 1, 'Servicios', 'servicios', 'img/servicios.jpg', 'Siempre a su lado!, Estamos para darle una solución a sus requerimientos, consulte nuestra guía de servicios para mayor detalle', 0, 1, '2013-06-18 10:41:55', '2013-06-18 15:52:22', '0000-00-00 00:00:00'),
