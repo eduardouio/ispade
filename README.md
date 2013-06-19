@@ -168,5 +168,3 @@ Procedimeinto para el almacenamiento y referenciado a los directorios.
 
 Todas las imagens van a la izquierda del texto del articulo.
 la url general de una imágen es http://sitio/img/art/nombre_imagen.ext
-
-
