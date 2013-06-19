@@ -41,7 +41,7 @@
   CREATE TABLE IF NOT EXISTS `liposerv_ispade`.`page`(
     `id_page` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
     `title` VARCHAR(500) NOT NULL,
-    `url` VARCHAR(500) NOT NULL UNIQUE COMMENT 'Se acorta el título de la página para controlar que no se repita',
+    `url` VARCHAR(50) NOT NULL UNIQUE COMMENT 'Se acorta el título de la página para controlar que no se repita, se almacena el nombre del controlador de la página',
     `keywords` VARCHAR(500) NOT NULL,
     `create_date` DATETIME NOT NULL,
     `last_update` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -95,7 +95,7 @@
     `id_article` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
     `id_page` SMALLINT UNSIGNED NOT NULL,    
     `title` VARCHAR(500) NOT NULL,
-    `url` VARCHAR(500) NOT NULL COMMENT 'Se acorta el título de la página para controlar que no se repita',
+    `url` VARCHAR(300) NOT NULL COMMENT 'Se acorta el título de la página para controlar que no se repita, se almacena solo el nombre del articulo sin caracteres especiales separando las palabras por guines bajos',
     `image` VARCHAR(300) NOT NULL,        
     `content` MEDIUMTEXT NOT NULL,
     `counter` SMALLINT UNSIGNED NOT NULL,
