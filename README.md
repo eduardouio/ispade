@@ -31,12 +31,12 @@ slide Home, en este lugar se lugar se muestran conecciones a articulos de mayor 
 
 articulos home.- Al tener los tres articulos debajo del home, se decide colocar alli los mas relevantes, los tres más relevantes del sitio, se conserva las mismas imágenes siempre para no perder el diseño, pero de ser posible se inrustará las imagnes de los articulos.
 
-Paginas de Presentacion de contenidos.
-
-Todos los articulos tienen el titulo en letra capital, la primera letra de cada parabla en mayúscula y las demas on minúsculas
 
 
 URls
+
+Todos los articulos tienen el titulo en letra capital, la primera letra de cada parabla en mayúscula y las demas on minúsculas
+
 Antes de entrar en el asunto del manejo de las rutas, recordemos como maneja las urls codeigniter, ya que en este principio estará  basado.
 
 http://sitio/index.php/controller/method/param
@@ -134,11 +134,39 @@ Una vez analizado todas estan cuestiones llegamos a la conclucion de que subir l
 
 Una vez tomada la decición para el manejo de las imágenes del sitio veamos como lo vamos a organizar todo, desde la ubicacion de los ficheros hasta los enlaces a dichas imágenes.
 
+├── appweb
+│   ├── controllers
+│   │   ├── home.php
+├── css
+│   ├── bootstrap.css
+│   └── slider.css
+├── ico
+│   └── favicon.ico
+├── img
+│   ├── admin
+│   │   ├── word2013icon.png
+│   │   └── YouTube128.png
+│   ├── sitio
+│   │   ├── slide1.jpg
+│   │   ├── slide2.jpg
+├── js
+│   ├── bootstrap.js
+│   ├── jquery.js
+│   └── vendor
+│       ├── jquery-1.8.2.min.js
+│       └── modernizr-2.6.2.min.js
 
+Como se puede apreciar en el arbol de directorios, cada uno de los componentes del sitio están en un lugar facil de encontrar y con un nombre que lo identifica, en esta gráfica no se incluyen todos los ficheros solamente algunos para que se entienda mejor el problema. para que las cosas queden distriuidas de la mejor manera creo que es necesario que las impagenes estén categorizadas en directorios diferentes de acuerdo a la página a la que pertenecen.
 
+Dentro del directorio img vamos a crear un nuevo subdiectorio llamado art (simplificación de artículos), en este lugar se lamacenarán todas las imágenes de los articulos, tambien se puede crear un directorio para cada tipo de imágenes como, me refiero a las imágenes del home, imágenes de noticias, servicios, etc. pero sería  complejo subir los archivos a esos directorios con un solo uploader, prefiro hacerlo de la manera más sencilla que es subir los ficheros a un solo directorio y nombrarlos con un único nombre, incluso si existe una imágen que ya existe se puede reutilizar la imágen.
 
+Procedimeinto para el almacenamiento y referenciado a los directorios.
 
+1.- Se sube el fichero al directorio indicado
+2.- Se renombra la imágen, acorde al nombre del artículo lo que ayuda a definir su url
+3.- se inserta en link en el texto del articulo.
 
-
+Todas las imagens van a la izquierda del texto del articulo.
+la url general de una imágen es http://sitio/img/art/nombre_imagen.ext
 
 
