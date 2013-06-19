@@ -100,9 +100,45 @@ http://sitio/index.php/noticias/art/mi_primer_articulo
 Con esto podemos decir que noticias es el nombre del controlador, art es el metodo del controlador y mi_primer_articulo es el parametro de esta función, entonces en las tablas solo se almacenas el nombre del controlador y el nombre del articulo que es el identificador del articulo respectivamente.
 
 
-
-
 Imagenes
+
+Se tiene dos formas de manejar las imagnes, una de ellas es hacerlo por manejo de archivos que no es mas que copiar las imaganes a un directorio en el servidor , la otra forma es garabarlas directamente en la base de datos, bien veamos las ventajas y desventajas de cada una de las alternativas.
+
+La primera subir las imagenes al servidor.
+a travez de http se sube las imágenes al servidor para que este los almacene en un lugar indicado, se crea un vinculo o se obtiene la direccion de la imganen y se la enlaza al articulo que pertenece.
+ventajas-
+Mejor velocidad de enlace de la imagen
+Te permite almacenar las imagenes en categorias
+puedes acceder a las imágenes directamente.
+buen tiempo de respuesta
+desventajas:
+No se puede hacer una busqueda rápida a menos que esté bien organizado
+
+
+
+Subir las imágenes a la base de datos
+Para que esto sea posible se debe transformar a binario el fichero de la imágen, los ficheros son pesados
+Para mostrarlo basta con volver a la imágen y mostrarla.
+
+Ventajas.-
+Menos cantidad de código para hacer la misma accion
+imganes centralizadas y codificadas
+desventajas:
+Se consume recursos del servidor transformando a binario y devolviendo al archivo
+Con el tiempo el motor de base de datos se va a volver lento
+tiempo de respuesta un poco más lento
+
+
+Una vez analizado todas estan cuestiones llegamos a la conclucion de que subir las imágnes al servidor es mejor que subirlas a las bases de datos, ahora bien esto no es un descubrimiento que acabo de hacer, es un estándar dentro del desarrollo web aunque nadie impide que se suban lás imágenes a la base de datos, de echo se lo puede hacer en el caso de un sitio que no tenga demasiadas publicaciones ni trafico, se podria decir que es conveniente para un sitio con 5000 mil visitas unicas diarias, pero yo prefiero hacer las cosas bien.
+
+
+Una vez tomada la decición para el manejo de las imágenes del sitio veamos como lo vamos a organizar todo, desde la ubicacion de los ficheros hasta los enlaces a dichas imágenes.
+
+
+
+
+
+
 
 
 
