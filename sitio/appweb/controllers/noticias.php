@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Presentacion extends CI_Controller {
+class Noticias extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
