@@ -202,3 +202,10 @@ DEBUG - 2013-05-15 21:42:49 --> Controller Class Initialized
 DEBUG - 2013-05-15 21:42:49 --> File loaded: cpanel/views/cpanel.php
 DEBUG - 2013-05-15 21:42:49 --> Final output sent to browser
 DEBUG - 2013-05-15 21:42:49 --> Total execution time: 2.0315
+DEBUG - 2013-05-15 23:16:48 --> Config Class Initialized
+DEBUG - 2013-05-15 23:16:48 --> Hooks Class Initialized
+DEBUG - 2013-05-15 23:16:48 --> Utf8 Class Initialized
+DEBUG - 2013-05-15 23:16:48 --> UTF-8 Support Enabled
+DEBUG - 2013-05-15 23:16:48 --> URI Class Initialized
+DEBUG - 2013-05-15 23:16:48 --> Router Class Initialized
+ERROR - 2013-05-15 23:16:48 --> 404 Page Not Found --> layout.php
