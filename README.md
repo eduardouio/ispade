@@ -5,6 +5,70 @@ Trabajo de fin de carrera Eduardo Villota
 
 Notas.---
 
+Modelo de base de datos IanCMS.-
+Antes de entrar en esta seccion recordemos el patroón de diseño que se va a usar para generar la aplicacion MCV esta es la primera parte de la estrcutura de la aplicación, El modelo es el objeto encargado de manejar la informacion de la base de datos, tiene acceso directo a los datos y responde a su clase superior que en este caso es el controlador, el controlador o clase de un nivel superior no tiene acceso directo a los datos la forma de obtenerlos es a travez de los metodos de la clase que funciona como modelo.
+
+al ser el modelo nuestra puerta de enlace con la base de datos debemos dotarlo de todos los metodos necesarios para interactuar con el modelo de base de datos y ademas debe servirnos de ayuda para encontrar algun problema que se pueda producir en en esta capa de la aplicacion, com por ejemplo un error de sintaxis en la query, una falla del servidor, caida de servicio, lentitud y adventencias por parte del servidor de bases de datos, incluso errores de acceso al servidor.
+
+Los metodos que se concideran necesarios para esta clase son:
+
+Lectura de las tablas
+Estas obiamente son consultas tipo SELECT con todas las posibilidades que esta sentencia tiene como son el where order by limit, entre otros.
+
+Escritura de registros
+Es una consulta tipo INSERT normal que contien el nombre de la columna y el valor que le corresponde
+
+Actualizacion de registros
+Estas son consultas tipo UPDATE con todas las opciones que ofrece
+
+eliminar Registros
+Tipo de consulta Delete con todas las posibilidades que estas tienen
+
+conteo de registros afectados en una consulta
+Esto sirve para mostrar información al usuario.
+
+abrir la coneccion a la base
+abre una conexion concurrente con el servidor idicado
+
+cerrar una coneccion a la base de datos
+cierra una conexion concurrente con el servidor
+
+Ultimo id ingresado en la base de datos
+Este es especialmente util, lo unico que hace es retornar el  valor del último ID ingresado en la base de datos, por el ultimo ID se entiende al identificador del ultimo registro sin importar la tabla en la que fue ingresado, veamos la forma de usarlo,  cuando se está trabajando con multiples tablas y estas estan guaran una relacion unas con otras, entidades padre e hijo, si se desea ingresar informacion en la tabla padre y luego uno o mas registros en la tabla hija. se usa esta funcionalidad veamos un ejemplo:
+
+Tabla padre
+Factura
+
+Tabla Hijo 
+Factura detalle
+
+Imaginemos que tenemos que facturar 10 productos, el encabezado de la factura es la misma para los diez registros de la factura pero los registros de los productos son individuales y son enlazados al registro de la factura. El proceso es el siguiente primero se ingresa el encabezado de la factura porque es el regitro padre, luego se puede recuperar el ultimo id de la base de datos qie corresponderia al id de la factura con ese id se enlazan los registros hijos.
+
+
+
+
+Tambien existen metodos que sirven para depurar como son:
+
+El sql de la última consultaww
+El ultimo error retornado por el motor de bases de datos
+La ultima advertencia enviada por el motor de base de datos
+
+
+Tenemos metodos adicionales como son
+
+Respaldo de la base de datos
+Ejecutar consultas en transaccion
+ejecutar consultas complejas definidas por el administrador
+
+
+
+
+
+
+
+
+
+
 Se tiene tres tipos de paginas 
 Home.
 Formulario de contactos
@@ -168,3 +232,12 @@ Procedimeinto para el almacenamiento y referenciado a los directorios.
 
 Todas las imagens van a la izquierda del texto del articulo.
 la url general de una imágen es http://sitio/img/art/nombre_imagen.ext
+
+modelo ed base de datos.-
+Siguiendo el funcionamient basico del sistema tenemos que seguir una rquitectura de diseño que es el MVC (modelo-vista controlador).
+
+El modelo es el que se encaraga de administrar los datos de la base de datos, es el unico que interactua con el motor de datos sirve como un ente intermediario entre la app y los datos.
+
+El controlador es el encargado de hacer funcionar el sitio y se los va a dividir en uno por cada pagina del sitio, la funcionalidad que se repita en los controladores será cargada en un controlador global a manera de funciones a las que las clases tienen acceso.
+
+.. pendiente la creacion de las clases de lo controadores
