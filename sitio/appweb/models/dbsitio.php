@@ -22,9 +22,13 @@ class DbSitio extends CI_Model{
 	private $Query_;
 	private $Result_;
 
-
+	/**
+	* Iniciamos el contructor del modelo para que sea aceptado por codeigniter
+	* Se craga la libreria pafa manejo de base de datos
+	*/
 	public function __construct(){
 		parent::__construct();
+		$this->load->database();
 	}
 
 
@@ -148,6 +152,15 @@ class DbSitio extends CI_Model{
 	}
 
 	/**
+	* Retorna el string del ultimo query
+	*
+	*
+	*/
+	public function lastQuery(){
+
+	}
+
+	/**
 	* Retorna el ultimo warning en la base de datos
 	*
 	*/
@@ -155,4 +168,11 @@ class DbSitio extends CI_Model{
 		$this->db->query('show warnings;')
 	}
 
-}
+	/**
+	* Ejecuta una sentencia sql de cualquier tipo en la base de datos
+	*/
+	public function execQuery(){
+
+	}
+
+} 
