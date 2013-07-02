@@ -16,7 +16,7 @@
 *
 */
 
-class DbSitio extends CI_Model{
+class Dbsitio extends CI_Model{
 
 	private $Table_;
 	private $Query_;
@@ -28,7 +28,7 @@ class DbSitio extends CI_Model{
 	*/
 	public function __construct(){
 		parent::__construct();
-		$this->load->database();
+		//$this->load->database();
 	}
 
 	/**
@@ -189,7 +189,7 @@ class DbSitio extends CI_Model{
 	}
 
 	public function presentar(){
-		print 'arlet(hola munfo);';
+		print '<h1>hola mundo</h1>';
 	}
 
 } 
