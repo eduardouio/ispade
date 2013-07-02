@@ -48,6 +48,7 @@ class DbSitio extends CI_Model{
     * [LIMIT {[offset,] row_count | row_count OFFSET offset}]
 	* 
 	* @param str $table => Contiene el nombre de la tabla a la que se le va a hacer la consulta
+	* @param array $columns => listado de columnas a obtener si no se especifica se obtienen todas
 	* @param str $condition => Recibe la condicion de la consulta, vale 0 cero sino se recibe el parametro
 	* @param str $groupby => Agrupa los registros y retorna la consulta, sino existe es cero
 	* @param str $orderby => Ordena los registros con valor (coluna-orden), si no existe es cero
@@ -56,7 +57,7 @@ class DbSitio extends CI_Model{
 	* @param str $like => Condicion like en la consulta
 	* @return obj $Result_ matriz de objetos
 	*/
-	public function getRows($table, $condition = 0, $groupby = 0, $orderby = 0 , $limit = 0, $offset = 0, $like = 0){
+	public function getRows($table, $columns = 0, $condition = 0, $groupby = 0, $orderby = 0 , $limit = 0, $offset = 0, $like = 0){
 		#Se analiza los parametros 
 		
 		$this->Result_ = $this->db->get($table);
@@ -185,6 +186,10 @@ class DbSitio extends CI_Model{
 	*/
 	public function cuntRows($table){
 		return $this->db->count_all($table);
+	}
+
+	public function presentar(){
+		print 'arlet(hola munfo);';
 	}
 
 } 
