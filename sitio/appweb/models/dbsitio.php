@@ -115,9 +115,9 @@ class Dbsitio extends CI_Model{
 	* @param str $orderby => Ordena los registros con valor (coluna-orden), si no existe es cero
 	* @param int $limit => Limite de registros a obtener, vale 0 cero si no se recibe el parametro
 	*/
+
 	public function updateRows($table, $condition, $orderby = 0 , $limit = 0){
 
-		sql = 'SELECT ';
 
 	}
 
@@ -156,7 +156,7 @@ class Dbsitio extends CI_Model{
 	* @return str sql de la ultima consulta que se ejecutó
 	*/
 	public function lastQuery(){
-		return $this->db->last_query()
+		return $this->db->last_query();
 	}
 
 	/**
@@ -164,7 +164,7 @@ class Dbsitio extends CI_Model{
 	* @return array $query repuesta 
 	*/
 	public function lastWarning(){
-		return $this->db->query('show warnings;')
+		return $this->db->query('show warnings;');
 	}
 
 	/**
