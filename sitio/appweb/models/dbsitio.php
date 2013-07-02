@@ -31,8 +31,6 @@ class DbSitio extends CI_Model{
 		$this->load->database();
 	}
 
-
-	
 	/**
 	* Realiza una consulta tipo SELECT a la Base de datos, se arma la consulta usando funciones
 	* para cadenas el objetivo es genar el SQL de la consulta a travez de parametros, existen
@@ -43,6 +41,7 @@ class DbSitio extends CI_Model{
     * [ALL | DISTINCT | DISTINCTROW ]      
     * [FROM table_references
     * [WHERE where_condition]
+    * [LIKE like_condition]
     * [GROUP BY {col_name | expr | position}
     * [ORDER BY {col_name | expr | position}
     *  [ASC | DESC], ...]
@@ -53,28 +52,28 @@ class DbSitio extends CI_Model{
 	* @param str $groupby => Agrupa los registros y retorna la consulta, sino existe es cero
 	* @param str $orderby => Ordena los registros con valor (coluna-orden), si no existe es cero
 	* @param int $limit => Limite de registros a obtener, vale 0 cero si no se recibe el parametro
+	* @param int $offset => Combinado con limit indica desde donde y cuantos registros se toman
+	* @param str $like => Condicion like en la consulta
+	* @return obj $Result_ matriz de objetos
 	*/
-	public function getRows($table, $condition = 0, $groupby = 0, $orderby = 0 , $limit = 0){
-
-		sql = 'SELECT ';
-
+	public function getRows($table, $condition = 0, $groupby = 0, $orderby = 0 , $limit = 0, $offset = 0, $like = 0){
+		#Se analiza los parametros 
+		
+		$this->Result_ = $this->db->get($table);
+		return $this->Result_;		
 	}
 
 	
 	/**
 	* Realiza una consulta tipo ISERT en la Base de Datos
-	*
-	* INSERT
-    * [INTO] tbl_name [(col_name,...)]
-    * {VALUES | VALUE} ({expr | DEFAULT},...),(...),...
+	* basandose en el metodo insert de CodeIgniter
     *
     * @param str $table => nombre de la tabla a insertar
     * @param array $values => Diccionario (clave-valor) contiene el nombre de la columna y el valor
 	*/
-	public function insertRow($table, $values){
-		sql = 'INSERT INTO ' . $table . ' ';
-
-
+	public function insertRow($table, $values){		
+		$this->Result_ = $this->db->insert($table, $values);
+		return $this->Result_;
 	}
 
 
@@ -90,7 +89,7 @@ class DbSitio extends CI_Model{
     * @param array $values => Diccionario (clave-valor) contiene el nombre de la columna y el valor
     * @param str $condition => Condicion para eliminar reistro(s)
     * @param int $limit => Parte de la condicion de borrado, sino existe es cero
-	*/
+    */
 	public function deleteRow($table, $values, $condition, $limit = 0){
 		
 
@@ -153,26 +152,39 @@ class DbSitio extends CI_Model{
 
 	/**
 	* Retorna el string del ultimo query
-	*
-	*
+	* @return str sql de la ultima consulta que se ejecutó
 	*/
 	public function lastQuery(){
-
+		return $this->db->last_query()
 	}
 
 	/**
 	* Retorna el ultimo warning en la base de datos
-	*
+	* @return array $query repuesta 
 	*/
 	public function lastWarning(){
-		$this->db->query('show warnings;')
+		return $this->db->query('show warnings;')
 	}
 
 	/**
 	* Ejecuta una sentencia sql de cualquier tipo en la base de datos
+	* 
 	*/
-	public function execQuery(){
+	public function execQuery( $sql ){
+		return $this->db->query($sql);
+		
 
+	}
+
+	/**
+	* cuenta el número de registros que contiene una tabla
+	*
+	* @param str $table nombre de la tabla
+	*
+	* @return int cantidad de registros de la tabla
+	*/
+	public function cuntRows($table){
+		return $this->db->count_all($table);
 	}
 
 } 

@@ -44,15 +44,11 @@ Factura detalle
 
 Imaginemos que tenemos que facturar 10 productos, el encabezado de la factura es la misma para los diez registros de la factura pero los registros de los productos son individuales y son enlazados al registro de la factura. El proceso es el siguiente primero se ingresa el encabezado de la factura porque es el regitro padre, luego se puede recuperar el ultimo id de la base de datos qie corresponderia al id de la factura con ese id se enlazan los registros hijos.
 
-
-
-
 Tambien existen metodos que sirven para depurar como son:
 
 El sql de la última consultaww
 El ultimo error retornado por el motor de bases de datos
 La ultima advertencia enviada por el motor de base de datos
-
 
 Tenemos metodos adicionales como son
 
@@ -60,11 +56,9 @@ Respaldo de la base de datos
 Ejecutar consultas en transaccion
 ejecutar consultas complejas definidas por el administrador
 
+Nota: para la creación del modelo, se procede a usar las funcionalidades provistas pro codeigniter
 
-
-
-
-
+---------
 
 
 
