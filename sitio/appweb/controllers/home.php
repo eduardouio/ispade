@@ -26,10 +26,10 @@ class Home extends CI_Controller {
 	public function index()
 	{
 
-		$data =  array('id_artice' => '12');
+		$data =  array('Nombres' => 'Carmencilta Luntera');
 
 
-		$this->dbsitio->deleteRow('clientes',$data,18);
+		$this->dbsitio->updateRow('clientes',$data, 'id_artice = 1',19);
 
 	}
 }
