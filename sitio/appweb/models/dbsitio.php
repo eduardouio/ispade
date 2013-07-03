@@ -178,33 +178,59 @@ class Dbsitio extends CI_Model{
 	}
 
 	/**
-	* Retorna el ultimo Id insertado en la base de datos
+	* cuenta el número de registros que contiene una tabla	*
+	* @param str $table nombre de la tabla	*
+	* @return int cantidad de registros de la tabla
+	*/
+	public function cuntRows($table){
+		$query = $this->db->query('SELECT * FROM ' . $table);
+		return $query->num_rows();
+	}
+
+	/**
+	* Cuenta el numero de coulmnas de una tabla
+	* Lista  la cantidad de columnas de la base de datos
+	* @param str $table nombre de la tabla	
+	* @return int cantidad de columnas de la tabla
+	*/
+	public function countColumns($table){
+		$query = $this->db->query('SELECT * FROM ' . $table);
+		return $query->num_fields();	
+	}
+
+	/**
+	* Ejecuta un show columns a una tabla
+	* @param str $table => nombre de la tabla
+	* @return array detalle de columnas de la tabla
+	*/
+	public function describeColumns($table){
+		$result = $this->db->query('DESCRIBE ' . $table);
+		return $result->result_array();
+	}
+
+	/**
+	* @return Retorna el ultimo Id insertado en la base de datos
 	*/
 	public function lastId(){
-		return $this->db->lastInsertId();
+		return $this->db->insert_id();
 	}
 
 	/**
 	* Lista las tablas de la base de datos, lo retorna a manera de lista
+	* @return Listado de tablas de la base de datos
 	*/
 	public function listTables(){
-		$this->db->query('Show tables;');
-	}
-
-	/**
-	*
-	*/
-	public function listColumns($table){
-		$this->db->quey('describe ' . $table);
-	}
+		$result = $this->db->query('Show tables;');
+		return $result->result_array();
+	}	
 
 	/**
 	* Retorna el string del ultimo error de la base de datos
-	*
-	*
+	* @return str error en la base de datos
 	*/
 	public function lastError(){
-
+		$result =  $this->db->query('show error;');
+		return $result->result_array();
 	}
 
 	/**
@@ -216,32 +242,12 @@ class Dbsitio extends CI_Model{
 	}
 
 	/**
-	* Retorna el ultimo warning en la base de datos
-	* @return array $query repuesta 
-	*/
-	public function lastWarning(){
-		return $this->db->query('show warnings;');
-	}
-
-	/**
 	* Ejecuta una sentencia sql de cualquier tipo en la base de datos
 	* 
 	*/
 	public function execQuery( $sql ){
-		return $this->db->query($sql);
-		
-
-	}
-
-	/**
-	* cuenta el número de registros que contiene una tabla
-	*
-	* @param str $table nombre de la tabla
-	*
-	* @return int cantidad de registros de la tabla
-	*/
-	public function cuntRows($table){
-		return $this->db->count_all($table);
+		$result =  $this->db->query($sql);
+		return $result;
 	}
 
 } 
