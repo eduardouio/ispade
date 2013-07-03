@@ -25,25 +25,9 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-
-		$data =  array('Nombres' => 'Carmencilta Luntera');
-
-
-		$this->dbsitio->updateRow('clientes',$data, 'id_artice = 1',19);
-
+		print '<html style="background:gray"><h1 style="color:blue;"> El sitio Funciona </h1><html>';
 	}
 }
-/**
-* $table,
-* $columns
-* $condition
-* $and_or
-* $like
-* $groupby
-* $orderby
-* $limit
-* $offset
-*
-*/
+
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */

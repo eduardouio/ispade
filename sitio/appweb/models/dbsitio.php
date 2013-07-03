@@ -203,8 +203,8 @@ class Dbsitio extends CI_Model{
 	* @param str $table => nombre de la tabla
 	* @return array detalle de columnas de la tabla
 	*/
-	public function describeColumns($table){
-		$result = $this->db->query('DESCRIBE ' . $table);
+	public function listColumns($table){
+		$result = $this->db->list_fields($table);
 		return $result->result_array();
 	}
 
@@ -220,8 +220,8 @@ class Dbsitio extends CI_Model{
 	* @return Listado de tablas de la base de datos
 	*/
 	public function listTables(){
-		$result = $this->db->query('Show tables;');
-		return $result->result_array();
+		$result = $this->db->list_tables();
+		return $result;
 	}	
 
 	/**
@@ -249,5 +249,4 @@ class Dbsitio extends CI_Model{
 		$result =  $this->db->query($sql);
 		return $result;
 	}
-
 } 
