@@ -18,17 +18,12 @@
 
 class Dbsitio extends CI_Model{
 
-	private $Table_;
-	private $Query_;
-	private $Result_;
-
 	/**
 	* Iniciamos el contructor del modelo para que sea aceptado por codeigniter
 	* Se craga la libreria pafa manejo de base de datos
 	*/
 	public function __construct(){
-		parent::__construct();
-		//$this->load->database();
+		parent::__construct();		
 	}
 
 	/**
@@ -54,17 +49,68 @@ class Dbsitio extends CI_Model{
 	* @param str $orderby => Ordena los registros con valor (coluna-orden), si no existe es cero
 	* @param int $limit => Limite de registros a obtener, vale 0 cero si no se recibe el parametro
 	* @param int $offset => Combinado con limit indica desde donde y cuantos registros se toman
-	* @param str $like => Condicion like en la consulta
+	* @param str $like => Condicion like en la consulta, se debe especificar and u or cuando se envie un valor para condicion
+	* @param str $and_or => condicion que permite unir la lcausula where y el like
 	* @return obj $Result_ matriz de objetos
 	*/
-	public function getRows($table, $columns = 0, $condition = 0, $groupby = 0, $orderby = 0 , $limit = 0, $offset = 0, $like = 0){
-		#Se analiza los parametros 
+	public function getRows($table, $columns = FALSE, $condition = FALSE, $and_or = FALSE , $like = FALSE, $groupby = FALSE, $orderby = FALSE , $limit = FALSE, $offset = FALSE){
+		#Se analiza los parametros antes de armar la consulta
+
+		$result = NULL;
+		$query = 'SELECT ';
+
+		#armamos el select columnas from table
+		if ($columns){
+			$i = 0;
+			foreach ($columns as $columna) {
+				$i++;
+				if ($i < count($columns)){					
+					$query = $query . ' ' . $columna . ',';												
+				}else{
+					$query = $query . ' ' . $columna . ' FROM ' . $table; 
+				}
+			}
+		}else{
+			$query = $query . ' * FROM ' . $table;
+		}
+
+		#analisis de condiciones where y like
+		if (($condition) && ($like)){
+			#existan las dos condiciones
+			$query = $query . ' WHERE ' . $condition . ' ' . $and_or . ' ' . $like;
+		}elseif (($condition) || ($like)){
+			#que solo exista una condicion
+			if($condition){
+				$query = $query . ' WHERE ' . $condition . ' ';
+			}
+			if($like){
+				$query = $query . ' WHERE ' . $like . ' ';	
+			}
+		}
+
+		#parametros de agrupamiento, orden y limites
+			if($groupby){
+				$query = $query . ' GROUP BY ' . $groupby;
+			}
+
+			if($orderby){
+				$query = $query . ' ORDER BY ' . $orderby;
+			}
+
+			if($limit){
+				$query = $query . ' LIMIT ' . $limit;	
+			}
+
+			if($offset){
+				$query = $query . ' ,'. $offset . ';';
+			}else{
+				$query = $query . ';';
+			}		
 		
-		$this->Result_ = $this->db->get($table);
-		return $this->Result_;		
+		$result = $this->db->query($query);
+		return $result->result();
 	}
 
-	
 	/**
 	* Realiza una consulta tipo ISERT en la Base de Datos
 	* basandose en el metodo insert de CodeIgniter
@@ -186,10 +232,6 @@ class Dbsitio extends CI_Model{
 	*/
 	public function cuntRows($table){
 		return $this->db->count_all($table);
-	}
-
-	public function presentar(){
-		print '<h1>hola mundo</h1>';
 	}
 
 } 

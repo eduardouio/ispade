@@ -20,19 +20,28 @@ class Home extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();
-		$this->load->model('dbsitio');
 	}	
+
 
 	public function index()
 	{
-		print ('ola');
-	}
 
-	public function inicio(){
-
-		print 'porueba';
+		$columnas = array('id_article','title', 'id_page', 'content');
+		$res = $this->dbsitio->getRows('article');
+		var_dump($res);
 	}
 }
-
+/**
+* $table,
+* $columns
+* $condition
+* $and_or
+* $like
+* $groupby
+* $orderby
+* $limit
+* $offset
+*
+*/
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */
