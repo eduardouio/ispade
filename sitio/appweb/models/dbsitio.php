@@ -138,10 +138,15 @@ class Dbsitio extends CI_Model{
     * @param str $condition => Condicion para eliminar reistro(s)
     * @param int $limit => Parte de la condicion de borrado, sino existe es cero
     */
-	public function deleteRow($table, $values, $condition, $limit = 0){
-		
+	public function deleteRow($table, $condition, $limit = FALSE){		
+		$res = NULL;
 
+		if($limit){
+			$this->db->limit($limit);
+		}
 
+		$res = $this->db->delete($table,$condition);
+		return $res;
 	}
 
 	/**

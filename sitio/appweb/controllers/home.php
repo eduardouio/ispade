@@ -26,13 +26,11 @@ class Home extends CI_Controller {
 	public function index()
 	{
 
-		$data =  array('id_artice' => '12',
-						'name' => 'Eduardo',
-						'apellido' => 'Montenegro',
-						'edad' => '26 años');
+		$data =  array('id_artice' => '12');
 
 
-		$this->dbsitio->insertRow('clientes',$data);
+		$this->dbsitio->deleteRow('clientes',$data,18);
+
 	}
 }
 /**
