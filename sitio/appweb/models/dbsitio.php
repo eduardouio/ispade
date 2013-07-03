@@ -119,8 +119,9 @@ class Dbsitio extends CI_Model{
     * @param array $values => Diccionario (clave-valor) contiene el nombre de la columna y el valor
 	*/
 	public function insertRow($table, $values){		
-		$this->Result_ = $this->db->insert($table, $values);
-		return $this->Result_;
+
+		$result = $this->db->insert($table, $values);
+		return $result;
 	}
 
 
