@@ -1,37 +1,27 @@
+<!--Cabecera -->
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="es"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>IanCMS</title>
-  <meta name="description" content="IanCMS">
+  <title>Noticias de la semana Blog</title>
+  <meta name="description" content="Gestor de contenidos IanCMS">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/normalize.css">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/main.css">
-  <link rel="stylesheet" href="http://127.0.0.1/ispade/sitio/css/slider.css">
-  <link href="http://127.0.0.1/ispade/sitio/css/bootstrap.css" rel="stylesheet">
-  <link href="http://127.0.0.1/ispade/sitio/css/bootstrap-responsive.css" rel="stylesheet">
-  <link rel="shortcut icon" href="http://127.0.0.1/ispade/sitio/ico/favicon.ico">
-  <script src="http://127.0.0.1/ispade/sitio/js/vendor/modernizr-2.6.2.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-  <script src="http://127.0.0.1/ispade/sitio/js/jquery.js"></script>
-  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-transition.js"></script>    
-  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-dropdown.js"></script>
-  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-scrollspy.js"></script>  
-  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-button.js"></script>  
-  <script src="http://127.0.0.1/ispade/sitio/js/bootstrap-carousel.js"></script>  
-  <script>
-  !function ($) {
-    $(function(){
-      $('#myCarousel').carousel()
-    })
-  }(window.jQuery)
-  </script>
+  <link rel="stylesheet" href="<?php print base_url();?>css/normalize.css">
+  <link rel="stylesheet" href="<?php print base_url();?>css/main.css">
+  <link rel="stylesheet" href="<?php print base_url();?>css/slider.css">
+  <link href="<?php print base_url();?>css/bootstrap.css" rel="stylesheet">
+  <link href="<?php print base_url();?>css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" href="<?php print base_url();?>ico/favicon.ico">
 </head>
+
 <body>
+  <div id="fb-root"></div>
+
         <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -42,6 +32,9 @@
         <![endif]-->
         <!-- Fav and touch icons -->
 
+<!-- /Cabecera>
+
+  <!-- Menu-->
 
      <!-- NAVBAR
      ================================================== -->
@@ -57,19 +50,19 @@
           </a>
           <a class="brand" href="#">ISPADE</a>
           <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-          <div class="nav-collapse http://127.0.0.1/ispade/sitio/collapse">
+          <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="#"><i class="icon-home icon-white"></i>&nbsp; Inicio</a></li>
-              <li><a href="#about"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
-              <li><a href="#about"><i class="icon-inbox icon-white"></i>&nbsp; Noticias</a></li>
-              <li><a href="#about"><i class="icon-th-large icon-white"></i>&nbsp; Servicios</a></li>
-              <li><a href="#contact"><i class="icon-comment icon-white"></i>&nbsp; Contáctos</a></li>
+              <li class="active"><a href="<?php print base_url();?>"><i class="icon-home icon-white"></i>&nbsp; Inicio</a></li>
+              <li><a href="<?php print base_url();?>nosotros"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
+              <li><a href="<?php print base_url();?>noticias"><i class="icon-inbox icon-white"></i>&nbsp; Noticias</a></li>
+              <li><a href="<?php print base_url();?>servicios"><i class="icon-th-large icon-white"></i>&nbsp; Servicios</a></li>
+              <li><a href="<?php print base_url();?>contactos"><i class="icon-comment icon-white"></i>&nbsp; Contáctos</a></li>
               <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-certificate icon-white"></i>&nbsp; Extras <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#"><i class="icon-share"></i>&nbsp;Compartir Sitio</a></li>
-                  <li><a href="#"><i class="icon-road"></i>&nbsp;Inscribirme a Noticias</a></li>
+                  <li><a href="#"><div class="fb-like" data-href="http://isp.liposerve.com" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-colorscheme="dark" data-action="recommend"></div></a></li>
+                  <li>&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">tweet</a></li>
                   <li><a href="#"><i class="icon-list-alt"></i>&nbsp;Firmar Libro de Visitas</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Administrador</li>
@@ -81,6 +74,7 @@
         </div><!-- /.navbar-inner -->
       </div><!-- /.navbar -->
     </div><!-- /.container -->
+    <!--/menu-->
 
     <!-- Carousel ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -156,43 +150,38 @@
           <img src="http://127.0.0.1/ispade/sitio/img/obtener.png">
           <h2>Obtener SO</h2>
           <p>Puedes descargarlo pinchando sobre el botón</p>
-          <br/>
-          <br/>
-          <br/>
+          <br>
+          <br>
+          <br>
 
-          <p><a href="http://www.ubuntu.com/download/desktop" class="btn btn-success"> click aquí </a></p>
+          <p><a class="btn btn-success" href="http://www.ubuntu.com/download/desktop"> click aquí </a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
     </div>
 
-    <div class = "hero-unit" style="text-align:center; backgorund-color:#EDF1F7;">  
+    <div style="text-align:center; backgorund-color:#EDF1F7;" class="hero-unit">  
       <div class="row-fluid">
         <div class="span4">    
           <a href="https://plus.google.com/100547190152722659325/posts">
-            <img src="http://127.0.0.1/ispade/sitio/img/google.png" alt="Google plus" width="90" hight="90">
+            <img width="90" hight="90" alt="Google plus" src="http://127.0.0.1/ispade/sitio/img/google.png">
 
           </a>
         </div><!--/span-->       
         <div class="span4">    
           <a href="http://facebook.com/eduardo.villota">
-            <img src="http://127.0.0.1/ispade/sitio/img/facebook.png" alt="Facebook" width="90" hight="90">
+            <img width="90" hight="90" alt="Facebook" src="http://127.0.0.1/ispade/sitio/img/facebook.png">
 
           </a>
         </div><!--/span-->       
         <div class="span4">    
           <a href="http://twitter.com/eduardouio">
-            <img src="http://127.0.0.1/ispade/sitio/img/twitter.png" alt="Twitter" width="90" hight="90">
+            <img width="90" hight="90" alt="Twitter" src="http://127.0.0.1/ispade/sitio/img/twitter.png">
 
           </a>
         </div><!--/span-->       
       </div><!--/row-->    
-      <p>&nbsp;</p>
-      <small style="font-size: 11px;">    
-        <p>
-          &copy; 2013 Instituto Técnico Superior Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a>
-          <br>Sitio Desarrollado Por Eduardo Villota <a href="http://twitter.com/eduardouio" blank="_blank">eduardouio7@gmail.com</a>
-        </p>
-      </small>
-    </div>       
-  </body>
-  </html>
+      
+      <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+      </html>
