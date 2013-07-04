@@ -175,32 +175,29 @@
   </div><!-- /.row -->
 </div>
 
-<div class = "pie" style="text-align:center; background:#6A777F">  
-  <hr>
-  
-  <p>&nbsp;</p>
-  <div class="row-fluid">
+<div class = "hero-unit" style="text-align:center; backgorund-color:#EDF1F7;">  
+    <div class="row-fluid">
     <div class="span4">    
       <a href="https://plus.google.com/100547190152722659325/posts">
         <img src="http://127.0.0.1/ispade/sitio/img/google.png" alt="Google plus" width="90" hight="90">
-        <br/><div class="btn btn-inverse btn-mini"> Google Plus </div>
+        
     </a>
 </div><!--/span-->       
 <div class="span4">    
   <a href="http://facebook.com/eduardo.villota">
     <img src="http://127.0.0.1/ispade/sitio/img/facebook.png" alt="Facebook" width="90" hight="90">
-    <br/><div class="btn btn-inverse btn-mini"> Facebook </div>
+   
 </a>
 </div><!--/span-->       
 <div class="span4">    
   <a href="http://twitter.com/eduardouio">
     <img src="http://127.0.0.1/ispade/sitio/img/twitter.png" alt="Twitter" width="90" hight="90">
-    <br/><div class="btn btn-inverse btn-mini"> Twitter </div>
+    
 </a>
 </div><!--/span-->       
 </div><!--/row-->    
 <p>&nbsp;</p>
-<small style="font-size: 11px; color:#fff;">    
+<small style="font-size: 11px;">    
     <p>
         &copy; 2013 Instituto Técnico Superior Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a>
         <br>Sitio Desarrollado Por Eduardo Villota <a href="http://twitter.com/eduardouio" blank="_blank">eduardouio7@gmail.com</a>

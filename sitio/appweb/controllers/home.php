@@ -20,13 +20,14 @@ class Home extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();		
-		$this->load->helper('pages');
-	}	
+		}	
 
-
+	/**
+	* Genera un listado con todos los articulos de la pagina
+	*/
 	public function index()
 	{
-		saludar('eduardo','villota');
+		$this->load->view('home');
 
 	}
 }
