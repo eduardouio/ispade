@@ -182,7 +182,7 @@ class Dbsitio extends CI_Model{
 	* @param str $table nombre de la tabla	*
 	* @return int cantidad de registros de la tabla
 	*/
-	public function cuntRows($table){
+	public function countRows($table){
 		$query = $this->db->query('SELECT * FROM ' . $table);
 		return $query->num_rows();
 	}
