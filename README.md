@@ -153,7 +153,7 @@ Tabla Articulos
 
 Como podemos ver en las dos tenemos el campo url que es la que almacena el identificador del articulo y de la paginaa, tomemos como principio una direccion de un articulo completo basado en las url de codeigniter.
 
-http://sitio/index.php/noticias/art/mi_primer_articulo
+http://sitio/index.php/noticias/articulo/mi_primer_articulo
 
 Con esto podemos decir que noticias es el nombre del controlador, art es el metodo del controlador y mi_primer_articulo es el parametro de esta función, entonces en las tablas solo se almacenas el nombre del controlador y el nombre del articulo que es el identificador del articulo respectivamente.
 
@@ -201,9 +201,12 @@ Una vez tomada la decición para el manejo de las imágenes del sitio veamos com
 ├── ico
 │   └── favicon.ico
 ├── img
-│   ├── admin
-│   │   ├── word2013icon.png
-│   │   └── YouTube128.png
+│   ├── article
+│   │   ├── art1.png
+│   │   ├── art2.png
+│   ├── portada
+│   │   ├── img1.png
+│   │   ├── img2.png
 │   ├── sitio
 │   │   ├── slide1.jpg
 │   │   ├── slide2.jpg
@@ -225,7 +228,7 @@ Procedimeinto para el almacenamiento y referenciado a los directorios.
 3.- se inserta en link en el texto del articulo.
 
 Todas las imagens van a la izquierda del texto del articulo.
-la url general de una imágen es http://sitio/img/art/nombre_imagen.ext
+la url general de una imágen es http://sitio/img/articulo/nombre_imagen.ext
 
 modelo ed base de datos.-
 Siguiendo el funcionamient basico del sistema tenemos que seguir una rquitectura de diseño que es el MVC (modelo-vista controlador).
