@@ -14,10 +14,30 @@
  * @param	mixed
  * @return	string
  */
-if ( ! function_exists('h_saludar'))
+if ( ! function_exists('h_render'))
 {
-	function h_saludar($list = '', $attributes = '')
+	function h_render($catalog)
+	/**
+	* Se encrarga de recibir la informacion y genera la pantalla de salia
+	* Todos los valores se guardan en una variable de clase $Pagina_	
+	* Es este metodo el que decide que vistas mostrar a partir de los paramtros recibidos
+	*
+	* @param array $catalogo array con las plantillas necesarias y su informacion
+	*	
+	*/
 	{
-		print 'hola mundo desde el helper';
+		$vistas;
+		$Pagina_;
+		foreach ($catalogo as $arreglos => $nombres) {								
+			$vistas[] =  $arreglos;				
+		}
+
+		foreach ($vistas as $nombre) {
+			$Pagina_ = $Pagina_ . $this->load->view($nombre,$catalogo[$nombre],true);
+		}
+
+		$Pagina_ = $Pagina_ . $this->load->view('v_fpie','',true);
+		print $Pagina_;
+
 	}
 }
