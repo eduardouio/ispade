@@ -19,13 +19,15 @@ class Home extends CI_Controller {
 	 */
 
 	public function __construct(){
-		parent::__construct();
+		parent::__construct();		
+		$this->load->helper('pages');
 	}	
 
 
 	public function index()
 	{
-		print '<html style="background:gray"><h1 style="color:blue;"> El sitio Funciona </h1><html>';
+		saludar('eduardo','villota');
+
 	}
 }
 

@@ -140,5 +140,5 @@ DESC LIMIT 10;
 CREATE VIEW v_tablon
 as
 SELECT 
-id_article, id_page, url, title, CONCAT(LEFT(content,240),'...') AS content, counter, create_date 
+id_article, id_page, article, title, CONCAT(LEFT(content,240),'...') AS content, counter, create_date 
 FROM liposerv_ispade.article;
