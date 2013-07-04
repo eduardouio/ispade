@@ -219,7 +219,7 @@ Una vez tomada la decición para el manejo de las imágenes del sitio veamos com
 
 Como se puede apreciar en el arbol de directorios, cada uno de los componentes del sitio están en un lugar facil de encontrar y con un nombre que lo identifica, en esta gráfica no se incluyen todos los ficheros solamente algunos para que se entienda mejor el problema. para que las cosas queden distriuidas de la mejor manera creo que es necesario que las impagenes estén categorizadas en directorios diferentes de acuerdo a la página a la que pertenecen.
 
-Dentro del directorio img vamos a crear un nuevo subdiectorio llamado art (simplificación de artículos), en este lugar se lamacenarán todas las imágenes de los articulos, tambien se puede crear un directorio para cada tipo de imágenes como, me refiero a las imágenes del home, imágenes de noticias, servicios, etc. pero sería  complejo subir los archivos a esos directorios con un solo uploader, prefiro hacerlo de la manera más sencilla que es subir los ficheros a un solo directorio y nombrarlos con un único nombre, incluso si existe una imágen que ya existe se puede reutilizar la imágen.
+Dentro del directorio img vamos a crear un nuevo subdiectorio llamado article, en este lugar se lamacenarán todas las imágenes de los articulos, tambien se puede crear un directorio para cada tipo de imágenes como, me refiero a las imágenes del home, imágenes de noticias, servicios, etc. pero sería  complejo subir los archivos a esos directorios con un solo uploader, prefiro hacerlo de la manera más sencilla que es subir los ficheros a un solo directorio y nombrarlos con un único nombre, incluso si existe una imágen que ya existe se puede reutilizar la imágen.
 
 Procedimeinto para el almacenamiento y referenciado a los directorios.
 
