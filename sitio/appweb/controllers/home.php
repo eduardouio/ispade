@@ -25,7 +25,6 @@ class Home extends CI_Controller {
 	{	
 		$columns = array('id_page','title','article','image','content');
 	 	$noticioas = $this->dbsitio->getrows('article',$columns,'id_page=1');
-
 	 	$this->load->view('home');
 	 	
 	}

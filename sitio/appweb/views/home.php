@@ -62,8 +62,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-certificate icon-white"></i>&nbsp; Extras <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#"><div class="fb-like" data-href="http://isp.liposerve.com" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-colorscheme="dark" data-action="recommend"></div></a></li>
-                  <li>&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">tweet</a></li>
-                  <li><a href="#"><i class="icon-list-alt"></i>&nbsp;Firmar Libro de Visitas</a></li>
+                  <li><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweetear Esta Página</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Administrador</li>
                   <li><a href="#"><i class="icon-user"></i>&nbsp;Iniciar Sesión</a></li>                  
@@ -215,6 +214,8 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
 <script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 </html>
