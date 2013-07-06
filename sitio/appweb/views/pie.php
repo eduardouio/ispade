@@ -1,5 +1,5 @@
 <!--Pie de pagina y funciones js y librerias js-->
-<div class = "hero-unit" style="text-align:center; backgorund-color:#EDF1F7;">  
+<div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF1F7;">  
     <div class="row-fluid">
     <div class="span4">    
       <a href="https://plus.google.com/100547190152722659325/posts">
@@ -57,6 +57,23 @@
   js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+// Support for AJAX loaded modal window.
+// Focuses on first input textbox after it loads the window.
+$('[data-toggle="modal"]').click(function(e) {
+e.preventDefault();
+var url = $(this).attr('href');
+if (url.indexOf('#') == 0) {
+$(url).modal('open');
+} else {
+$.get(url, function(data) {
+$('<div class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-dismiss="modal" > ' + data + '</div>').modal('show');
+}).success(function() { $('input:text:visible:first').focus(); });
+}
+});
+});
 </script>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
