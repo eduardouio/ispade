@@ -30,11 +30,7 @@ class Home extends CI_Controller {
 	 	//var_dump($articulo);
 
 //$this->load->view('home');
- $this->load->view('cabecera');
- $this->load->view('menu');
- $this->load->view('carrusel');
- $this->load->view('articulos_home');
- $this->load->view('pie');
+ 
 //
 
 	}
