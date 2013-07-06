@@ -8,7 +8,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><?php print $title?></title>
+  <title><?php @print $title?></title>
   <meta name="description" content="Gestor de contenidos IanCMS">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="<?php print base_url();?>css/normalize.css">
@@ -19,6 +19,7 @@
   <link rel="shortcut icon" href="<?php print base_url();?>ico/favicon.ico">
 </head>
 <body>
+<div id="fb-root"></div>
         <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
