@@ -18,16 +18,4 @@
   <link href="<?php print base_url();?>css/bootstrap-responsive.css" rel="stylesheet">
   <link rel="shortcut icon" href="<?php print base_url();?>ico/favicon.ico">
 </head>
-<body>
-<div id="fb-root"></div>
-        <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <!-- Fav and touch icons -->
-
 <!-- /Cabecera>
