@@ -28,10 +28,10 @@ class Home extends CI_Controller {
 		$columnas = array('id_article','article','image','content');		
 	 	$articulo = $this->dbsitio->getRows('article',$columnas,'id_page = 1');
 	 	//var_dump($articulo);
-
  $this->load->view('cabecera');
  $this->load->view('menu');
- $this->load->view('presentacion');
+ $this->load->view('formulario');
+ //$this->load->view('paginacion');
  $this->load->view('pie');
 //
 
