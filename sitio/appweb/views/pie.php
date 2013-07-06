@@ -39,7 +39,8 @@
   <script src="<?php print base_url();?>js/bootstrap-dropdown.js"></script>
   <script src="<?php print base_url();?>js/bootstrap-scrollspy.js"></script>  
   <script src="<?php print base_url();?>js/bootstrap-button.js"></script>  
-  <script src="<?php print base_url();?>js/bootstrap-carousel.js"></script>  
+  <script src="<?php print base_url();?>js/bootstrap-carousel.js"></script> 
+  <script src="<?php print base_url();?>js/bootstrap-modal.js"></script>
   <script>
   !function ($) {
     $(function(){
