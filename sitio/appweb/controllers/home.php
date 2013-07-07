@@ -31,7 +31,7 @@ class Home extends CI_Controller {
  $this->load->view('cabecera');
  $this->load->view('menu');
  $this->load->view('menu_lateral');
- $this->load->view('presentacion');
+ $this->load->view('formulario');
  $this->load->view('paginacion');
  $this->load->view('pie');
 
