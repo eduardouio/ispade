@@ -18,23 +18,33 @@ class Home extends CI_Controller {
 public function __construct(){
 	parent::__construct();				
 }	
+	// variables para la identificacion de la pagina y sus articulos
+	protected $Table_ = 'page';
+	protected $IdPage_ = 1;
+	protected $Columns_ = array();
+	protected $Article = 'article';
+	protected $Result_ = array();
+	protected $Data_= array();
+
 
 	/**
 	* genera la pagina completa, unico metodo de la clase
 	*/
 	public function index()
 	{	
+
 		//recuperamos la infromacion de la pantalla home
 
-		$columnas = array('id_article','article','image','content');		
-		$articulo = $this->dbsitio->getRows('article',$columnas,'id_page = 1');
-	 	//var_dump($articulo);
-		$this->load->view('cabecera');
-		$this->load->view('menu');
-		//$this->load->view('menu_lateral');
-		$this->load->view('formulario');
-		$this->load->view('paginacion');
-		$this->load->view('pie');
+		$this->Columns_ = $arrayName = array(
+											'id_page',
+											'title',
+											'controller',
+											'keywords'
+											);
+		$this->Result_ = $this->dbsitio->getRows($this->Table_,$this->Columns_,'id_page = ' . $this->IdPage_);
+		$this->load->view('cabecera',$this->Result_);
+		 var_dump($this->Result_);
+		
 
 	}
 }

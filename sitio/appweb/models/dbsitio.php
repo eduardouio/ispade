@@ -174,7 +174,9 @@ class Dbsitio extends CI_Model{
 			$this->db->limit($limit);
 		}
 
-		$this->db->update($table,$data);
+		$result = $this->db->update($table,$data);
+
+		return $result;
 	}
 
 	/**
