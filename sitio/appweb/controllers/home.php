@@ -21,10 +21,10 @@ public function __construct(){
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
 	protected $IdPage_ = 1;
-	protected $Columns_ = array();
+	protected $Columns_;
 	protected $Article = 'article';
-	protected $Result_ = array();
-	protected $Data_= array();
+	protected $Result_;
+	protected $Data_;
 
 
 	/**
@@ -41,10 +41,11 @@ public function __construct(){
 											'controller',
 											'keywords'
 											);
-		$this->Result_ = $this->dbsitio->getRows($this->Table_,$this->Columns_,'id_page = ' . $this->IdPage_);
-		$this->load->view('cabecera',$this->Result_);
-		 var_dump($this->Result_);
+		$this->Result_['query'] = $this->dbsitio->getRows($this->Table_,$this->Columns_,'id_page = ' . $this->IdPage_);
 		
+		$this->load->view('cabecera',$this->Result_);
+
+		//var_dump($this->Result_);
 
 	}
 }

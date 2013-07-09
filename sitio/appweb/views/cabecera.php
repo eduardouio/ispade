@@ -8,9 +8,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><?php print $title; ?></title>
+  <title>
+    <?php 
+        print $controller;
+      ?>
+</title>
   <meta name="description" content="Gestor de contenidos IanCMS">
-  <meta name="description" content="<?php print $keywords; ?>">
+  <meta name="description" content="<?php var_dump($query); 
+                                          print gettype($query);?>">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="<?php print base_url();?>css/normalize.css">
   <link rel="stylesheet" href="<?php print base_url();?>css/main.css">

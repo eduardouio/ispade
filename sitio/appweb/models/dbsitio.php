@@ -207,7 +207,7 @@ class Dbsitio extends CI_Model{
 	*/
 	public function listColumns($table){
 		$result = $this->db->list_fields($table);
-		return $result->result_array();
+		return $result->result();
 	}
 
 	/**
@@ -232,7 +232,7 @@ class Dbsitio extends CI_Model{
 	*/
 	public function lastError(){
 		$result =  $this->db->query('show error;');
-		return $result->result_array();
+		return $result->result();
 	}
 
 	/**
