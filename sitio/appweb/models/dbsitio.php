@@ -53,10 +53,12 @@ class Dbsitio extends CI_Model{
 	* @param str $and_or => condicion que permite unir la lcausula where y el like
 	* @return obj $Result_ matriz de objetos
 	*/
-	public function getRows($table, $columns = FALSE, $condition = FALSE, $and_or = FALSE , $like = FALSE, $groupby = FALSE, $orderby = FALSE , $limit = FALSE, $offset = FALSE){
+	public function getRows($table, $columns = FALSE, $condition = FALSE, $and_or = FALSE , 
+							$like = FALSE, $groupby = FALSE, $orderby = FALSE , 
+							$limit = FALSE, $offset = FALSE){
 		#Se analiza los parametros antes de armar la consulta
 
-		$result = NULL;
+		$result;
 		$query = 'SELECT ';
 
 		#armamos el select columnas from table
@@ -108,6 +110,38 @@ class Dbsitio extends CI_Model{
 			}		
 		
 		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+
+	/**
+	* Obtiene un registro de una tabla
+	*
+	*/
+	public function getRow($table,$columns = FALSE,$condition){
+		$result;
+		$query = 'SELECT ';
+
+		#armamos el select columnas from table
+		if ($columns){
+			$i = 0;
+			foreach ($columns as $columna) {
+				$i++;
+				if ($i < count($columns)){					
+					$query = $query . ' ' . $columna . ',';												
+				}else{
+					$query = $query . ' ' . $columna . ' FROM ' . $table; 
+				}
+			}
+		}else{
+			$query = $query . ' * FROM ' . $table;
+		}
+
+		if($condition){
+				$query = $query . ' WHERE ' . $condition . ' ';
+			}
+
+		$result = $this->db->query($query);
+		
 		return $result->result_array();
 	}
 

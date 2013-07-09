@@ -27,11 +27,11 @@
           <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="<?php @print $active1;?>"><a href="<?php print base_url();?>"><i class="icon-home icon-white"></i>&nbsp; Inicio</a></li>
-              <li class="<?php @print $active2;?>"><a href="<?php print base_url();?>index.php/nosotros"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
-              <li class="<?php @print $active3;?>"><a href="<?php print base_url();?>index.php/noticias"><i class="icon-inbox icon-white"></i>&nbsp; Noticias</a></li>
-              <li class="<?php @print $active4;?>"><a href="<?php print base_url();?>index.php/servicios"><i class="icon-th-large icon-white"></i>&nbsp; Servicios</a></li>
-              <li class="<?php @print $active5;?>"><a href="<?php print base_url();?>index.php/contactos"><i class="icon-comment icon-white"></i>&nbsp; Contáctos</a></li>
+              <li class="<?php @print $controlador['home'];?>"><a href="<?php print base_url();?>"><i class="icon-home icon-white"></i>&nbsp; Inicio</a></li>
+              <li class="<?php @print $controlador['nosotros'];?>"><a href="<?php print base_url();?>index.php/nosotros"><i class="icon-globe icon-white"></i> &nbsp; Nosotros</a></li>
+              <li class="<?php @print $controlador['noticias'];?>"><a href="<?php print base_url();?>index.php/noticias"><i class="icon-inbox icon-white"></i>&nbsp; Noticias</a></li>
+              <li class="<?php @print $controlador['servicios'];?>"><a href="<?php print base_url();?>index.php/servicios"><i class="icon-th-large icon-white"></i>&nbsp; Servicios</a></li>
+              <li class="<?php @print $controlador['contactos'];?>"><a href="<?php print base_url();?>index.php/contactos"><i class="icon-comment icon-white"></i>&nbsp; Contáctos</a></li>
               <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-certificate icon-white"></i>&nbsp; Extras <b class="caret"></b></a>
@@ -42,6 +42,7 @@
                   <li class="nav-header">Administrador</li>
                   <li><a href="<?php print base_url(); ?>index.php/login"><i class="icon-user"></i>&nbsp;Iniciar Sesión</a></li>                  
                 </ul>
+                <?php var_dump($menu);?>
               </li>
             </ul>
           </div><!--/.nav-collapse -->
