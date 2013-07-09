@@ -42,6 +42,7 @@ public function __construct(){
 											'keywords'
 											);
 		$this->Result_['query'] = $this->dbsitio->getRows($this->Table_,$this->Columns_,'id_page = ' . $this->IdPage_);
+		$this->Result_['datos'] =  array('nombre' => 'Eduardo Villota', 'telefono' => '2303023' );
 		
 		$this->load->view('cabecera',$this->Result_);
 

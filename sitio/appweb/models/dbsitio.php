@@ -108,7 +108,7 @@ class Dbsitio extends CI_Model{
 			}		
 		
 		$result = $this->db->query($query);
-		return $result->result();
+		return $result->result_array();
 	}
 
 	/**

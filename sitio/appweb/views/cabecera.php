@@ -15,7 +15,11 @@
 </title>
   <meta name="description" content="Gestor de contenidos IanCMS">
   <meta name="description" content="<?php var_dump($query); 
-                                          print gettype($query);?>">
+                                          print '<p>&nbsp;</p>';
+                                          var_dump($datos);
+                                          print '<p>&nbsp;</p>';
+                                          print $query[0]['title'];
+                                          ?>">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="<?php print base_url();?>css/normalize.css">
   <link rel="stylesheet" href="<?php print base_url();?>css/main.css">
