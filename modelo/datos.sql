@@ -70,3 +70,11 @@ INSERT INTO `article` (`id_article`, `id_page`, `title`, `article`, `image`, `co
 
 INSERT INTO `user` (`id_usuario`, `usuario`, `pass`, `last_failure`, `failure_count`, `last_login`, `create`, `last_update`) VALUES
 (1, 'elian', 'elian', NULL, NULL, NULL, '2013-06-18 17:15:21', '2013-06-18 22:15:21');
+
+
+
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide1.jpg' WHERE `id_article`='1';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide2.jpg' WHERE `id_article`='2';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide3.jpg' WHERE `id_article`='3';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide4.jpg' WHERE `id_article`='4';
+UPDATE `liposerv_ispade`.`article` SET `article`='home' WHERE `id_article`='1';

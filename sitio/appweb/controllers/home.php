@@ -23,7 +23,7 @@ public function __construct(){
 	protected $IdPage_ = 1;
 	protected $Npage_ = 'home';
 	protected $Columns_;
-	protected $Article = 'article';
+	protected $Article_ = 'article';
 	protected $Data_; 
 
 
@@ -45,12 +45,19 @@ public function __construct(){
 		//armamos el menu, enfocando la pag actual
 		// $home // $nosotros // $noticias
 		// $servicios 	// $contactos
-		$this->Data_['menu'] = array($this->Npage_ => 'active'); 
-
+		$this->Data_['menu'] = array($this->Npage_ => 'active'); 		
+		$this->Data_['carrusel'] = $this->dbsitio->getRow($this->Article_,FALSE,'id_page = ' . $this->IdPage_ . ' AND id_article < 5');
+		//articulos del home
+		$this->Data_['article'] = $this->dbsitio->getRows($this->Article_, FALSE ,'id_article > 37 AND id_article < 42');
 		
-		
+		//llamada de vistas
 		$this->load->view('cabecera',$this->Data_);
 		$this->load->view('menu',$this->Data_);
+		$this->load->view('carrusel',$this->Data_);
+		$this->load->view('articulos_home',$this->Data_);
+		$this->load->view('pie');
+
+
 
 		
 
