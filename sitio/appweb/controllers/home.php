@@ -42,15 +42,12 @@ public function __construct(){
 											);
 		$this->Data_['query'] = $this->dbsitio->getRow($this->Table_,$this->Columns_,'id_page = ' . $this->IdPage_);
 
-		//armamos el menu, enfocando la pag act
-			// $activehome
-			// $activenosotros
-			// $activenoticias
-			// $activeservicios
-			// $activecontactos
+		//armamos el menu, enfocando la pag actual
+		// $home // $nosotros // $noticias
+		// $servicios 	// $contactos
+		$this->Data_['menu'] = array($this->Npage_ => 'active'); 
 
-		$this->Data_['menu'] = array('controlador' => 'home'); 
-
+		
 		
 		$this->load->view('cabecera',$this->Data_);
 		$this->load->view('menu',$this->Data_);
