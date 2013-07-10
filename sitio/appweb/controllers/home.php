@@ -15,9 +15,7 @@ class Home extends CI_Controller {
 * @access public
 *
 */
-public function __construct(){
-	parent::__construct();				
-}	
+
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
 	protected $IdPage_ = 1;
@@ -25,6 +23,10 @@ public function __construct(){
 	protected $Columns_;
 	protected $Article_ = 'article';
 	protected $Data_; 
+
+public function __construct(){
+	parent::__construct();				
+}	
 
 
 	/**
@@ -55,11 +57,7 @@ public function __construct(){
 		$this->load->view('menu',$this->Data_);
 		$this->load->view('carrusel',$this->Data_);
 		$this->load->view('articulos_home',$this->Data_);
-		$this->load->view('pie');
-
-
-
-		
+		$this->load->view('pie');	
 
 	}
 }

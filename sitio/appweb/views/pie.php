@@ -2,19 +2,19 @@
 <div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF1F7;">  
     <div class="row-fluid">
     <div class="span4">    
-      <a href="https://plus.google.com/100547190152722659325/posts">
+      <a href="https://plus.google.com/100547190152722659325/posts" target="_blank">
         <img src="<?php print base_url(); ?>img/sitio/google.png" alt="Google plus" width="90" hight="90">
         
     </a>
 </div><!--/span-->       
 <div class="span4">    
-  <a href="http://facebook.com/eduardo.villota">
+  <a href="http://facebook.com/eduardo.villota" target="_blank">
     <img src="<?php print base_url(); ?>img/sitio/facebook.png" alt="Facebook" width="90" hight="90">
    
 </a>
 </div><!--/span-->       
 <div class="span4">    
-  <a href="http://twitter.com/eduardouio">
+  <a href="http://twitter.com/eduardouio" target="_blank">
     <img src="<?php print base_url(); ?>img/sitio/twitter.png" alt="Twitter" width="90" hight="90">
     
 </a>

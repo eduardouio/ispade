@@ -78,3 +78,9 @@ UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide2.jpg' WHERE `i
 UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide3.jpg' WHERE `id_article`='3';
 UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/slide4.jpg' WHERE `id_article`='4';
 UPDATE `liposerv_ispade`.`article` SET `article`='home' WHERE `id_article`='1';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/manual.png' WHERE `id_article`='39';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/bienvenido.png' WHERE `id_article`='38';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/noticias.png' WHERE `id_article`='39';
+UPDATE `liposerv_ispade`.`article` SET `image`='img/portada/servicios.png' WHERE `id_article`='41';
+UPDATE `liposerv_ispade`.`article` SET `article`='servicios/' WHERE `id_article`='41';
+UPDATE `liposerv_ispade`.`article` SET `article`='nosotros/' WHERE `id_article`='38';
