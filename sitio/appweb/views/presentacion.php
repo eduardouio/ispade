@@ -1,13 +1,16 @@
         <div class="#myModal">
         </div>
-        <div class="articulo">
-         <h4> <img src="<?php print base_url(); ?>/img/sitio/forward.png" alt="img_foeard"> <?php print $titulo_articulo_p?></h4>
-         <p>
-          <img src="<?php print base_url(); ?>/img/sitio/go_first_rtl.png" >
-          <?php print $articulo_p; ?>
-        </p>
-        <a href="<?php print $link_articulo; ?>" class="btn btn-inverse " role="button" class="btn"data-toggle="modal" ><i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a>
-        <hr>
+        <!-- Articulos de la página -->
+        <?php
+          foreach ($lista as $articulo) {
+            print('<div class="articulo">');
+            print('<h4> <img src="' . base_url() . 'img/sitio/title.png" alt="title">' . $articulo['title'] .'</h4>');
+            print('<p><img src="' . base_url() .'/img/sitio/content.png" >' . $articulo['content'] . '<p>');
+            print('<a href="'. base_url() . 'index.php/articulos_ajax/articulo/' . $articulo['article'].'" 
+              class="btn btn-inverse " role="button" data-toggle="modal" >
+              <i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a><hr></div>');
+          }
+        ?>        
       </div>        
     </div> <!-- ./Articulos de la página-->  
   </div>

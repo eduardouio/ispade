@@ -21,19 +21,45 @@ class Articulos_ajax extends CI_Controller {
 	/**
 	* genera la pagina completa, unico metodo de la clase
 	*/
-	public function index()
+	public function articulo()
 	{	
-		//recuperamos la infromacion de la pantalla home
+		$article = $this->uri->segment(3,'articulo_borrado');
 
-		$columnas = array('id_article','article','image','content');		
-	 	$articulo = $this->dbsitio->getRows('article',$columnas,'id_page = 1');
-	 	//var_dump($articulo);
-	 	$data = array('nombre' => 'Eduardo Villota' );
-  		$string = $this->load->view('modal','',TRUE);
-  		print $string;
-        //$this->load->view('paginacion');
- 
-//
+		$columnas = array('title','article','image','content','counter','create_date');
+
+	 	$articulo['modal'] = $this->dbsitio->getRow('article',$columnas,'article = \'' . $article . '\'');
+	 	
+
+
+	 	if (empty($articulo['modal'])){
+	 		
+	 		$datos['0'] = array('title'=>'Artículo No encontrado!',
+	 								   'article' => 'El artículo que busca no existe!.',
+	 								   'image' => 'img/sitio/delete.png',
+	 								   'content' => 'El artículo que busca no existe!.',
+	 								   'counter'=>rand(123,9876),
+	 								   'create_date' => '1987-07-01 12:00:00');
+			$articulo['modal'] = $datos;	 		
+	 	}
+	 		$string = $this->load->view('modal',$articulo,TRUE);
+
+
+  		$this->rating($article,$articulo);
+  		print $string; 
+
+	}
+
+	/**
+	* Suma un punto a cada articulo leido
+	*
+	*/
+	private function rating($article,$articulo){
+		$exepciones = array('bienvenidos','nosotros','servicios','contactos','articulo_borrado');
+		$data = array('counter' =>  'valor');
+
+		var_dump($articulo['modal']['counter']);
+		//$this->dbsitio->updateRow('article');
+
 
 	}
 }

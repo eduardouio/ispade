@@ -9,8 +9,15 @@
       <div class="span3">
         <div class="well sidebar-nav">
           <ul class="nav nav-list">
-            <li class="active"><a href="#"><i class="icon-plus"></i> Lo más visto...</a></li>
-            <li><a href="<?php print $url_article_mas_leido; ?>"><i class="icon-play"></i><?php $tiulo_mas_leido; ?></a></li>          
+            <li class="active"><a href=""><i class="icon-plus"></i> Lo más visto...</a></li>
+            <?php
+                foreach ($lateral as $article) {
+                  print ('<li>
+                          <a href="'.base_url().'index.php/articulos_ajax/articulo/'. $article['article'] .'" role="button" data-toggle="modal">
+                          <i class="icon-play"></i> '. $article['title'] . ' </a>
+                        </li>');
+                }
+            ?>
           </ul>
         </div>                
       </div>  

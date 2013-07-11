@@ -1,15 +1,19 @@
 <!-- Modal -->
   <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-    <h3 id="myModalLabel"><img src="<?php print base_url(); ?>img/forward.png" alt="forward"> &nbsp;<?php $titulo_articulo; ?></h3>
+    <button type="button" class="btn btn-danger" data-dismiss="modal" aria-hidden="true"style ="float:right;">X</button>
+    <h3 id="myModalLabel"><img src="<?php print base_url(); ?>img/sitio/title.png" alt="forward"> &nbsp;<?php print $modal[0]['title']; ?></h3>
   </div>
   <div class="modal-body">
     <p>
-      <img align="left" src="<?php print $imagen ?>" alt="<?php print $alt_imagen; ?>">
-      <?php print $articulo;?>
+      <img align="left" src="<?php print base_url() . $modal[0]['image']; ?>" alt="<?php print base_url() . $modal[0]['image']; ?>">
+      <?php print $modal[0]['content'];?>
     </p>
   </div>
   <div class="modal-footer">
-    <button class="btn btn-success" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+    <small style ="float:left;"> 
+      <div class="badge badge-info"> Visto <?php print $modal[0]['counter']?> veces </div>
+      <div class="badge badge-info">Publicado <?php print $modal[0]['create_date']; ?> <br/> </div>   
+    </small>
+    <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true"><i class="icon-off icon-white"></i>&nbsp;Cerrar</button>
 
 </div> <!-- ./ Modal --> 

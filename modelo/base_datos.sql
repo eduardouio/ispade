@@ -129,16 +129,30 @@
 CREATE VIEW v_ratings
 AS
 SELECT 
-id_article, title, counter 
-FROM article 
-ORDER BY counter 
-DESC LIMIT 10;
+ar.id_article, 
+ar.id_page, 
+pa.controller, 
+ar.article,
+ar.title,
+ar.counter 
+FROM (article AS ar)
+LEFT JOIN  page AS pa ON (ar.id_page = pa.id_page)
+ORDER BY counter DESC;
 
 -- -----------------------------------------------------
---  Vistas que muestra el listado de noticias general
+--  VistAS que muestra el listado de noticiAS general
 -- -----------------------------------------------------
 CREATE VIEW v_tablon
 as
 SELECT 
-id_article, id_page, article, title, CONCAT(LEFT(content,240),'...') AS content, counter, create_date 
-FROM liposerv_ispade.article;
+a.id_article, 
+a.id_page, 
+p.controller, 
+a.article, 
+a.title, 
+CONCAT(LEFT(a.content,240),'...') AS content, 
+a.counter,a.create_date 
+FROM article as a
+LEFT JOIN page as p
+ON (a.id_page = p.id_page)
+ORDER BY a.create_date DESC;
