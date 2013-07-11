@@ -42,10 +42,8 @@ class Articulos_ajax extends CI_Controller {
 			$articulo['modal'] = $datos;	 		
 	 	}
 	 		$string = $this->load->view('modal',$articulo,TRUE);
-
-
-  		$this->rating($article,$articulo);
-  		print $string; 
+  			$this->rating($article,$articulo);
+  			print $string; 
 
 	}
 
@@ -54,11 +52,23 @@ class Articulos_ajax extends CI_Controller {
 	*
 	*/
 	private function rating($article,$articulo){
-		$exepciones = array('bienvenidos','nosotros','servicios','contactos','articulo_borrado');
-		$data = array('counter' =>  'valor');
+		$exepciones = array('bienvenidos','nosotros','servicios','mision','contactos','articulo_borrado','home');
+		//verifica que el articulo no sea una exepcion
+		$bandera = FALSE;
+		foreach ($exepciones as $key) {
+			if ($article == $key){
+				$bandera=TRUE;
+			}
+		}
 
-		var_dump($articulo['modal']['counter']);
-		//$this->dbsitio->updateRow('article');
+		if (!$bandera){
+			$anterior = $articulo['modal'][0]['counter'];
+			$condicion = $articulo['modal'][0]['article'];
+			$rating = (int)$anterior;
+			$rating++;
+			$data = array('counter' =>  $rating);
+			$this->dbsitio->updateRow('article',$data,'article = \'' . $condicion . '\'');
+		}
 
 
 	}

@@ -50,7 +50,7 @@ class Nosotros extends CI_Controller {
 		//litado para el menú laterl de links
 		$this->Data_['lateral'] = $this->dbsitio->getRows($this->V_articles_,FALSE,False,
 															FALSE,FALSE,FALSE,FALSE,10);
-		$this->dbsitio->lastQuery();
+		
 		//listado de articulos pagina
 		$this->Data_['lista'] = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page = ' . $this->IdPage_,FALSE,FALSE,FALSE,FALSE,10);
 
@@ -59,7 +59,6 @@ class Nosotros extends CI_Controller {
 		$this->load->view('menu',$this->Data_);
 		$this->load->view('menu_lateral',$this->Data_);
 		$this->load->view('presentacion',$this->Data_);
-		$this->load->view('paginacion');
 		$this->load->view('pie');
 	}
 
