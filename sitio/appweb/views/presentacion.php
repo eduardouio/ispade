@@ -6,7 +6,7 @@
             print('<div class="articulo">');
             print('<h4> <img src="' . base_url() . 'img/sitio/title.png" alt="title">' . $articulo['title'] .'</h4>');
             print('<p><img src="' . base_url() .'/img/sitio/content.png" >' . $articulo['content'] . '<p>');
-            print('<a href="'. base_url() . 'index.php/articulos_ajax/articulo/' . $articulo['article'].'" 
+            print('<a href="'. base_url() . 'index.php/articulos_ajax/articulo/' . $articulo['id_article'].'" 
               class="btn btn-inverse " role="button" data-toggle="modal" >
               <i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a><hr></div>');
           }

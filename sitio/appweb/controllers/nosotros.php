@@ -19,6 +19,7 @@ class Nosotros extends CI_Controller {
 
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
+	protected $limit = '3';
 	protected $IdPage_ = 2;
 	protected $Npage_ = 'nosotros';
 	protected $Columns_;
@@ -59,7 +60,26 @@ class Nosotros extends CI_Controller {
 		$this->load->view('menu',$this->Data_);
 		$this->load->view('menu_lateral',$this->Data_);
 		$this->load->view('presentacion',$this->Data_);
+		$this->config_p();
 		$this->load->view('pie');
+	}
+
+
+	private function config_p(){
+
+		$num_rows = $this->dbsitio->getRow('article',false,'id_page = ' . $this->id_page);
+		var_dump($num_rows);
+
+		$config['base_url'] = base_url() . 'index.php/nosotros/index';
+		$config['total_rows'] = $this->dbsitio->countRows('article');
+		$config['per_page'] = '5';
+		$config['first_link'] = 'Inicio';
+		$config['last_link'] = 'Último';
+		
+		$this->pagination->initialize($config);
+		print $this->pagination->create_links();
+
+		
 	}
 
 }

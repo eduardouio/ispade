@@ -13,7 +13,7 @@
             <?php
                 foreach ($lateral as $article) {
                   print ('<li>
-                          <a href="'.base_url().'index.php/articulos_ajax/articulo/'. $article['article'] .'" role="button" data-toggle="modal">
+                          <a href="'.base_url().'index.php/articulos_ajax/articulo/'. $article['id_article'] .'" role="button" data-toggle="modal">
                           <i class="icon-play"></i> '. $article['title'] . ' </a>
                         </li>');
                 }

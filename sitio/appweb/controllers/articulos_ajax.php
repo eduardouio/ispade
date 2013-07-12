@@ -23,11 +23,11 @@ class Articulos_ajax extends CI_Controller {
 	*/
 	public function articulo()
 	{	
-		$article = $this->uri->segment(3,'articulo_borrado');
+		$article = $this->uri->segment(3,'42');
 
 		$columnas = array('title','article','image','content','counter','create_date');
 
-	 	$articulo['modal'] = $this->dbsitio->getRow('article',$columnas,'article = \'' . $article . '\'');
+	 	$articulo['modal'] = $this->dbsitio->getRow('article',$columnas,'id_article = \'' . $article . '\'');
 	 	
 
 
@@ -68,8 +68,7 @@ class Articulos_ajax extends CI_Controller {
 			$rating++;
 			$data = array('counter' =>  $rating);
 			$this->dbsitio->updateRow('article',$data,'article = \'' . $condicion . '\'');
-		}
-
-
+		}	
 	}
+
 }
