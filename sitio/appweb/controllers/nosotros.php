@@ -67,9 +67,7 @@ class Nosotros extends CI_Controller {
 
 	private function config_p(){
 
-		$num_rows = $this->dbsitio->getRow('article',false,'id_page = ' . $this->id_page);
-		var_dump($num_rows);
-
+		$num_rows = $this->dbsitio->getRow('article',false,'id_page = ' . $this->IdPage_);
 		$config['base_url'] = base_url() . 'index.php/nosotros/index';
 		$config['total_rows'] = $this->dbsitio->countRows('article');
 		$config['per_page'] = '5';

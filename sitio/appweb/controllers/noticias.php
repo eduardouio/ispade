@@ -43,7 +43,6 @@ class Noticias extends CI_Controller {
 											'keywords'
 											);
 
-		$this->Limit_ = ($this->uri->segment(3) == 0)?0:$this->uri->segment(3);		
 
 		$this->Data_['query'] = $this->dbsitio->getRow($this->Table_, $this->Columns_ ,'id_page = ' . $this->IdPage_);
 
@@ -56,6 +55,7 @@ class Noticias extends CI_Controller {
 															FALSE,FALSE,FALSE,FALSE,10);
 		$this->dbsitio->lastQuery();
 		//listado de articulos pagina
+		$this->Limit_ = ($this->uri->segment(3) == 0)?0:$this->uri->segment(3);		
 		$this->Data_['lista'] = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page = ' . $this->IdPage_,FALSE,FALSE,FALSE,FALSE,$this->Limit_,$this->Offset_);
 
 		//$this->Data_['query'] = $this->dbsitio->getRows($this->Table_, $this->Columns_ ,'id_page = ' . $this->IdPage_,
