@@ -37,7 +37,7 @@ public function __construct(){
 	{	
 
 			//recuperamos la infromacion de la cabecera
-		$this->Columns_ = $arrayName = array(
+		$this->Columns_ =  array(
 											'id_page',
 											'title',
 											'controller',
