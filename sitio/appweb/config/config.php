@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://192.168.0.4/ispade/sitio/';
+$config['base_url']	= 'http://127.0.01/ispade/sitio/';
 
 /*
 |--------------------------------------------------------------------------
