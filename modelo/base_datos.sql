@@ -95,7 +95,6 @@
     `id_article` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,    
     `id_page` SMALLINT UNSIGNED NOT NULL,    
     `title` VARCHAR(500) NOT NULL,
-    `article` VARCHAR(300) NOT NULL COMMENT 'Se acorta el título de la página para controlar que no se repita, se almacena solo el nombre del articulo sin caracteres especiales separando las palabras por guines bajos , este nombre es el mismo de la imágen',
     `image` VARCHAR(300) NOT NULL  COMMENT 'ruta absoluta de la imagen, tomada del nombre del articulo',      
     `content` MEDIUMTEXT NOT NULL,
     `counter` SMALLINT UNSIGNED NOT NULL,
