@@ -131,7 +131,6 @@ SELECT
 ar.id_article, 
 ar.id_page, 
 pa.controller, 
-ar.article,
 ar.title,
 ar.counter 
 FROM (article AS ar)
@@ -147,7 +146,6 @@ SELECT
 a.id_article, 
 a.id_page, 
 p.controller, 
-a.article, 
 a.title, 
 CONCAT(LEFT(a.content,240),'...') AS content, 
 a.counter,a.create_date 
