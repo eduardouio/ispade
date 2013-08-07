@@ -238,3 +238,7 @@ El modelo es el que se encaraga de administrar los datos de la base de datos, es
 El controlador es el encargado de hacer funcionar el sitio y se los va a dividir en uno por cada pagina del sitio, la funcionalidad que se repita en los controladores será cargada en un controlador global a manera de funciones a las que las clases tienen acceso.
 
 .. pendiente la creacion de las clases de lo controadores
+
+
+Eliminar article de la tabla article y por ende eliminarlo de las vistas
+
