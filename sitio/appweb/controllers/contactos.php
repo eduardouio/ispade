@@ -54,11 +54,11 @@ public function __construct(){
 
 		
 		//cargamos las vistas
-		$this->load->view('cabecera',$this->Data_);
+		$this->load->view('header',$this->Data_);
 		$this->load->view('menu',$this->Data_);
-		$this->load->view('menu_lateral',$this->Data_);
-		$this->load->view('formulario');
-		$this->load->view('pie');
+		$this->load->view('lateral_menu',$this->Data_);
+		$this->load->view('form');
+		$this->load->view('foot');
 
 	}
 

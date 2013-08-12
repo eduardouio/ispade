@@ -15,7 +15,6 @@ class Home extends CI_Controller {
 * @access public
 *
 */
-
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
 	protected $IdPage_ = 1;
@@ -27,7 +26,6 @@ class Home extends CI_Controller {
 public function __construct(){
 	parent::__construct();				
 }	
-
 
 	/**
 	* genera la pagina completa, unico metodo de la clase
@@ -53,11 +51,10 @@ public function __construct(){
 		$this->Data_['article'] = $this->dbsitio->getRows($this->Article_, FALSE ,'id_article > 37 AND id_article < 42');
 		
 		//llamada de vistas
-		$this->load->view('cabecera',$this->Data_);
+		$this->load->view('header',$this->Data_);
 		$this->load->view('menu',$this->Data_);
 		$this->load->view('carrusel',$this->Data_);
-		$this->load->view('articulos_home',$this->Data_);
-		$this->load->view('pie');	
-
+		$this->load->view('articles_home',$this->Data_);
+		$this->load->view('foot');	
 	}
 }
