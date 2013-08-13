@@ -24,6 +24,7 @@ class Dbsitio extends CI_Model{
 	*/
 	public function __construct(){
 		parent::__construct();		
+		$this->load->view('header');
 	}
 
 	/**
@@ -54,8 +55,8 @@ class Dbsitio extends CI_Model{
 	* @return obj $Result_ matriz de objetos
 	*/
 	public function getRows($table, $columns = FALSE, $condition = FALSE, $and_or = FALSE , 
-							$like = FALSE, $groupby = FALSE, $orderby = FALSE , 
-							$limit = FALSE, $offset = FALSE){
+		$like = FALSE, $groupby = FALSE, $orderby = FALSE , 
+		$limit = FALSE, $offset = FALSE){
 		#Se analiza los parametros antes de armar la consulta
 
 		$result;
@@ -91,23 +92,23 @@ class Dbsitio extends CI_Model{
 		}
 
 		#parametros de agrupamiento, orden y limites
-			if($groupby){
-				$query = $query . ' GROUP BY ' . $groupby;
-			}
+		if($groupby){
+			$query = $query . ' GROUP BY ' . $groupby;
+		}
 
-			if($orderby){
-				$query = $query . ' ORDER BY ' . $orderby;
-			}
+		if($orderby){
+			$query = $query . ' ORDER BY ' . $orderby;
+		}
 
-			if($limit){
-				$query = $query . ' LIMIT ' . $limit;	
-			}
+		if($limit){
+			$query = $query . ' LIMIT ' . $limit;	
+		}
 
-			if($offset){
-				$query = $query . ' ,'. $offset . ';';
-			}else{
-				$query = $query . ';';
-			}		
+		if($offset){
+			$query = $query . ' ,'. $offset . ';';
+		}else{
+			$query = $query . ';';
+		}		
 		
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -137,8 +138,8 @@ class Dbsitio extends CI_Model{
 		}
 
 		if($condition){
-				$query = $query . ' WHERE ' . $condition . ' ';
-			}
+			$query = $query . ' WHERE ' . $condition . ' ';
+		}
 
 		$result = $this->db->query($query);
 		

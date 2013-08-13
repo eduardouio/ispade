@@ -14,9 +14,9 @@
  * @param	mixed
  * @return	string
  */
-if ( ! function_exists('h_render'))
+if ( ! function_exists('page_render'))
 {
-	function h_render($catalog)
+	function page_render($catalogo)
 	/**
 	* Se encrarga de recibir la informacion y genera la pantalla de salia
 	* Todos los valores se guardan en una variable de clase $Pagina_	
@@ -37,7 +37,7 @@ if ( ! function_exists('h_render'))
 		}
 
 		$Pagina_ = $Pagina_ . $this->load->view('v_fpie','',true);
-		print $Pagina_;
+		return $Pagina_;
 
 	}
 }

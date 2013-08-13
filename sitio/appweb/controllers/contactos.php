@@ -17,17 +17,18 @@ class Contactos extends CI_Controller {
 */
 
 	 // variables para la identificacion de la pagina y sus articulos
-	protected $Table_ = 'page';
-	protected $IdPage_ = 2;
-	protected $Npage_ = 'nosotros';
-	protected $Columns_;
-	protected $Article_ = 'article';
-	protected $V_articles_ = 'v_ratings';
-	protected $V_lista_ = 'v_tablon';
-	protected $Data_; 
+protected $Table_ = 'page';
+protected $IdPage_ = '5';
+protected $Title_ = 'Contáctos';
+protected $Npage_ = 'contactos';
+protected $Columns_;
+protected $Data_; 
+protected $Page_;
 
 public function __construct(){
-	parent::__construct();				
+	parent::__construct();	
+	$this->load->model('html');
+	
 }	
 
 	/**
@@ -35,33 +36,34 @@ public function __construct(){
 	*/
 	public function index()
 	{	
-
-			//recuperamos la infromacion de la cabecera
-		$this->Columns_ =  array(
-											'id_page',
-											'title',
-											'controller',
-											'keywords'
-											);
-		$this->Data_['query'] = $this->dbsitio->getRow($this->Table_,$this->Columns_,'id_page = ' . $this->IdPage_);
-
-		//armamos el menu, enfocando la pag actual
-		// $home // $nosotros // $noticias
-		// $servicios 	// $contactos
-		$this->Data_['menu'] = array($this->Npage_ => 'active'); 		
-		$this->Data_['lateral'] = $this->dbsitio->getRows($this->V_articles_,FALSE,False,
-															FALSE,FALSE,FALSE,FALSE,10);
-
-		
-		//cargamos las vistas
-		$this->load->view('header',$this->Data_);
-		$this->load->view('menu',$this->Data_);
-		$this->load->view('lateral_menu',$this->Data_);
-		$this->load->view('form');
-		$this->load->view('foot');
-
+		$this->contents();
+				
 	}
 
+	/**
+	* Método que genera las vistas
+	*/
+	private function contents(){
+		#columnas para la consulta
+		$this->Columns_ =  array(
+			'id_page',
+			'title',
+			'controller',
+			'keywords'
+			);
+		
+		$keywords = $this->dbsitio->getRows($this->Table_);
+		var_dump($keywords);
 
+		#vistas iniciales
+		$this->Page_  = array(
+								'header' => array('title' => $this->Title_,
+												  'keywords'=> $keywords),
+								'menu' => array($this->Npage_ => 'active')
+			);
+
+		print $this->html->page_render($this->Page_);
+	}
+ 
 }
 
