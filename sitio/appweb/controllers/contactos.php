@@ -20,30 +20,20 @@ class Contactos extends CI_Controller {
 protected $Table_ = 'page';
 protected $IdPage_ = '5';
 protected $Title_ = 'Contáctos';
-protected $Npage_ = 'contactos';
 protected $Columns_;
 protected $Data_; 
 protected $Page_;
 
 public function __construct(){
 	parent::__construct();	
-	$this->load->model('html');
-	
+http://127.0.01/ispade/sitio/index.php/contactos
 }	
 
 	/**
-	* genera la pagina completa, unico metodo de la clase
+	* genera la pagina completa, la página esta compuesta por varios elementos
 	*/
 	public function index()
 	{	
-		$this->contents();
-				
-	}
-
-	/**
-	* Método que genera las vistas
-	*/
-	private function contents(){
 		#columnas para la consulta
 		$this->Columns_ =  array(
 			'id_page',
@@ -51,19 +41,29 @@ public function __construct(){
 			'controller',
 			'keywords'
 			);
-		
-		$keywords = $this->dbsitio->getRows($this->Table_);
-		var_dump($keywords);
 
-		#vistas iniciales
-		$this->Page_  = array(
-								'header' => array('title' => $this->Title_,
-												  'keywords'=> $keywords),
-								'menu' => array($this->Npage_ => 'active')
-			);
-
-		print $this->html->page_render($this->Page_);
+		$content = $this->dbsitio->getRows('page');
+		print 'hola';
+				
 	}
- 
+
+	/**
+	* Método que genera las vistas
+*	
+*	private function _contents(){
+*		#columnas para la consulta
+*		$keywords = $this->dbsitio->getRows($this->Table_);
+*		var_dump($keywords);
+*
+*		#vistas iniciales
+*		$this->Page_  = array(
+*								'header' => array('title' => $this->Title_,
+*												  'keywords'=> $keywords),
+*								'menu' => array($this->Npage_ => 'active')
+*			);
+*
+*		print $this->html->page_render($this->Page_);
+*	}
+ */
 }
 
