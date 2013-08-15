@@ -26,7 +26,6 @@ protected $Page_;
 
 public function __construct(){
 	parent::__construct();	
-http://127.0.01/ispade/sitio/index.php/contactos
 }	
 
 	/**
@@ -42,7 +41,7 @@ http://127.0.01/ispade/sitio/index.php/contactos
 			'keywords'
 			);
 
-		$content = $this->dbsitio->getRows('page');
+		//$content = $this->dbsitio->getRows('page');
 		print 'hola';
 				
 	}

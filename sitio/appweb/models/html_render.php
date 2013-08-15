@@ -14,7 +14,7 @@
 *
 */
 
-class Html extends CI_Model{
+class Html_render extends CI_Model{
 
 	/**
 	* Iniciamos el contructor del modelo para que sea aceptado por codeigniter
