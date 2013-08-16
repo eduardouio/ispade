@@ -20,7 +20,6 @@ class Contactos extends CI_Controller {
 protected $Table_ = 'page';
 protected $IdPage_ = '5';
 protected $Npage_ = 'contactos';
-protected $Title_ = 'Contáctos';
 protected $V_articles_ ='v_ratings';
 protected $To_ ='eduardouio7@gmail.com';
 protected $Columns_;

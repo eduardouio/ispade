@@ -15,70 +15,50 @@ class Nosotros extends CI_Controller {
 * @access public
 *
 */
-
-
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
-	protected $limit = '3';
-	protected $IdPage_ = 2;
+	protected $IdPage_ = '2';
 	protected $Npage_ = 'nosotros';
-	protected $Columns_;
-	protected $Article_ = 'article';
-	protected $V_articles_ = 'v_ratings';
+	protected $V_articles_ ='v_ratings';
 	protected $V_lista_ = 'v_tablon';
+	protected $Limit_;
+	protected $Offset_ = 5;
+	protected $Columns_;
 	protected $Data_; 
 
 	public function __construct(){
 		parent::__construct();				
-		$this->load->library('pagination');
 	}	
 
-	//listamos los articulos de esta pagina
 	public function index(){
+		$this->listar();
+	}
+
+	//listamos los articulos de esta pagina
+	public function listar(){
 		$this->Columns_ = $arrayName = array(
-											'id_page',
-											'title',
-											'controller',
-											'keywords'
-											);
-
-		$this->Data_['query'] = $this->dbsitio->getRow($this->Table_, $this->Columns_ ,'id_page = ' . $this->IdPage_);
-
-		//armamos el menu, enfocando la pag actual
-		// $home // $nosotros // $noticias
-		// $servicios 	// $contactos
+			'id_page',
+			'title',
+			'controller',
+			'keywords'
+			);
+		$this->Data_['header'] = $this->dbsitio->getRow($this->Table_, $this->Columns_ ,'id_page = ' . $this->IdPage_);
 		$this->Data_['menu'] = array($this->Npage_ => 'active');
-		//litado para el menú laterl de links
-		$this->Data_['lateral'] = $this->dbsitio->getRows($this->V_articles_,FALSE,False,
-															FALSE,FALSE,FALSE,FALSE,10);
+		$this->Data_['lateral_menu'] = $this->dbsitio->getRows($this->V_articles_,FALSE,'id_page = ' . $this->IdPage_,
+			FALSE,FALSE,FALSE,FALSE,10);
+		#listamos los contenidos de la página		
+		$this->Limit_ = ($this->uri->segment(3) == 0)?0:$this->uri->segment(3);		
 		
-		//listado de articulos pagina
-		$this->Data_['lista'] = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page = ' . $this->IdPage_,FALSE,FALSE,FALSE,FALSE,10);
-
-		//cargamos las vistas
-		$this->load->view('cabecera',$this->Data_);
-		$this->load->view('menu',$this->Data_);
-		$this->load->view('menu_lateral',$this->Data_);
-		$this->load->view('presentacion',$this->Data_);
-		$this->config_p();
-		$this->load->view('pie');
+		$this->Data_['presentation'] = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page = ' . $this->IdPage_,FALSE,FALSE,FALSE,FALSE,$this->Limit_,$this->Offset_);
+		$this->_pagination();
+		$this->html_render->page_render($this->Data_);
 	}
 
-
-	private function config_p(){
-
-		$num_rows = $this->dbsitio->getRow('article',false,'id_page = ' . $this->IdPage_);
-		$config['base_url'] = base_url() . 'index.php/nosotros/index';
-		$config['total_rows'] = $this->dbsitio->countRows('article');
-		$config['per_page'] = '5';
-		$config['first_link'] = 'Inicio';
-		$config['last_link'] = 'Último';
-		
-		$this->pagination->initialize($config);
-		print $this->pagination->create_links();
-
-		
+	/**
+	* Configura los detalles de la páginacion
+	*/
+	private function _pagination(){
+				$this->html_render->mePagination($this->Npage_,$this->V_lista_,
+												$this->IdPage_,$this->Limit_,$this->Offset_);
 	}
-
 }
-
