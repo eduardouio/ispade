@@ -1,30 +1,30 @@
-        <div style="float:right;width: 50%;height50%"> <img src="<?php print base_url();?>img/sitio/buzon.jpg"></div>
+        <div style="float:right;width: 50%;height50%"> <img src="<?php print base_url();?>img/sitio/buzon.png"></div>
         <form method="post" id="formulario" action="<?php print base_url();?>index.php/contactos/">
           <fieldset>
             <div class="control-group">
               <div class="controls">
                 <label class="control-label">Nombres:</label> 
-                <input class="input-xlarge focused" required="required" placeholder="Nombres" id="nombres" name="nombres" value="" type="text">                   
+                <input class="input-xlarge focused" required="required" placeholder="Nombres" id="nombres" name="nombres" value="<?php print set_value('nombres')?>" type="text">                   
               </div>      
               <div class="controls">
                 <label class="control-label">E-mail:</label>
-                <input placeholder="Email" required="required" id="email" name="email" value="" type="text">
+                <input placeholder="Email" required="required" id="email" name="email" value="<?php print set_value('email')?>" type="text">
               </div>      
               <div class="controls">
                 <label class="control-label">Empresa:</label>            
-                <input class="input-medium" placeholder="Empresa" required="required" id="empresa" name="empresa" value="" type="text">
+                <input class="input-medium" placeholder="Empresa" required="required" id="empresa" name="empresa" value="<?php print set_value('empresa')?>" type="text">
               </div>            
               <div class="controls">
                 <label class="control-label">Telefono:</label>
-                <input class="input-medium" required="required" placeholder="Teléfono" id="telefono" name="telefono" value="" type="text">
+                <input class="input-medium" required="required" placeholder="Teléfono" id="telefono" name="telefono" value="<?php print set_value('telefono')?>" type="text">
               </div>      
               <div class="controls">
                 <label class="control-label">Asunto:</label>
-                <input class="input-xlarge" required="required" placeholder="Asunto Mensaje" id="asunto" name="asunto" value="" type="text">
+                <input class="input-xlarge" required="required" placeholder="Asunto Mensaje" id="asunto" name="asunto" value="<?php print set_value('asunto')?>" type="text">
               </div>      
               <div class="controls">
                 <label class="control-label">Descripción:</label>            
-                <textarea class="input-xlarge" required="required" placeholder="Sus Comentarios Son Importantes" id="texto_asunto" name="texto_asunto" rows="4" columns="60"></textarea>
+                <textarea class="input-xlarge" required="required" placeholder="Sus Comentarios Son Importantes" id="texto_asunto" name="texto_asunto" rows="4" columns="60"><?php print set_value('texto_asunto'); ?></textarea>
               </div>
               <div class="controls">
                 <div class="form-actions">
