@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Servicios extends CI_Controller {
-	
+
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
 	protected $IdPage_ = '4';
@@ -46,27 +46,8 @@ class Servicios extends CI_Controller {
 	* Configura los detalles de la páginacion
 	*/
 	private function _pagination(){
-				$config['base_url'] = site_url('/servicios/listar');
-				$config['total_rows'] = $this->dbsitio->countRowsWhere($this->V_lista_,$this->IdPage_);	
-				$config['display_pages'] = $this->Limit_;
-				$config['per_page'] = $this->Offset_;
-				$config['num_links'] = 5;
-				$config['uri_segment'] = 3;
-				$config['first_link'] = 'Primero';
-				$config['last_link'] = 'Último';
-				$config['prev_link'] = 'Ant.';
-				$config['next_link'] = 'Sig.';
-				$config['full_tag_open'] = ' <div class="pagination pull-right"><ul>';
-				$config['full_tag_close'] = '</ul></div>';
-				$config['last_tag_open'] = '<li>';
-				$config['last_tag_close'] = '</li>';
-				$config['next_tag_open'] = '<li>';
-				$config['next_tag_close'] = '</li>';
-				$config['num_tag_open'] = '<li>';
-				$config['num_tag_close'] = '</li>';
-				$config['cur_tag_open'] = '<li><a>';
-				$config['cur_tag_close'] = '</a></li>';		
-				$this->pagination->initialize($config);			
+				$this->html_render->mePagination($this->Npage_,$this->V_lista_,
+												$this->IdPage_,$this->Limit_,$this->Offset_);
 	}
 
 }
