@@ -19,50 +19,45 @@ class Contactos extends CI_Controller {
 	 // variables para la identificacion de la pagina y sus articulos
 protected $Table_ = 'page';
 protected $IdPage_ = '5';
+protected $Npage_ = 'contactos';
 protected $Title_ = 'Contáctos';
+protected $V_articles_ ='v_ratings';
 protected $Columns_;
 protected $Data_; 
 protected $Page_;
 
 public function __construct(){
-	parent::__construct();	
+	parent::__construct();
+	$this->load->model('html_render');
 }	
 
 	/**
 	* genera la pagina completa, la página esta compuesta por varios elementos
 	*/
 	public function index()
-	{	
+	{
+		if(!$_POST){
 		#columnas para la consulta
-		$this->Columns_ =  array(
-			'id_page',
-			'title',
-			'controller',
-			'keywords'
-			);
+			$this->Columns_ =  array(
+				'id_page',
+				'title',
+				'controller',
+				'keywords'
+				);
+			#recuperamos la información de la vista
+			$this->Data_['header'] = $this->dbsitio->getRows($this->Table_,$this->Columns_,
+				'id_page = ' . $this->IdPage_);
+			#cargamos el menú
+			$this->Data_['menu'] = array($this->Npage_ => 'active');
+			#cargamos la barra laterál del menu
+			$this->Data_['lateral_menu'] = $this->dbsitio->getRows($this->V_articles_,FALSE,False,
+				FALSE,FALSE,FALSE,FALSE,10);
+			#Cargamos el formulario	
+			$this->Data_['form'] = array('form'=>'form');
+			$this->html_render->page_render($this->Data_);	
 
-		//$content = $this->dbsitio->getRows('page');
-		print 'hola';
-				
+		}else{
+			print "recibo algo por post";
+		}
 	}
-
-	/**
-	* Método que genera las vistas
-*	
-*	private function _contents(){
-*		#columnas para la consulta
-*		$keywords = $this->dbsitio->getRows($this->Table_);
-*		var_dump($keywords);
-*
-*		#vistas iniciales
-*		$this->Page_  = array(
-*								'header' => array('title' => $this->Title_,
-*												  'keywords'=> $keywords),
-*								'menu' => array($this->Npage_ => 'active')
-*			);
-*
-*		print $this->html->page_render($this->Page_);
-*	}
- */
 }
-

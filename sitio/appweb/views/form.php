@@ -1,5 +1,5 @@
         <div style="float:right;width: 50%;height50%"> <img src="<?php print base_url();?>img/sitio/buzon.jpg"></div>
-        <form method="post" id="formulario" action="<?php print base_url();?>index.php/contactos/recibir/">
+        <form method="post" id="formulario" action="<?php print base_url();?>index.php/contactos/">
           <fieldset>
             <div class="control-group">
               <div class="controls">

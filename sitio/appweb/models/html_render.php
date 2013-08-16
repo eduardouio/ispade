@@ -16,13 +16,14 @@
 
 class Html_render extends CI_Model{
 
+	protected $Vistas_;
 	/**
 	* Iniciamos el contructor del modelo para que sea aceptado por codeigniter
 	* Se craga la libreria pafa manejo de base de datos
 	*/
 	public function __construct(){
 		parent::__construct();		
-		}
+	}
 
 	/**
 	* Se encrarga de recibir la informacion y genera la pantalla de salia
@@ -32,20 +33,16 @@ class Html_render extends CI_Model{
 	* @param array $catalogo array con las plantillas necesarias y su informacion
 	*	
 	*/
-	public function page_render($catalogo){	
-		$vistas;
-		$Pagina_;
+	public function page_render($catalogo){			
+		#separamos los nombre de las vistas
 		foreach ($catalogo as $arreglos => $nombres) {								
-			$vistas[] =  $arreglos;				
+			$this->Vistas_[] =  $arreglos;				
 		}
-
-		foreach ($vistas as $nombre) {
-			$Pagina_ = $Pagina_ . $this->load->view($nombre,$catalogo[$nombre],true);
+		#cargamos las vistas con sus datos
+		foreach ($this->Vistas_ as $nombre_vista) {			
+			$this->load->view($nombre_vista,$catalogo,false);
 		}
-
-		$Pagina_ = $Pagina_ . $this->load->view('foot','',true);
-		
-		return $Pagina_;
-
+		#cargamos el pie de página
+		$this->load->view('foot','',false);			
 	}
 }

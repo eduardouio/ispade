@@ -11,7 +11,7 @@
           <ul class="nav nav-list">
             <li class="active"><a href=""><i class="icon-plus"></i> Lo más visto...</a></li>
             <?php
-                foreach ($lateral as $article) {
+                foreach ($lateral_menu as $article) {
                   print ('<li>
                           <a href="'.base_url().'index.php/articulos_ajax/articulo/'. $article['id_article'] .'" role="button" data-toggle="modal">
                           <i class="icon-play"></i> '. $article['title'] . ' </a>
