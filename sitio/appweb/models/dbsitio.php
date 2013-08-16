@@ -102,7 +102,7 @@ class Dbsitio extends CI_Model{
 
 		if($limit){
 			$query = $query . ' LIMIT ' . $limit;	
-			}elseif($limit==0){
+			}elseif($limit==0 and $offset > 0){
 				$query = $query . ' LIMIT ' . '0 ';	
 			}
 

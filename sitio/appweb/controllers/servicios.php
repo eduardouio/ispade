@@ -1,7 +1,20 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Servicios extends CI_Controller {
-
+/**
+* Calse encargada de gestionar la pagina de servicios
+*
+* @pakage App Sitio Ispade 
+* @subpakage controladores
+* @autor Eduardo Villota <eduardouio7@gmail.com> <@eduardouio>
+* @copyrigth 2013 ISPADE <info@ispade.edu.ec>
+* @license (c) ISPADE Todos Los Derechos Reservados
+* @link www.ispade.edu.ec
+* @version 1.0
+* @views header,menu,lateral_menu,presentation,foot
+* @access public
+*
+*/
 	// variables para la identificacion de la pagina y sus articulos
 	protected $Table_ = 'page';
 	protected $IdPage_ = '4';

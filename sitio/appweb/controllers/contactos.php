@@ -11,7 +11,7 @@ class Contactos extends CI_Controller {
 * @license (c) ISPADE Todos Los Derechos Reservados
 * @link www.ispade.edu.ec
 * @version 1.0
-* @views cabecera,menu,carrusel,articulos_home,pie
+* @views header,menu,lateral_menu,form,foot
 * @access public
 *
 */
