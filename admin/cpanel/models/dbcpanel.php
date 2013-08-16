@@ -15,6 +15,7 @@
 * @access protected
 *
 */
+
 class Dbsitio extends CI_Model{
 
 	/**
@@ -22,7 +23,8 @@ class Dbsitio extends CI_Model{
 	* Se craga la libreria pafa manejo de base de datos
 	*/
 	public function __construct(){
-		parent::__construct();		
+		parent::__construct();	
+		$this->load->library('pagination');
 	}
 
 	/**
@@ -52,10 +54,12 @@ class Dbsitio extends CI_Model{
 	* @param str $and_or => condicion que permite unir la lcausula where y el like
 	* @return obj $Result_ matriz de objetos
 	*/
-	public function getRows($table, $columns = FALSE, $condition = FALSE, $and_or = FALSE , $like = FALSE, $groupby = FALSE, $orderby = FALSE , $limit = FALSE, $offset = FALSE){
+	public function getRows($table, $columns = FALSE, $condition = FALSE, $and_or = FALSE , 
+		$like = FALSE, $groupby = FALSE, $orderby = FALSE , 
+		$limit = FALSE, $offset = FALSE){
 		#Se analiza los parametros antes de armar la consulta
 
-		$result = NULL;
+		$result;
 		$query = 'SELECT ';
 
 		#armamos el select columnas from table
@@ -88,26 +92,60 @@ class Dbsitio extends CI_Model{
 		}
 
 		#parametros de agrupamiento, orden y limites
-			if($groupby){
-				$query = $query . ' GROUP BY ' . $groupby;
+		if($groupby){
+			$query = $query . ' GROUP BY ' . $groupby;
+		}
+
+		if($orderby){
+			$query = $query . ' ORDER BY ' . $orderby;
+		}
+
+		if($limit){
+			$query = $query . ' LIMIT ' . $limit;	
+			}elseif($limit==0 and $offset > 0){
+				$query = $query . ' LIMIT ' . '0 ';	
 			}
 
-			if($orderby){
-				$query = $query . ' ORDER BY ' . $orderby;
-			}
-
-			if($limit){
-				$query = $query . ' LIMIT ' . $limit;	
-			}
-
-			if($offset){
-				$query = $query . ' ,'. $offset . ';';
-			}else{
-				$query = $query . ';';
-			}		
+		if($offset){
+			$query = $query . ' ,'. $offset . ';';
+		}else{
+			$query = $query . ';';
+		}		
 		
 		$result = $this->db->query($query);
-		return $result->result();
+		return $result->result_array();
+	}
+
+	/**
+	* Obtiene un registro de una tabla
+	*
+	*/
+	public function getRow($table,$columns = FALSE,$condition){
+		$result;
+		$query = 'SELECT ';
+
+		#armamos el select columnas from table
+		if ($columns){
+			$i = 0;
+			foreach ($columns as $columna) {
+				$i++;
+				if ($i < count($columns)){					
+					$query = $query . ' ' . $columna . ',';												
+				}else{
+					$query = $query . ' ' . $columna . ' FROM ' . $table; 
+				}
+			}
+		}else{
+			$query = $query . ' * FROM ' . $table;
+		}
+
+		if($condition){
+			$query = $query . ' WHERE ' . $condition . ' ';
+		}
+
+		$result = $this->db->query($query);
+		
+		return $result->result_array();
 	}
 
 	/**
@@ -165,14 +203,16 @@ class Dbsitio extends CI_Model{
 	* @param str $condition => Recibe la condicion de la consulta, clave valor que indica el valor y nombre de la columna por la que se va a modificar
 	* @param int $limit => Limite de registros a obtener, vale 0 cero si no se recibe el parametro
 	*/
+
 	public function updateRow($table, $data, $condition, $limit = FALSE){
 		$this->db->where($condition);
 		
 		if ($limit){
 			$this->db->limit($limit);
 		}
-
-		$this->db->update($table,$data);
+		
+		$result = $this->db->update($table,$data);
+		return $result;
 	}
 
 	/**
@@ -180,8 +220,18 @@ class Dbsitio extends CI_Model{
 	* @param str $table nombre de la tabla	*
 	* @return int cantidad de registros de la tabla
 	*/
-	public function cuntRows($table){
+	public function countRows($table){
 		$query = $this->db->query('SELECT * FROM ' . $table);
+		return $query->num_rows();
+	}
+
+	/**
+	* cuenta el número de registros que contiene una tabla con una condicion	*
+	* @param str $table nombre de la tabla	*
+	* @return int cantidad de registros de la tabla
+	*/
+	public function countRowsWhere($table,$id_page){
+		$query = $this->db->query('SELECT * FROM ' . $table . ' where id_page = ' . $id_page );
 		return $query->num_rows();
 	}
 
@@ -203,7 +253,7 @@ class Dbsitio extends CI_Model{
 	*/
 	public function listColumns($table){
 		$result = $this->db->list_fields($table);
-		return $result->result_array();
+		return $result->result();
 	}
 
 	/**
@@ -228,7 +278,7 @@ class Dbsitio extends CI_Model{
 	*/
 	public function lastError(){
 		$result =  $this->db->query('show error;');
-		return $result->result_array();
+		return $result->result();
 	}
 
 	/**

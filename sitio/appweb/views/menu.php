@@ -39,8 +39,6 @@
                   <li><a href="#"><div class="fb-like" data-href="http://isp.liposerve.com" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-colorscheme="dark" data-action="recommend"></div></a></li>
                   <li><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweetear Esta Página</a></li>
                   <li class="divider"></li>
-                  <li class="nav-header">Administrador</li>
-                  <li><a href="<?php print base_url(); ?>index.php/login"><i class="icon-user"></i>&nbsp;Iniciar Sesión</a></li>                  
                 </ul>
               </li>
             </ul>
