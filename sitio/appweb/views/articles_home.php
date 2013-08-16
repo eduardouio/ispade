@@ -9,7 +9,7 @@
         
           <?php
           $x = 1;
-          foreach ($article as $item) {
+          foreach ($articles_home as $item) {
             print('<div class="span4">') ;
             print('<img  src="'. base_url() .$item['image'] .'">');
             print('<h2> ' . $item['title'] . '</h2>');
