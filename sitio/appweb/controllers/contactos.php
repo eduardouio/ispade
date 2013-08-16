@@ -29,7 +29,6 @@ protected $Page_;
 
 public function __construct(){
 	parent::__construct();
-	$this->load->model('html_render');
 	$this->load->helper('email');
 	$this->load->library('form_validation');
 }	

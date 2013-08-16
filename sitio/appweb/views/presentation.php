@@ -2,7 +2,7 @@
         </div>
         <!-- Articulos de la página -->
         <?php
-          foreach ($lista as $articulo) {
+          foreach ($presentation as $articulo) {
             print('<div class="articulo">');
             print('<h4> <img src="' . base_url() . 'img/sitio/title.png" alt="title">' . $articulo['title'] .'</h4>');
             print('<p><img src="' . base_url() .'/img/sitio/content.png" >' . $articulo['content'] . '<p>');
@@ -11,7 +11,8 @@
               <i class="icon-fullscreen icon-white"></i>&nbsp;Abrir</a><hr></div>');
           }
         ?>        
-      </div>        
+      <?php echo $this->pagination->create_links();  ?>
+      </div>   
     </div> <!-- ./Articulos de la página-->  
   </div>
 </div> <!-- ./Contenedor Fluido-->

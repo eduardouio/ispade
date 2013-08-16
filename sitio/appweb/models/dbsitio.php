@@ -23,7 +23,8 @@ class Dbsitio extends CI_Model{
 	* Se craga la libreria pafa manejo de base de datos
 	*/
 	public function __construct(){
-		parent::__construct();		
+		parent::__construct();	
+		$this->load->library('pagination');
 	}
 
 	/**
@@ -101,7 +102,9 @@ class Dbsitio extends CI_Model{
 
 		if($limit){
 			$query = $query . ' LIMIT ' . $limit;	
-		}
+			}elseif($limit==0){
+				$query = $query . ' LIMIT ' . '0 ';	
+			}
 
 		if($offset){
 			$query = $query . ' ,'. $offset . ';';
@@ -219,6 +222,16 @@ class Dbsitio extends CI_Model{
 	*/
 	public function countRows($table){
 		$query = $this->db->query('SELECT * FROM ' . $table);
+		return $query->num_rows();
+	}
+
+	/**
+	* cuenta el número de registros que contiene una tabla con una condicion	*
+	* @param str $table nombre de la tabla	*
+	* @return int cantidad de registros de la tabla
+	*/
+	public function countRowsWhere($table,$id_page){
+		$query = $this->db->query('SELECT * FROM ' . $table . ' where id_page = ' . $id_page );
 		return $query->num_rows();
 	}
 
