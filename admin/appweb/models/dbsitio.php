@@ -161,31 +161,6 @@ class Dbsitio extends CI_Model{
 		return $result;
 	}
 
-
-	/**
-	* Realiza una consulta tipo DELETE en la Base de Datos
-	*
-	* DELETE 
-	* FROM tbl_name
-    * [WHERE where_condition]
-    * [LIMIT row_count]
-    *
-    * @param str $table => nombre de la tabla a insertar
-    * @param array $values => Diccionario (clave-valor) contiene el nombre de la columna y el valor
-    * @param str $condition => Condicion para eliminar reistro(s)
-    * @param int $limit => Parte de la condicion de borrado, sino existe es cero
-    */
-	public function deleteRow($table, $condition, $limit = FALSE){		
-		$res = NULL;
-
-		if($limit){
-			$this->db->limit($limit);
-		}
-
-		$res = $this->db->delete($table,$condition);
-		return $res;
-	}
-
 	/**
 	* Realiza una consulta tipo UPDATE a la Base de datos, se arma la consulta usando funciones
 	* para cadenas el objetivo es genar el SQL de la consulta a travez de parametros, existen
@@ -235,66 +210,4 @@ class Dbsitio extends CI_Model{
 		return $query->num_rows();
 	}
 
-	/**
-	* Cuenta el numero de coulmnas de una tabla
-	* Lista  la cantidad de columnas de la base de datos
-	* @param str $table nombre de la tabla	
-	* @return int cantidad de columnas de la tabla
-	*/
-	public function countColumns($table){
-		$query = $this->db->query('SELECT * FROM ' . $table);
-		return $query->num_fields();	
-	}
-
-	/**
-	* Ejecuta un show columns a una tabla
-	* @param str $table => nombre de la tabla
-	* @return array detalle de columnas de la tabla
-	*/
-	public function listColumns($table){
-		$result = $this->db->list_fields($table);
-		return $result->result();
-	}
-
-	/**
-	* @return Retorna el ultimo Id insertado en la base de datos
-	*/
-	public function lastId(){
-		return $this->db->insert_id();
-	}
-
-	/**
-	* Lista las tablas de la base de datos, lo retorna a manera de lista
-	* @return Listado de tablas de la base de datos
-	*/
-	public function listTables(){
-		$result = $this->db->list_tables();
-		return $result;
-	}	
-
-	/**
-	* Retorna el string del ultimo error de la base de datos
-	* @return str error en la base de datos
-	*/
-	public function lastError(){
-		$result =  $this->db->query('show error;');
-		return $result->result();
-	}
-
-	/**
-	* Retorna el string del ultimo query
-	* @return str sql de la ultima consulta que se ejecutó
-	*/
-	public function lastQuery(){
-		return $this->db->last_query();
-	}
-
-	/**
-	* Ejecuta una sentencia sql de cualquier tipo en la base de datos
-	* 
-	*/
-	public function execQuery( $sql ){
-		$result =  $this->db->query($sql);
-		return $result;
-	}
 } 

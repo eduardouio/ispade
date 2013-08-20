@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = 'cpanel';
+	$application_folder = 'appweb';
 
 /*
  * --------------------------------------------------------------------
