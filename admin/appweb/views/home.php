@@ -45,7 +45,7 @@
         <div class="row"> <!-- Primera fila de contenidos -->
           <div class="span12"> <!-- Menú titulo página -->
             <div id="header-container">
-              <a id="backbutton" class="win-backbutton" href="./hub.html"></a>
+              <a id="backbutton" class="win-backbutton" href="#"></a>
               <h5>Página Actual:</h5>
               <div class="dropdown">
                 <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#" >
@@ -53,14 +53,15 @@
                   <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Nuevo Artículo</a></li>
-                  <li><a href="#">Buscar Artículo</a></li>
+                  <li><a href="#"><span class="icon-document"></span>&nbsp;Nuevo Artículo</a></li>
+                  <li><a href="#"><span class="icon-search"></span>&nbsp;Buscar Artículo</a></li>
                 </ul>
               </div>
             </div>
             <div id="top-info" class="pull-right">
               <div class="pull-left">
-                <a href="" class="btn btn-info">Nuevo Artículo</a>
+                <a href="" class="btn btn-primary btn-large"><span class="icon-document"></span>&nbsp;Nuevo Artículo</a> 
+                <a href="" class="btn btn-primary btn-large"><span class="icon-search"></span>&nbsp;Buscar Artículo</a>
               </div>
             </div>
           </div><!-- /Menú titulo página -->
@@ -68,75 +69,77 @@
       </header>
       <div class="row"> <!-- Segunda Fila de contenidos -->
         <div class="span12">
-          <p>Se econtro un total de 200 articulos en esta sección</p>
-          <div class="row">
+          <p class="label label-inverse">Se econtró un total de 200 articulos en esta sección</p>
+          <div class="row"> <!--Row para la tabla-->
             <div class="span12">
               <table class="table table-condensed table-hover"> <!-- /Tabla de contenidos -->
                 <thead>
                   <tr>
-                    <th class="span1">Identificador</th>
-                    <th class="span1">Titulo</th>
-                    <th>Project</th>
-                    <th>Imágen</th>
-                    <th class="span2">Contenido</th>
-                    <th class="span2">F. Creación</th>
-                    <th class="span2">F. Modificación</th>
-                    <th>Presentada</th>
+                    <th class="span1">ID</th>
+                    <th class="span7">Titulo</th>
+                    <th class="span2">Fecha Creación</th>
+                    <th class="span3">Fecha Modificación</th>
+                    <th>Vista</th>
                     <th class="span1">Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td class="align-center">
-                      <label class="checkbox">
-                        <input type="checkbox"><span class="metro-checkbox"></span>
-                      </label>
+                      23
                     </td>
-                    <td class="align-center">
-                      <i class="icon-checkmark-2"></i>
+                    <td class="align-left span7">
+                      Google Code Decide Cancelar Una De Sus Características Principales
                     </td>
-                    <td>ACME</td>
-                    <td>440 days</td>
-                    <td class="span2 align-right">70.570,00&#x20AC;</td>
-                    <td class="span2 align-right">70.570,00&#x20AC;</td>
-                    <td class="span2 align-right">+3000,00</td>
-                    <td>Milano</td>
+                    <td class="span3">1987-01-01 12:52:12</td>
+                    <td>2000-01-01 12:52:12</td>                    
+                    <td>2 Veces</td>
                     <td>
                       <div class="dropdown">
                         <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#">
                           <b class="caret"><i class="icon-list-3"></i></b>
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Presentar</a></li>
-                          <li><a href="#">Editar</a></li>
+                          <li><a href="#"><span class="icon-screen-2"></span>&nbsp;Presentar</a></li>
+                          <li><a href="#"><span class="icon-pencil"></span>&nbsp;Editar</a></li>
                           <li class="divider"></li>
-                          <li class="bg-color-orange"><a href="#">Eliminar</a></li>
+                          <li class="bg-color-orange"><a href="#"><span class="icon-trash"></span>&nbsp;Eliminar</a></li>
                         </ul>
                       </div>
-                    </div>
-                  </tbody>
-                </table><!-- /Tabla de contenidos -->
-              </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table><!-- /Tabla de contenidos -->
             </div>
-          </div>
-        </div> <!-- /Segunda Fila de contenidos -->
-      </div> <!-- /Cuerpo de contenidos -->
-      <script type="text/javascript" src="<?php print base_url();?>js/jquery.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/modernizr-2.6.2.min.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/google-code-prettify/prettify.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/bootmetro-panorama.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/bootmetro-pivot.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/bootmetro-charms.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-datepicker.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/holder.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-scrollspy.js"></script>  
-      <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-button.js"></script>  
-      <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-carousel.js"></script> 
-      <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-modal.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/demo.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/jquery.mousewheel.min.js"></script>
-      <script type="text/javascript" src="<?php print base_url();?>js/jquery.touchSwipe.min.js"></script>
-    </script>
-  </body>
-  </html>
+          </div> <!--/Row para la tabla-->
+          <p class="label label-inverse pull-right">Se econtró un total de 200 articulos en esta sección</p>
+        </div>
+      </div> <!-- /Segunda fila de contenidos-->
+    </div> <!-- /Cuerpo de contenidos -->
+    <div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF1F7;">  
+      <small style="font-size: 11px;">    
+        <p>
+          &copy; 2013 Instituto Técnico Superior Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a>
+          <br>Sitio Desarrollado Por Eduardo Villota <a href="http://twitter.com/eduardouio" blank="_blank">eduardouio7@gmail.com</a>
+        </p>
+      </small>
+    </div>    
+    <script type="text/javascript" src="<?php print base_url();?>js/jquery.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/bootmetro-panorama.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/bootmetro-pivot.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/bootmetro-charms.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/holder.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-scrollspy.js"></script>  
+    <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-button.js"></script>  
+    <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-carousel.js"></script> 
+    <script type="text/javascript" src="<?php print base_url();?>js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/demo.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="<?php print base_url();?>js/jquery.touchSwipe.min.js"></script>
+  </script>
+</body>
+</html>
