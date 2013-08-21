@@ -17,4 +17,3 @@
   <link rel="stylesheet" type="text/css" href="<?php print base_url();?>js/google-code-prettify/prettify.css"></script>
   <link rel="shortcut icon" href="<?php print base_url();?>ico/favicon.ico">
 </head> <!--/Header-->
-<body>

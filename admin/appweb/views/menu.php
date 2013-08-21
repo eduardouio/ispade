@@ -1,3 +1,4 @@
+<body>
 <div class="container navbar-wrapper"> <!--Barra de Menú-->
   <div class="navbar navbar-inverse">
     <div class="navbar-inner">

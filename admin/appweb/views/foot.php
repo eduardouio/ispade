@@ -1,4 +1,3 @@
-</div> <!-- /Cuerpo de contenidos -->
 <div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF1F7;">  
   <small style="font-size: 11px;">    
     <p>
