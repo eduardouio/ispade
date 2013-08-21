@@ -10828,3 +10828,3349 @@ DEBUG - 2013-08-20 15:13:52 --> Controller Class Initialized
 DEBUG - 2013-08-20 15:13:52 --> File loaded: appweb/views/home.php
 DEBUG - 2013-08-20 15:13:52 --> Final output sent to browser
 DEBUG - 2013-08-20 15:13:52 --> Total execution time: 0.0476
+DEBUG - 2013-08-20 15:20:30 --> Config Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:20:30 --> URI Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Router Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:20:30 --> Output Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Security Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Input Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:20:30 --> Language Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:20:30 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:20:30 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Session Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:20:30 --> Session routines successfully run
+DEBUG - 2013-08-20 15:20:30 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Model Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Model Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:20:30 --> Model Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:20:30 --> File loaded: appweb/views/home.php
+DEBUG - 2013-08-20 15:20:30 --> Final output sent to browser
+DEBUG - 2013-08-20 15:20:30 --> Total execution time: 0.0248
+DEBUG - 2013-08-20 15:26:34 --> Config Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:26:34 --> URI Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Router Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:26:34 --> Output Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Security Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Input Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:26:34 --> Language Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:26:34 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:26:34 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Session Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:26:34 --> Session routines successfully run
+DEBUG - 2013-08-20 15:26:34 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Model Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Model Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:26:34 --> Model Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:26:34 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 15:26:34 --> Final output sent to browser
+DEBUG - 2013-08-20 15:26:34 --> Total execution time: 0.0299
+DEBUG - 2013-08-20 15:27:55 --> Config Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:27:55 --> URI Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Router Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:27:55 --> Output Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Security Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Input Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:27:55 --> Language Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:27:55 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:27:55 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Session Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:27:55 --> Session routines successfully run
+DEBUG - 2013-08-20 15:27:55 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Model Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Model Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:27:55 --> Model Class Initialized
+DEBUG - 2013-08-20 15:27:55 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Config Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:28:12 --> URI Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Router Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:28:12 --> Output Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Security Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Input Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:28:12 --> Language Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:28:12 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:28:12 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Session Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:28:12 --> Session routines successfully run
+DEBUG - 2013-08-20 15:28:12 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Model Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Model Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:28:12 --> Model Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:28:12 --> File loaded: appweb/views/home.php
+DEBUG - 2013-08-20 15:28:12 --> Final output sent to browser
+DEBUG - 2013-08-20 15:28:12 --> Total execution time: 0.0239
+DEBUG - 2013-08-20 15:37:49 --> Config Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:37:49 --> URI Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Router Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:37:49 --> Output Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Security Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Input Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:37:49 --> Language Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:37:49 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:37:49 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Session Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:37:49 --> Session routines successfully run
+DEBUG - 2013-08-20 15:37:49 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Model Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Model Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:37:49 --> Model Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:37:49 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:37:49 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:37:49 --> File loaded: appweb/views/info_page.php
+DEBUG - 2013-08-20 15:37:49 --> File loaded: appweb/views/table.php
+DEBUG - 2013-08-20 15:37:49 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:37:49 --> Final output sent to browser
+DEBUG - 2013-08-20 15:37:49 --> Total execution time: 0.0345
+DEBUG - 2013-08-20 15:40:39 --> Config Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:40:39 --> URI Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Router Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:40:39 --> Output Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Security Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Input Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:40:39 --> Language Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:40:39 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:40:39 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Session Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:40:39 --> Session routines successfully run
+DEBUG - 2013-08-20 15:40:39 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Model Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Model Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:40:39 --> Model Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:40:39 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:40:39 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:40:39 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:40:39 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:40:39 --> Final output sent to browser
+DEBUG - 2013-08-20 15:40:39 --> Total execution time: 0.0323
+DEBUG - 2013-08-20 15:41:22 --> Config Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:41:22 --> URI Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Router Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:41:22 --> Output Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Security Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Input Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:41:22 --> Language Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:41:22 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:41:22 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Session Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:41:22 --> Session routines successfully run
+DEBUG - 2013-08-20 15:41:22 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Model Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Model Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:41:22 --> Model Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:41:22 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:41:22 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:41:22 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:41:22 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:41:22 --> Final output sent to browser
+DEBUG - 2013-08-20 15:41:22 --> Total execution time: 0.0225
+DEBUG - 2013-08-20 15:43:11 --> Config Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:43:11 --> URI Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Router Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:43:11 --> Output Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Security Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Input Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:43:11 --> Language Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:43:11 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:43:11 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Session Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:43:11 --> Session routines successfully run
+DEBUG - 2013-08-20 15:43:11 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:43:11 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:43:11 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:43:11 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:43:11 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:43:11 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:43:11 --> Final output sent to browser
+DEBUG - 2013-08-20 15:43:11 --> Total execution time: 0.0229
+DEBUG - 2013-08-20 15:43:12 --> Config Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:43:12 --> URI Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Router Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:43:12 --> Output Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Security Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Input Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:43:12 --> Language Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:43:12 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:43:12 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Session Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:43:12 --> Session routines successfully run
+DEBUG - 2013-08-20 15:43:12 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:43:12 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:43:12 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:43:12 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:43:12 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:43:12 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:43:12 --> Final output sent to browser
+DEBUG - 2013-08-20 15:43:12 --> Total execution time: 0.0222
+DEBUG - 2013-08-20 15:43:13 --> Config Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:43:13 --> URI Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Router Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:43:13 --> Output Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Security Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Input Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:43:13 --> Language Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:43:13 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:43:13 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Session Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:43:13 --> Session routines successfully run
+DEBUG - 2013-08-20 15:43:13 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:43:13 --> Final output sent to browser
+DEBUG - 2013-08-20 15:43:13 --> Total execution time: 0.0222
+DEBUG - 2013-08-20 15:43:13 --> Config Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:43:13 --> URI Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Router Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:43:13 --> Output Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Security Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Input Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:43:13 --> Language Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:43:13 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:43:13 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Session Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:43:13 --> Session routines successfully run
+DEBUG - 2013-08-20 15:43:13 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:43:13 --> Final output sent to browser
+DEBUG - 2013-08-20 15:43:13 --> Total execution time: 0.0229
+DEBUG - 2013-08-20 15:43:13 --> Config Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:43:13 --> URI Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Router Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:43:13 --> Output Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Security Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Input Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:43:13 --> Language Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:43:13 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:43:13 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Session Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:43:13 --> Session routines successfully run
+DEBUG - 2013-08-20 15:43:13 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:43:13 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:43:13 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:43:13 --> Final output sent to browser
+DEBUG - 2013-08-20 15:43:13 --> Total execution time: 0.0234
+DEBUG - 2013-08-20 15:43:33 --> Config Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:43:33 --> URI Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Router Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:43:33 --> Output Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Security Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Input Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:43:33 --> Language Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:43:33 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:43:33 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Session Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:43:33 --> Session routines successfully run
+DEBUG - 2013-08-20 15:43:33 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:43:33 --> Model Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:43:33 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:43:33 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:43:33 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:43:33 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:43:33 --> Final output sent to browser
+DEBUG - 2013-08-20 15:43:33 --> Total execution time: 0.0242
+DEBUG - 2013-08-20 15:44:02 --> Config Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:44:02 --> URI Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Router Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:44:02 --> Output Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Security Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Input Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:44:02 --> Language Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:44:02 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:44:02 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Session Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:44:02 --> Session routines successfully run
+DEBUG - 2013-08-20 15:44:02 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:44:02 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:44:02 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:44:02 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:44:02 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:44:02 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:44:02 --> Final output sent to browser
+DEBUG - 2013-08-20 15:44:02 --> Total execution time: 0.0232
+DEBUG - 2013-08-20 15:44:03 --> Config Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:44:03 --> URI Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Router Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:44:03 --> Output Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Security Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Input Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:44:03 --> Language Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:44:03 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:44:03 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Session Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:44:03 --> Session routines successfully run
+DEBUG - 2013-08-20 15:44:03 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:44:03 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:44:03 --> Final output sent to browser
+DEBUG - 2013-08-20 15:44:03 --> Total execution time: 0.0251
+DEBUG - 2013-08-20 15:44:03 --> Config Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:44:03 --> URI Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Router Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:44:03 --> Output Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Security Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Input Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:44:03 --> Language Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:44:03 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:44:03 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Session Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:44:03 --> Session routines successfully run
+DEBUG - 2013-08-20 15:44:03 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:44:03 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:44:03 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:44:03 --> Final output sent to browser
+DEBUG - 2013-08-20 15:44:03 --> Total execution time: 0.0230
+DEBUG - 2013-08-20 15:44:21 --> Config Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:44:21 --> URI Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Router Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:44:21 --> Output Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Security Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Input Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:44:21 --> Language Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:44:21 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:44:21 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Session Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:44:21 --> Session routines successfully run
+DEBUG - 2013-08-20 15:44:21 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:44:21 --> Model Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:44:21 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:44:21 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:44:21 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:44:21 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:44:21 --> Final output sent to browser
+DEBUG - 2013-08-20 15:44:21 --> Total execution time: 0.0365
+DEBUG - 2013-08-20 15:45:16 --> Config Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:45:16 --> URI Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Router Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:45:16 --> Output Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Security Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Input Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:45:16 --> Language Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:45:16 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:45:16 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Session Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:45:16 --> Session routines successfully run
+DEBUG - 2013-08-20 15:45:16 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Model Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Model Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:45:16 --> Model Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:45:16 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:45:16 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:45:16 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:45:16 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:45:16 --> Final output sent to browser
+DEBUG - 2013-08-20 15:45:16 --> Total execution time: 0.0354
+DEBUG - 2013-08-20 15:45:44 --> Config Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:45:44 --> URI Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Router Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:45:44 --> Output Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Security Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Input Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:45:44 --> Language Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:45:44 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:45:44 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Session Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:45:44 --> Session routines successfully run
+DEBUG - 2013-08-20 15:45:44 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Model Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Model Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:45:44 --> Model Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:45:44 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:45:44 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:45:44 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:45:44 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:45:44 --> Final output sent to browser
+DEBUG - 2013-08-20 15:45:44 --> Total execution time: 0.0223
+DEBUG - 2013-08-20 15:46:23 --> Config Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:46:23 --> URI Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Router Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:46:23 --> Output Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Security Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Input Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:46:23 --> Language Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:46:23 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:46:23 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Session Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:46:23 --> Session routines successfully run
+DEBUG - 2013-08-20 15:46:23 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Model Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Model Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:46:23 --> Model Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:46:23 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:46:23 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:46:23 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:46:23 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:46:23 --> Final output sent to browser
+DEBUG - 2013-08-20 15:46:23 --> Total execution time: 0.0230
+DEBUG - 2013-08-20 15:46:50 --> Config Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:46:50 --> URI Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Router Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:46:50 --> Output Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Security Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Input Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:46:50 --> Language Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:46:50 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:46:50 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Session Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:46:50 --> Session routines successfully run
+DEBUG - 2013-08-20 15:46:50 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Model Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Model Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:46:50 --> Model Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:46:50 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:46:50 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:46:50 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:46:50 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:46:50 --> Final output sent to browser
+DEBUG - 2013-08-20 15:46:50 --> Total execution time: 0.0230
+DEBUG - 2013-08-20 15:47:04 --> Config Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:47:04 --> URI Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Router Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:47:04 --> Output Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Security Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Input Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:47:04 --> Language Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:47:04 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:47:04 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Session Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:47:04 --> Session routines successfully run
+DEBUG - 2013-08-20 15:47:04 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:47:04 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:47:04 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:47:04 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:47:04 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:47:04 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:47:04 --> Final output sent to browser
+DEBUG - 2013-08-20 15:47:04 --> Total execution time: 0.0326
+DEBUG - 2013-08-20 15:47:21 --> Config Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:47:21 --> URI Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Router Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:47:21 --> Output Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Security Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Input Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:47:21 --> Language Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:47:21 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:47:21 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Session Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:47:21 --> Session routines successfully run
+DEBUG - 2013-08-20 15:47:21 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:47:21 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:47:21 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:47:21 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:47:21 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:47:21 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:47:21 --> Final output sent to browser
+DEBUG - 2013-08-20 15:47:21 --> Total execution time: 0.0226
+DEBUG - 2013-08-20 15:47:34 --> Config Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:47:34 --> URI Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Router Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:47:34 --> Output Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Security Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Input Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:47:34 --> Language Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:47:34 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:47:34 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Session Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:47:34 --> Session routines successfully run
+DEBUG - 2013-08-20 15:47:34 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:47:34 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:47:34 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:47:34 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:47:34 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:47:34 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:47:34 --> Final output sent to browser
+DEBUG - 2013-08-20 15:47:34 --> Total execution time: 0.0225
+DEBUG - 2013-08-20 15:47:54 --> Config Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:47:54 --> URI Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Router Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:47:54 --> Output Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Security Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Input Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:47:54 --> Language Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:47:54 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:47:54 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Session Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:47:54 --> Session routines successfully run
+DEBUG - 2013-08-20 15:47:54 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:47:54 --> Model Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:47:54 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:47:54 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:47:54 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:47:54 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:47:54 --> Final output sent to browser
+DEBUG - 2013-08-20 15:47:54 --> Total execution time: 0.0273
+DEBUG - 2013-08-20 15:48:01 --> Config Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:48:01 --> URI Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Router Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:48:01 --> Output Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Security Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Input Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:48:01 --> Language Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:48:01 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:48:01 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Session Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:48:01 --> Session routines successfully run
+DEBUG - 2013-08-20 15:48:01 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:48:01 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:48:01 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:48:01 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:48:01 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:48:01 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:48:01 --> Final output sent to browser
+DEBUG - 2013-08-20 15:48:01 --> Total execution time: 0.0255
+DEBUG - 2013-08-20 15:48:16 --> Config Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:48:16 --> URI Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Router Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:48:16 --> Output Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Security Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Input Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:48:16 --> Language Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:48:16 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:48:16 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Session Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:48:16 --> Session routines successfully run
+DEBUG - 2013-08-20 15:48:16 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:48:16 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:48:16 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:48:16 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:48:16 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:48:16 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:48:16 --> Final output sent to browser
+DEBUG - 2013-08-20 15:48:16 --> Total execution time: 0.0223
+DEBUG - 2013-08-20 15:48:25 --> Config Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:48:25 --> URI Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Router Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:48:25 --> Output Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Security Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Input Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:48:25 --> Language Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:48:25 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:48:25 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Session Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:48:25 --> Session routines successfully run
+DEBUG - 2013-08-20 15:48:25 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:48:25 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:48:25 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:48:25 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:48:25 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:48:25 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:48:25 --> Final output sent to browser
+DEBUG - 2013-08-20 15:48:25 --> Total execution time: 0.0241
+DEBUG - 2013-08-20 15:48:33 --> Config Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:48:33 --> URI Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Router Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:48:33 --> Output Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Security Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Input Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:48:33 --> Language Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:48:33 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:48:33 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Session Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:48:33 --> Session routines successfully run
+DEBUG - 2013-08-20 15:48:33 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:48:33 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:48:33 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:48:33 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:48:33 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:48:33 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:48:33 --> Final output sent to browser
+DEBUG - 2013-08-20 15:48:33 --> Total execution time: 0.0402
+DEBUG - 2013-08-20 15:48:51 --> Config Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:48:51 --> URI Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Router Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:48:51 --> Output Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Security Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Input Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:48:51 --> Language Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:48:51 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:48:51 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Session Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:48:51 --> Session routines successfully run
+DEBUG - 2013-08-20 15:48:51 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:48:51 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:48:51 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:48:51 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:48:51 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:48:51 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:48:51 --> Final output sent to browser
+DEBUG - 2013-08-20 15:48:51 --> Total execution time: 0.0223
+DEBUG - 2013-08-20 15:48:59 --> Config Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:48:59 --> URI Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Router Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:48:59 --> Output Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Security Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Input Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:48:59 --> Language Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:48:59 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:48:59 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Session Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:48:59 --> Session routines successfully run
+DEBUG - 2013-08-20 15:48:59 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:48:59 --> Model Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:48:59 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:48:59 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:48:59 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:48:59 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:48:59 --> Final output sent to browser
+DEBUG - 2013-08-20 15:48:59 --> Total execution time: 0.0384
+DEBUG - 2013-08-20 15:58:39 --> Config Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:58:39 --> URI Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Router Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:58:39 --> Output Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Security Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Input Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:58:39 --> Language Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:58:39 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:58:39 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Session Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:58:39 --> Session routines successfully run
+DEBUG - 2013-08-20 15:58:39 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Model Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Model Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:58:39 --> Model Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:58:39 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:58:39 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:58:39 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:58:39 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:58:39 --> Final output sent to browser
+DEBUG - 2013-08-20 15:58:39 --> Total execution time: 0.0358
+DEBUG - 2013-08-20 15:59:05 --> Config Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Hooks Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 15:59:05 --> URI Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Router Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 15:59:05 --> Output Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Security Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Input Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 15:59:05 --> Language Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Loader Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 15:59:05 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 15:59:05 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Session Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 15:59:05 --> Session routines successfully run
+DEBUG - 2013-08-20 15:59:05 --> Pagination Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Model Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Model Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 15:59:05 --> Model Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> Controller Class Initialized
+DEBUG - 2013-08-20 15:59:05 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 15:59:05 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 15:59:05 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 15:59:05 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 15:59:05 --> Final output sent to browser
+DEBUG - 2013-08-20 15:59:05 --> Total execution time: 0.0344
+DEBUG - 2013-08-20 16:01:43 --> Config Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:01:43 --> URI Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Router Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:01:43 --> Output Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Security Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Input Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:01:43 --> Language Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:01:43 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:01:43 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Session Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:01:43 --> Session routines successfully run
+DEBUG - 2013-08-20 16:01:43 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Model Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Model Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:01:43 --> Model Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:01:43 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:01:43 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:01:43 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:01:43 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:01:43 --> Final output sent to browser
+DEBUG - 2013-08-20 16:01:43 --> Total execution time: 0.0246
+DEBUG - 2013-08-20 16:06:03 --> Config Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:06:03 --> URI Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Router Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:06:03 --> Output Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Security Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Input Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:06:03 --> Language Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:06:03 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:06:03 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Session Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:06:03 --> Session routines successfully run
+DEBUG - 2013-08-20 16:06:03 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Model Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Model Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:06:03 --> Model Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:06:03 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:06:03 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:06:03 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:06:03 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:06:03 --> Final output sent to browser
+DEBUG - 2013-08-20 16:06:03 --> Total execution time: 0.0227
+DEBUG - 2013-08-20 16:11:17 --> Config Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:11:17 --> URI Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Router Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:11:17 --> Output Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Security Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Input Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:11:17 --> Language Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:11:17 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:11:17 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Session Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:11:17 --> Session routines successfully run
+DEBUG - 2013-08-20 16:11:17 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Model Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Model Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:11:17 --> Model Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:11:17 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:11:17 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:11:17 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:11:17 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:11:17 --> Final output sent to browser
+DEBUG - 2013-08-20 16:11:17 --> Total execution time: 0.0336
+DEBUG - 2013-08-20 16:12:36 --> Config Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:12:36 --> URI Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Router Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:12:36 --> Output Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Security Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Input Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:12:36 --> Language Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:12:36 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:12:36 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Session Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:12:36 --> Session routines successfully run
+DEBUG - 2013-08-20 16:12:36 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Model Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Model Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:12:36 --> Model Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:12:36 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:12:36 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:12:36 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:12:36 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:12:36 --> Final output sent to browser
+DEBUG - 2013-08-20 16:12:36 --> Total execution time: 0.0280
+DEBUG - 2013-08-20 16:12:47 --> Config Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:12:47 --> URI Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Router Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:12:47 --> Output Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Security Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Input Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:12:47 --> Language Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:12:47 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:12:47 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Session Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:12:47 --> Session routines successfully run
+DEBUG - 2013-08-20 16:12:47 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Model Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Model Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:12:47 --> Model Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:12:47 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:12:47 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:12:47 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:12:47 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:12:47 --> Final output sent to browser
+DEBUG - 2013-08-20 16:12:47 --> Total execution time: 0.0229
+DEBUG - 2013-08-20 16:13:27 --> Config Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:13:27 --> URI Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Router Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:13:27 --> Output Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Security Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Input Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:13:27 --> Language Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:13:27 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:13:27 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Session Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:13:27 --> Session routines successfully run
+DEBUG - 2013-08-20 16:13:27 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Model Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Model Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:13:27 --> Model Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:13:27 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:13:27 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:13:27 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:13:27 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:13:27 --> Final output sent to browser
+DEBUG - 2013-08-20 16:13:27 --> Total execution time: 0.0260
+DEBUG - 2013-08-20 16:14:37 --> Config Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Hooks Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 16:14:37 --> URI Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Router Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 16:14:37 --> Output Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Security Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Input Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 16:14:37 --> Language Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Loader Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 16:14:37 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 16:14:37 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Session Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 16:14:37 --> Session routines successfully run
+DEBUG - 2013-08-20 16:14:37 --> Pagination Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Model Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Model Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 16:14:37 --> Model Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> Controller Class Initialized
+DEBUG - 2013-08-20 16:14:37 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 16:14:37 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 16:14:37 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 16:14:37 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 16:14:37 --> Final output sent to browser
+DEBUG - 2013-08-20 16:14:37 --> Total execution time: 0.0225
+DEBUG - 2013-08-20 17:16:46 --> Config Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:16:46 --> URI Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Router Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:16:46 --> Output Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Security Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Input Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:16:46 --> Language Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:16:46 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:16:46 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Session Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:16:46 --> Session routines successfully run
+DEBUG - 2013-08-20 17:16:46 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Model Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Model Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:16:46 --> Model Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:16:46 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:16:46 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:16:46 --> File loaded: appweb/views/info_page.php
+DEBUG - 2013-08-20 17:16:46 --> File loaded: appweb/views/table.php
+DEBUG - 2013-08-20 17:16:46 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:16:46 --> Final output sent to browser
+DEBUG - 2013-08-20 17:16:46 --> Total execution time: 0.0315
+DEBUG - 2013-08-20 17:17:10 --> Config Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:17:10 --> URI Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Router Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:17:10 --> Output Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Security Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Input Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:17:10 --> Language Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:17:10 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:17:10 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Session Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:17:10 --> Session routines successfully run
+DEBUG - 2013-08-20 17:17:10 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Model Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Model Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:17:10 --> Model Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:17:10 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:17:10 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:17:10 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:17:10 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:17:10 --> Final output sent to browser
+DEBUG - 2013-08-20 17:17:10 --> Total execution time: 0.0373
+DEBUG - 2013-08-20 17:18:48 --> Config Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:18:48 --> URI Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Router Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:18:48 --> Output Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Security Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Input Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:18:48 --> Language Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:18:48 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:18:48 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Session Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:18:48 --> Session routines successfully run
+DEBUG - 2013-08-20 17:18:48 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Model Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Model Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:18:48 --> Model Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:18:48 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:18:48 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:18:48 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:18:48 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:18:48 --> Final output sent to browser
+DEBUG - 2013-08-20 17:18:48 --> Total execution time: 0.0408
+DEBUG - 2013-08-20 17:20:22 --> Config Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:20:22 --> URI Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Router Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:20:22 --> Output Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Security Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Input Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:20:22 --> Language Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:20:22 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:20:22 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Session Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:20:22 --> Session routines successfully run
+DEBUG - 2013-08-20 17:20:22 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Model Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Model Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:20:22 --> Model Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:20:22 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:20:22 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:20:22 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:20:22 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:20:22 --> Final output sent to browser
+DEBUG - 2013-08-20 17:20:22 --> Total execution time: 0.0402
+DEBUG - 2013-08-20 17:24:53 --> Config Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:24:53 --> URI Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Router Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:24:53 --> Output Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Security Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Input Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:24:53 --> Language Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:24:53 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:24:53 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Session Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:24:53 --> Session routines successfully run
+DEBUG - 2013-08-20 17:24:53 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:24:53 --> Final output sent to browser
+DEBUG - 2013-08-20 17:24:53 --> Total execution time: 0.0231
+DEBUG - 2013-08-20 17:24:53 --> Config Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:24:53 --> URI Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Router Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:24:53 --> Output Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Security Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Input Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:24:53 --> Language Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:24:53 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:24:53 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Session Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:24:53 --> Session routines successfully run
+DEBUG - 2013-08-20 17:24:53 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:24:53 --> Final output sent to browser
+DEBUG - 2013-08-20 17:24:53 --> Total execution time: 0.0237
+DEBUG - 2013-08-20 17:24:53 --> Config Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:24:53 --> URI Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Router Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:24:53 --> Output Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Security Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Input Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:24:53 --> Language Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:24:53 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:24:53 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Session Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:24:53 --> Session routines successfully run
+DEBUG - 2013-08-20 17:24:53 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:24:53 --> Model Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:24:53 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:24:53 --> Final output sent to browser
+DEBUG - 2013-08-20 17:24:53 --> Total execution time: 0.0233
+DEBUG - 2013-08-20 17:25:20 --> Config Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:25:20 --> URI Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Router Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:25:20 --> Output Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Security Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Input Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:25:20 --> Language Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:25:20 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:25:20 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Session Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:25:20 --> Session routines successfully run
+DEBUG - 2013-08-20 17:25:20 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:25:20 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:25:20 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:25:20 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:25:20 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:25:20 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:25:20 --> Final output sent to browser
+DEBUG - 2013-08-20 17:25:20 --> Total execution time: 0.0243
+DEBUG - 2013-08-20 17:25:22 --> Config Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:25:22 --> URI Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Router Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:25:22 --> Output Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Security Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Input Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:25:22 --> Language Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:25:22 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:25:22 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Session Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:25:22 --> Session routines successfully run
+DEBUG - 2013-08-20 17:25:22 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:25:22 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:25:22 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:25:22 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:25:22 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:25:22 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:25:22 --> Final output sent to browser
+DEBUG - 2013-08-20 17:25:22 --> Total execution time: 0.0234
+DEBUG - 2013-08-20 17:25:52 --> Config Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:25:52 --> URI Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Router Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:25:52 --> Output Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Security Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Input Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:25:52 --> Language Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:25:52 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:25:52 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Session Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:25:52 --> Session routines successfully run
+DEBUG - 2013-08-20 17:25:52 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:25:52 --> Model Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:25:52 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:25:52 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:25:52 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:25:52 --> File loaded: appweb/views/table.php
+DEBUG - 2013-08-20 17:25:52 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:25:52 --> Final output sent to browser
+DEBUG - 2013-08-20 17:25:52 --> Total execution time: 0.0378
+DEBUG - 2013-08-20 17:26:12 --> Config Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:26:12 --> URI Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Router Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:26:12 --> Output Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Security Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Input Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:26:12 --> Language Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:26:12 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:26:12 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Session Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:26:12 --> Session routines successfully run
+DEBUG - 2013-08-20 17:26:12 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Model Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Model Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:26:12 --> Model Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:26:12 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:26:12 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:26:12 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 17:26:12 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:26:12 --> Final output sent to browser
+DEBUG - 2013-08-20 17:26:12 --> Total execution time: 0.0359
+DEBUG - 2013-08-20 17:28:14 --> Config Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:28:14 --> URI Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Router Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:28:14 --> Output Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Security Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Input Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:28:14 --> Language Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:28:14 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:28:14 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Session Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:28:14 --> Session routines successfully run
+DEBUG - 2013-08-20 17:28:14 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Model Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Model Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:28:14 --> Model Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:28:14 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:28:14 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:28:14 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:28:14 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:28:14 --> Final output sent to browser
+DEBUG - 2013-08-20 17:28:14 --> Total execution time: 0.0244
+DEBUG - 2013-08-20 17:29:17 --> Config Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:29:17 --> URI Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Router Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:29:17 --> Output Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Security Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Input Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:29:17 --> Language Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:29:17 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:29:17 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Session Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:29:17 --> Session routines successfully run
+DEBUG - 2013-08-20 17:29:17 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Model Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Model Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:29:17 --> Model Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:29:17 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:29:17 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:29:17 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:29:17 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:29:17 --> Final output sent to browser
+DEBUG - 2013-08-20 17:29:17 --> Total execution time: 0.0353
+DEBUG - 2013-08-20 17:30:17 --> Config Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:30:17 --> URI Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Router Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:30:17 --> Output Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Security Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Input Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:30:17 --> Language Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:30:17 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:30:17 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Session Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:30:17 --> Session routines successfully run
+DEBUG - 2013-08-20 17:30:17 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Model Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Model Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:30:17 --> Model Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:30:17 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:30:17 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:30:17 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:30:17 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:30:17 --> Final output sent to browser
+DEBUG - 2013-08-20 17:30:17 --> Total execution time: 0.0225
+DEBUG - 2013-08-20 17:31:05 --> Config Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:31:05 --> URI Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Router Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:31:05 --> Output Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Security Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Input Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:31:05 --> Language Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:31:05 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:31:05 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Session Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:31:05 --> Session routines successfully run
+DEBUG - 2013-08-20 17:31:05 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:31:05 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:31:05 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:31:05 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:31:05 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:31:05 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:31:05 --> Final output sent to browser
+DEBUG - 2013-08-20 17:31:05 --> Total execution time: 0.0304
+DEBUG - 2013-08-20 17:31:07 --> Config Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:31:07 --> URI Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Router Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:31:07 --> Output Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Security Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Input Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:31:07 --> Language Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:31:07 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:31:07 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Session Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:31:07 --> Session routines successfully run
+DEBUG - 2013-08-20 17:31:07 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:31:07 --> Final output sent to browser
+DEBUG - 2013-08-20 17:31:07 --> Total execution time: 0.0230
+DEBUG - 2013-08-20 17:31:07 --> Config Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:31:07 --> URI Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Router Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:31:07 --> Output Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Security Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Input Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:31:07 --> Language Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:31:07 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:31:07 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Session Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:31:07 --> Session routines successfully run
+DEBUG - 2013-08-20 17:31:07 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:31:07 --> Final output sent to browser
+DEBUG - 2013-08-20 17:31:07 --> Total execution time: 0.0225
+DEBUG - 2013-08-20 17:31:07 --> Config Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:31:07 --> URI Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Router Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:31:07 --> Output Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Security Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Input Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:31:07 --> Language Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:31:07 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:31:07 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Session Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:31:07 --> Session routines successfully run
+DEBUG - 2013-08-20 17:31:07 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:31:07 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:31:07 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:31:07 --> Final output sent to browser
+DEBUG - 2013-08-20 17:31:07 --> Total execution time: 0.0227
+DEBUG - 2013-08-20 17:31:35 --> Config Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:31:35 --> URI Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Router Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:31:35 --> Output Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Security Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Input Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:31:35 --> Language Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:31:35 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:31:35 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Session Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:31:35 --> Session routines successfully run
+DEBUG - 2013-08-20 17:31:35 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:31:35 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:31:35 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:31:35 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:31:35 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:31:35 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:31:35 --> Final output sent to browser
+DEBUG - 2013-08-20 17:31:35 --> Total execution time: 0.0239
+DEBUG - 2013-08-20 17:31:36 --> Config Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:31:36 --> URI Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Router Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:31:36 --> Output Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Security Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Input Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:31:36 --> Language Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:31:36 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:31:36 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Session Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:31:36 --> Session routines successfully run
+DEBUG - 2013-08-20 17:31:36 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:31:36 --> Model Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:31:36 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:31:36 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:31:36 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:31:36 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:31:36 --> Final output sent to browser
+DEBUG - 2013-08-20 17:31:36 --> Total execution time: 0.0222
+DEBUG - 2013-08-20 17:33:28 --> Config Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:33:28 --> URI Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Router Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:33:28 --> Output Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Security Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Input Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:33:28 --> Language Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:33:28 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:33:28 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Session Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:33:28 --> Session routines successfully run
+DEBUG - 2013-08-20 17:33:28 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Model Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Model Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:33:28 --> Model Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:33:28 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:33:28 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:33:28 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:33:28 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:33:28 --> Final output sent to browser
+DEBUG - 2013-08-20 17:33:28 --> Total execution time: 0.0275
+DEBUG - 2013-08-20 17:33:55 --> Config Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:33:55 --> URI Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Router Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:33:55 --> Output Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Security Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Input Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:33:55 --> Language Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:33:55 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:33:55 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Session Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:33:55 --> Session routines successfully run
+DEBUG - 2013-08-20 17:33:55 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Model Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Model Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:33:55 --> Model Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:33:55 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:33:55 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:33:55 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:33:55 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:33:55 --> Final output sent to browser
+DEBUG - 2013-08-20 17:33:55 --> Total execution time: 0.0248
+DEBUG - 2013-08-20 17:34:39 --> Config Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:34:39 --> URI Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Router Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:34:39 --> Output Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Security Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Input Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:34:39 --> Language Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:34:39 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:34:39 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Session Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:34:39 --> Session routines successfully run
+DEBUG - 2013-08-20 17:34:39 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Model Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Model Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:34:39 --> Model Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:34:39 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:34:39 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:34:39 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:34:39 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:34:39 --> Final output sent to browser
+DEBUG - 2013-08-20 17:34:39 --> Total execution time: 0.0265
+DEBUG - 2013-08-20 17:35:57 --> Config Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:35:57 --> URI Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Router Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:35:57 --> Output Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Security Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Input Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:35:57 --> Language Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:35:57 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:35:57 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Session Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:35:57 --> Session routines successfully run
+DEBUG - 2013-08-20 17:35:57 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:35:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:35:57 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:35:57 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:35:57 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:35:57 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:35:57 --> Final output sent to browser
+DEBUG - 2013-08-20 17:35:57 --> Total execution time: 0.0329
+DEBUG - 2013-08-20 17:36:19 --> Config Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:36:19 --> URI Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Router Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:36:19 --> Output Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Security Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Input Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:36:19 --> Language Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:36:19 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:36:19 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Session Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:36:19 --> Session routines successfully run
+DEBUG - 2013-08-20 17:36:19 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Model Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Model Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:36:19 --> Model Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:36:19 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:36:19 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:36:19 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:36:19 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:36:19 --> Final output sent to browser
+DEBUG - 2013-08-20 17:36:19 --> Total execution time: 0.0298
+DEBUG - 2013-08-20 17:36:20 --> Config Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:36:20 --> URI Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Router Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:36:20 --> Output Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Security Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Input Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:36:20 --> Language Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:36:20 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:36:20 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Session Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:36:20 --> Session routines successfully run
+DEBUG - 2013-08-20 17:36:20 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Model Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Model Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:36:20 --> Model Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:36:20 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:36:20 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:36:20 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:36:20 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:36:20 --> Final output sent to browser
+DEBUG - 2013-08-20 17:36:20 --> Total execution time: 0.0223
+DEBUG - 2013-08-20 17:38:45 --> Config Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:38:45 --> URI Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Router Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:38:45 --> Output Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Security Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Input Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:38:45 --> Language Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:38:45 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:38:45 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Session Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:38:45 --> Session routines successfully run
+DEBUG - 2013-08-20 17:38:45 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Model Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Model Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:38:45 --> Model Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:38:45 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:38:45 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:38:45 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:38:45 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:38:45 --> Final output sent to browser
+DEBUG - 2013-08-20 17:38:45 --> Total execution time: 0.0226
+DEBUG - 2013-08-20 17:41:45 --> Config Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:41:45 --> URI Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Router Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:41:45 --> Output Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Security Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Input Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:41:45 --> Language Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:41:45 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:41:45 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Session Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:41:45 --> Session routines successfully run
+DEBUG - 2013-08-20 17:41:45 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Model Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Model Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:41:45 --> Model Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:41:45 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:41:45 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:41:45 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:41:45 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:41:45 --> Final output sent to browser
+DEBUG - 2013-08-20 17:41:45 --> Total execution time: 0.0255
+DEBUG - 2013-08-20 17:42:09 --> Config Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:42:09 --> URI Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Router Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:42:09 --> Output Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Security Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Input Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:42:09 --> Language Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:42:09 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:42:09 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Session Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:42:09 --> Session routines successfully run
+DEBUG - 2013-08-20 17:42:09 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Model Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Model Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:42:09 --> Model Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:42:09 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:42:09 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:42:09 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:42:09 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:42:09 --> Final output sent to browser
+DEBUG - 2013-08-20 17:42:09 --> Total execution time: 0.0225
+DEBUG - 2013-08-20 17:43:27 --> Config Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:43:27 --> URI Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Router Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:43:27 --> Output Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Security Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Input Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:43:27 --> Language Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:43:27 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:43:27 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Session Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:43:27 --> Session routines successfully run
+DEBUG - 2013-08-20 17:43:27 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:43:27 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:43:27 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:43:27 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:43:27 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:43:27 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:43:27 --> Final output sent to browser
+DEBUG - 2013-08-20 17:43:27 --> Total execution time: 0.0277
+DEBUG - 2013-08-20 17:43:43 --> Config Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:43:43 --> URI Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Router Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:43:43 --> Output Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Security Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Input Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:43:43 --> Language Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:43:43 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:43:43 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Session Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:43:43 --> Session routines successfully run
+DEBUG - 2013-08-20 17:43:43 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:43:43 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:43:43 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:43:43 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:43:43 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:43:43 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:43:43 --> Final output sent to browser
+DEBUG - 2013-08-20 17:43:43 --> Total execution time: 0.0229
+DEBUG - 2013-08-20 17:43:44 --> Config Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:43:44 --> URI Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Router Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:43:44 --> Output Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Security Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Input Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:43:44 --> Language Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:43:44 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:43:44 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Session Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:43:44 --> Session routines successfully run
+DEBUG - 2013-08-20 17:43:44 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:43:44 --> Final output sent to browser
+DEBUG - 2013-08-20 17:43:44 --> Total execution time: 0.0231
+DEBUG - 2013-08-20 17:43:44 --> Config Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:43:44 --> URI Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Router Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:43:44 --> Output Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Security Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Input Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:43:44 --> Language Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:43:44 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:43:44 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Session Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:43:44 --> Session routines successfully run
+DEBUG - 2013-08-20 17:43:44 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:43:44 --> Final output sent to browser
+DEBUG - 2013-08-20 17:43:44 --> Total execution time: 0.0261
+DEBUG - 2013-08-20 17:43:44 --> Config Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:43:44 --> URI Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Router Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:43:44 --> Output Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Security Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Input Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:43:44 --> Language Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:43:44 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:43:44 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Session Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:43:44 --> Session routines successfully run
+DEBUG - 2013-08-20 17:43:44 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:43:44 --> Model Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:43:44 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:43:44 --> Final output sent to browser
+DEBUG - 2013-08-20 17:43:44 --> Total execution time: 0.0226
+DEBUG - 2013-08-20 17:44:05 --> Config Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:44:05 --> URI Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Router Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:44:05 --> Output Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Security Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Input Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:44:05 --> Language Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:44:05 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:44:05 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Session Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:44:05 --> Session routines successfully run
+DEBUG - 2013-08-20 17:44:05 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:44:05 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:44:05 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:44:05 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:44:05 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:44:05 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:44:05 --> Final output sent to browser
+DEBUG - 2013-08-20 17:44:05 --> Total execution time: 0.0350
+DEBUG - 2013-08-20 17:44:34 --> Config Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:44:34 --> URI Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Router Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:44:34 --> Output Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Security Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Input Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:44:34 --> Language Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:44:34 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:44:34 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Session Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:44:34 --> Session routines successfully run
+DEBUG - 2013-08-20 17:44:34 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:44:34 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:44:34 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:44:34 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:44:34 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:44:34 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:44:34 --> Final output sent to browser
+DEBUG - 2013-08-20 17:44:34 --> Total execution time: 0.0234
+DEBUG - 2013-08-20 17:44:59 --> Config Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:44:59 --> URI Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Router Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:44:59 --> Output Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Security Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Input Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:44:59 --> Language Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:44:59 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:44:59 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Session Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:44:59 --> Session routines successfully run
+DEBUG - 2013-08-20 17:44:59 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:44:59 --> Model Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:44:59 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:44:59 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:44:59 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:44:59 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:44:59 --> Final output sent to browser
+DEBUG - 2013-08-20 17:44:59 --> Total execution time: 0.0327
+DEBUG - 2013-08-20 17:46:09 --> Config Class Initialized
+DEBUG - 2013-08-20 17:46:09 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:46:09 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:46:09 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:46:09 --> URI Class Initialized
+DEBUG - 2013-08-20 17:46:09 --> Router Class Initialized
+ERROR - 2013-08-20 17:46:09 --> 404 Page Not Found --> noticias
+DEBUG - 2013-08-20 17:46:47 --> Config Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:46:47 --> URI Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Router Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:46:47 --> Output Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Security Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Input Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:46:47 --> Language Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:46:47 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:46:47 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Session Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:46:47 --> Session routines successfully run
+DEBUG - 2013-08-20 17:46:47 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Model Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Model Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:46:47 --> Model Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:46:47 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:46:47 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:46:47 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:46:47 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:46:47 --> Final output sent to browser
+DEBUG - 2013-08-20 17:46:47 --> Total execution time: 0.0247
+DEBUG - 2013-08-20 17:48:16 --> Config Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:48:16 --> URI Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Router Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:48:16 --> Output Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Security Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Input Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:48:16 --> Language Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:48:16 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:48:16 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Session Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:48:16 --> Session routines successfully run
+DEBUG - 2013-08-20 17:48:16 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:48:16 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:48:16 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:48:16 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:48:16 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:48:16 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:48:16 --> Final output sent to browser
+DEBUG - 2013-08-20 17:48:16 --> Total execution time: 0.0263
+DEBUG - 2013-08-20 17:48:55 --> Config Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:48:55 --> URI Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Router Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:48:55 --> Output Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Security Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Input Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:48:55 --> Language Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:48:55 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:48:55 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Session Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:48:55 --> Session routines successfully run
+DEBUG - 2013-08-20 17:48:55 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:48:55 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:48:55 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:48:55 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:48:55 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:48:55 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:48:55 --> Final output sent to browser
+DEBUG - 2013-08-20 17:48:55 --> Total execution time: 0.0235
+DEBUG - 2013-08-20 17:48:57 --> Config Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:48:57 --> URI Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Router Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:48:57 --> Output Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Security Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Input Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:48:57 --> Language Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:48:57 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:48:57 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Session Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:48:57 --> Session routines successfully run
+DEBUG - 2013-08-20 17:48:57 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:48:57 --> Final output sent to browser
+DEBUG - 2013-08-20 17:48:57 --> Total execution time: 0.0230
+DEBUG - 2013-08-20 17:48:57 --> Config Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:48:57 --> URI Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Router Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:48:57 --> Output Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Security Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Input Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:48:57 --> Language Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:48:57 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:48:57 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Session Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:48:57 --> Session routines successfully run
+DEBUG - 2013-08-20 17:48:57 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:48:57 --> Final output sent to browser
+DEBUG - 2013-08-20 17:48:57 --> Total execution time: 0.0220
+DEBUG - 2013-08-20 17:48:57 --> Config Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:48:57 --> URI Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Router Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:48:57 --> Output Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Security Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Input Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:48:57 --> Language Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:48:57 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:48:57 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Session Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:48:57 --> Session routines successfully run
+DEBUG - 2013-08-20 17:48:57 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:48:57 --> Model Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:48:57 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:48:57 --> Final output sent to browser
+DEBUG - 2013-08-20 17:48:57 --> Total execution time: 0.0243
+DEBUG - 2013-08-20 17:49:00 --> Config Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:49:00 --> URI Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Router Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:49:00 --> Output Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Security Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Input Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:49:00 --> Language Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:49:00 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:49:00 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Session Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:49:00 --> Session routines successfully run
+DEBUG - 2013-08-20 17:49:00 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Model Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Model Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:49:00 --> Model Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:49:00 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:49:00 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:49:00 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:49:00 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:49:00 --> Final output sent to browser
+DEBUG - 2013-08-20 17:49:00 --> Total execution time: 0.0227
+DEBUG - 2013-08-20 17:55:56 --> Config Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:55:56 --> URI Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Router Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:55:56 --> Output Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Security Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Input Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:55:56 --> Language Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:55:56 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:55:56 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Session Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:55:56 --> Session routines successfully run
+DEBUG - 2013-08-20 17:55:56 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Model Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Model Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:55:56 --> Model Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:55:56 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:55:56 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:55:56 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:55:56 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:55:56 --> Final output sent to browser
+DEBUG - 2013-08-20 17:55:56 --> Total execution time: 0.0226
+DEBUG - 2013-08-20 17:59:49 --> Config Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Hooks Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 17:59:49 --> URI Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Router Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 17:59:49 --> Output Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Security Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Input Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 17:59:49 --> Language Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Loader Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 17:59:49 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 17:59:49 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Session Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 17:59:49 --> Session routines successfully run
+DEBUG - 2013-08-20 17:59:49 --> Pagination Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Model Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Model Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 17:59:49 --> Model Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> Controller Class Initialized
+DEBUG - 2013-08-20 17:59:49 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 17:59:49 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 17:59:49 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 17:59:49 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 17:59:49 --> Final output sent to browser
+DEBUG - 2013-08-20 17:59:49 --> Total execution time: 0.0223
+DEBUG - 2013-08-20 18:00:45 --> Config Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:00:45 --> URI Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Router Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:00:45 --> Output Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Security Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Input Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:00:45 --> Language Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:00:45 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:00:45 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Session Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:00:45 --> Session routines successfully run
+DEBUG - 2013-08-20 18:00:45 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Model Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Model Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:00:45 --> Model Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:00:45 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:00:45 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:00:45 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:00:45 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:00:45 --> Final output sent to browser
+DEBUG - 2013-08-20 18:00:45 --> Total execution time: 0.0300
+DEBUG - 2013-08-20 18:02:14 --> Config Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:02:14 --> URI Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Router Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:02:14 --> Output Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Security Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Input Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:02:14 --> Language Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:02:14 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:02:14 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Session Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:02:14 --> Session routines successfully run
+DEBUG - 2013-08-20 18:02:14 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Model Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Model Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:02:14 --> Model Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:02:14 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:02:14 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:02:14 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:02:14 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:02:14 --> Final output sent to browser
+DEBUG - 2013-08-20 18:02:14 --> Total execution time: 0.0261
+DEBUG - 2013-08-20 18:03:25 --> Config Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:03:25 --> URI Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Router Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:03:25 --> Output Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Security Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Input Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:03:25 --> Language Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:03:25 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:03:25 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Session Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:03:25 --> Session routines successfully run
+DEBUG - 2013-08-20 18:03:25 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Model Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Model Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:03:25 --> Model Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:03:25 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:03:25 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:03:25 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:03:25 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:03:25 --> Final output sent to browser
+DEBUG - 2013-08-20 18:03:25 --> Total execution time: 0.0231
+DEBUG - 2013-08-20 18:04:40 --> Config Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:04:40 --> URI Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Router Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:04:40 --> Output Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Security Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Input Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:04:40 --> Language Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:04:40 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:04:40 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Session Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:04:40 --> Session routines successfully run
+DEBUG - 2013-08-20 18:04:40 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Model Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Model Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:04:40 --> Model Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:04:40 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:04:40 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:04:40 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:04:40 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:04:40 --> Final output sent to browser
+DEBUG - 2013-08-20 18:04:40 --> Total execution time: 0.0311
+DEBUG - 2013-08-20 18:04:41 --> Config Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:04:41 --> URI Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Router Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:04:41 --> Output Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Security Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Input Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:04:41 --> Language Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:04:41 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:04:41 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Session Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:04:41 --> Session routines successfully run
+DEBUG - 2013-08-20 18:04:41 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Model Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Model Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:04:41 --> Model Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:04:41 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:04:41 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:04:41 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:04:41 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:04:41 --> Final output sent to browser
+DEBUG - 2013-08-20 18:04:41 --> Total execution time: 0.0240
+DEBUG - 2013-08-20 18:05:07 --> Config Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:05:07 --> URI Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Router Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:05:07 --> Output Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Security Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Input Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:05:07 --> Language Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:05:07 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:05:07 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Session Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:05:07 --> Session routines successfully run
+DEBUG - 2013-08-20 18:05:07 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:05:07 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:05:07 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:05:07 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:05:07 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:05:07 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:05:07 --> Final output sent to browser
+DEBUG - 2013-08-20 18:05:07 --> Total execution time: 0.0332
+DEBUG - 2013-08-20 18:05:16 --> Config Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:05:16 --> URI Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Router Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:05:16 --> Output Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Security Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Input Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:05:16 --> Language Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:05:16 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:05:16 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Session Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:05:16 --> Session routines successfully run
+DEBUG - 2013-08-20 18:05:16 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:05:16 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:05:16 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:05:16 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:05:16 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:05:16 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:05:16 --> Final output sent to browser
+DEBUG - 2013-08-20 18:05:16 --> Total execution time: 0.0222
+DEBUG - 2013-08-20 18:05:53 --> Config Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:05:53 --> URI Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Router Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:05:53 --> Output Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Security Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Input Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:05:53 --> Language Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:05:53 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:05:53 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Session Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:05:53 --> Session routines successfully run
+DEBUG - 2013-08-20 18:05:53 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:05:53 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:05:53 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:05:53 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:05:53 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:05:53 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:05:53 --> Final output sent to browser
+DEBUG - 2013-08-20 18:05:53 --> Total execution time: 0.0221
+DEBUG - 2013-08-20 18:05:55 --> Config Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:05:55 --> URI Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Router Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:05:55 --> Output Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Security Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Input Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:05:55 --> Language Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:05:55 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:05:55 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Session Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:05:55 --> Session routines successfully run
+DEBUG - 2013-08-20 18:05:55 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:05:55 --> Final output sent to browser
+DEBUG - 2013-08-20 18:05:55 --> Total execution time: 0.0223
+DEBUG - 2013-08-20 18:05:55 --> Config Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:05:55 --> URI Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Router Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:05:55 --> Output Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Security Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Input Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:05:55 --> Language Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:05:55 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:05:55 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Session Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:05:55 --> Session routines successfully run
+DEBUG - 2013-08-20 18:05:55 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:05:55 --> Final output sent to browser
+DEBUG - 2013-08-20 18:05:55 --> Total execution time: 0.0251
+DEBUG - 2013-08-20 18:05:55 --> Config Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:05:55 --> URI Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Router Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:05:55 --> Output Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Security Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Input Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:05:55 --> Language Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:05:55 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:05:55 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Session Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:05:55 --> Session routines successfully run
+DEBUG - 2013-08-20 18:05:55 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:05:55 --> Model Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:05:55 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:05:55 --> Final output sent to browser
+DEBUG - 2013-08-20 18:05:55 --> Total execution time: 0.0233
+DEBUG - 2013-08-20 18:06:02 --> Config Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:06:02 --> URI Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Router Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:06:02 --> Output Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Security Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Input Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:06:02 --> Language Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:06:02 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:06:02 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Session Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:06:02 --> Session routines successfully run
+DEBUG - 2013-08-20 18:06:02 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:06:02 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:06:02 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:06:02 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:06:02 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:06:02 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:06:02 --> Final output sent to browser
+DEBUG - 2013-08-20 18:06:02 --> Total execution time: 0.0235
+DEBUG - 2013-08-20 18:06:12 --> Config Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:06:12 --> URI Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Router Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:06:12 --> Output Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Security Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Input Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:06:12 --> Language Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:06:12 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:06:12 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Session Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:06:12 --> A session cookie was not found.
+DEBUG - 2013-08-20 18:06:12 --> Session routines successfully run
+DEBUG - 2013-08-20 18:06:12 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:06:12 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:06:12 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:06:12 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:06:12 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:06:12 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:06:12 --> Final output sent to browser
+DEBUG - 2013-08-20 18:06:12 --> Total execution time: 0.0297
+DEBUG - 2013-08-20 18:06:43 --> Config Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:06:43 --> URI Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Router Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:06:43 --> Output Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Security Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Input Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:06:43 --> Language Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:06:43 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:06:43 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Session Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:06:43 --> Session routines successfully run
+DEBUG - 2013-08-20 18:06:43 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:06:43 --> Model Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:06:43 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:06:43 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:06:43 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:06:43 --> File loaded: appweb/views/presentation.php
+DEBUG - 2013-08-20 18:06:43 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:06:43 --> Final output sent to browser
+DEBUG - 2013-08-20 18:06:43 --> Total execution time: 0.0307
+DEBUG - 2013-08-20 18:07:09 --> Config Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:07:09 --> URI Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Router Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:07:09 --> Output Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Security Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Input Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:07:09 --> Language Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:07:09 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:07:09 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Session Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:07:09 --> Session routines successfully run
+DEBUG - 2013-08-20 18:07:09 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Model Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Model Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:07:09 --> Model Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:07:09 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:07:09 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:07:09 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:07:09 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:07:09 --> Final output sent to browser
+DEBUG - 2013-08-20 18:07:09 --> Total execution time: 0.0317
+DEBUG - 2013-08-20 18:08:11 --> Config Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:08:11 --> URI Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Router Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:08:11 --> Output Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Security Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Input Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:08:11 --> Language Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:08:11 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:08:11 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Session Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:08:11 --> Session routines successfully run
+DEBUG - 2013-08-20 18:08:11 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:08:11 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:08:11 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:08:11 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:08:11 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:08:11 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:08:11 --> Final output sent to browser
+DEBUG - 2013-08-20 18:08:11 --> Total execution time: 0.0267
+DEBUG - 2013-08-20 18:08:13 --> Config Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:08:13 --> URI Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Router Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:08:13 --> Output Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Security Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Input Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:08:13 --> Language Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:08:13 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:08:13 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Session Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:08:13 --> Session routines successfully run
+DEBUG - 2013-08-20 18:08:13 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:08:13 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:08:13 --> Final output sent to browser
+DEBUG - 2013-08-20 18:08:13 --> Total execution time: 0.0322
+DEBUG - 2013-08-20 18:08:13 --> Config Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:08:13 --> URI Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Router Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:08:13 --> Output Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Security Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Input Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:08:13 --> Language Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:08:13 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:08:13 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Session Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:08:13 --> Session routines successfully run
+DEBUG - 2013-08-20 18:08:13 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:08:13 --> Model Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:08:13 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:08:13 --> Final output sent to browser
+DEBUG - 2013-08-20 18:08:13 --> Total execution time: 0.0220
+DEBUG - 2013-08-20 18:11:06 --> Config Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:11:06 --> URI Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Router Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:11:06 --> Output Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Security Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Input Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:11:06 --> Language Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:11:06 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:11:06 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Session Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:11:06 --> Session routines successfully run
+DEBUG - 2013-08-20 18:11:06 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Model Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Model Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:11:06 --> Model Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:11:06 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:11:06 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:11:06 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:11:06 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:11:06 --> Final output sent to browser
+DEBUG - 2013-08-20 18:11:06 --> Total execution time: 0.0375
+DEBUG - 2013-08-20 18:11:27 --> Config Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:11:27 --> URI Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Router Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:11:27 --> Output Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Security Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Input Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:11:27 --> Language Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:11:27 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:11:27 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Session Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:11:27 --> Session routines successfully run
+DEBUG - 2013-08-20 18:11:27 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Model Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Model Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:11:27 --> Model Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:11:27 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:11:27 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:11:27 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:11:27 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:11:27 --> Final output sent to browser
+DEBUG - 2013-08-20 18:11:27 --> Total execution time: 0.0347
+DEBUG - 2013-08-20 18:12:10 --> Config Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:12:10 --> URI Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Router Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:12:10 --> Output Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Security Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Input Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:12:10 --> Language Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:12:10 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:12:10 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Session Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:12:10 --> Session routines successfully run
+DEBUG - 2013-08-20 18:12:10 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Model Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Model Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:12:10 --> Model Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:12:10 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:12:10 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:12:10 --> File loaded: appweb/views/search.php
+DEBUG - 2013-08-20 18:12:10 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:12:10 --> Final output sent to browser
+DEBUG - 2013-08-20 18:12:10 --> Total execution time: 0.0229
+DEBUG - 2013-08-20 18:13:26 --> Config Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Hooks Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Utf8 Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> UTF-8 Support Enabled
+DEBUG - 2013-08-20 18:13:26 --> URI Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Router Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> No URI present. Default controller set.
+DEBUG - 2013-08-20 18:13:26 --> Output Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Security Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Input Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-08-20 18:13:26 --> Language Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Loader Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Config file loaded: appweb/config/config.php
+DEBUG - 2013-08-20 18:13:26 --> Helper loaded: url_helper
+DEBUG - 2013-08-20 18:13:26 --> Database Driver Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Session Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Helper loaded: string_helper
+DEBUG - 2013-08-20 18:13:26 --> Session routines successfully run
+DEBUG - 2013-08-20 18:13:26 --> Pagination Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Model Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Model Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Pagination class already loaded. Second attempt ignored.
+DEBUG - 2013-08-20 18:13:26 --> Model Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> Controller Class Initialized
+DEBUG - 2013-08-20 18:13:26 --> File loaded: appweb/views/header.php
+DEBUG - 2013-08-20 18:13:26 --> File loaded: appweb/views/menu.php
+DEBUG - 2013-08-20 18:13:26 --> File loaded: appweb/views/info_page.php
+DEBUG - 2013-08-20 18:13:26 --> File loaded: appweb/views/table.php
+DEBUG - 2013-08-20 18:13:26 --> File loaded: appweb/views/foot.php
+DEBUG - 2013-08-20 18:13:26 --> Final output sent to browser
+DEBUG - 2013-08-20 18:13:26 --> Total execution time: 0.0334

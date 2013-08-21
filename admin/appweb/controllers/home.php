@@ -32,6 +32,10 @@ public function __construct(){
 	*/
 	public function index()
 	{	
-		$this->load->view('home');
-	}
+		$this->load->view('header');
+		$this->load->view('menu');
+		$this->load->view('info_page');
+		$this->load->view('table');
+		$this->load->view('foot');
+		}
 }
