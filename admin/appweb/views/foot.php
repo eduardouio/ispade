@@ -22,6 +22,8 @@
 <script type="text/javascript" src="<?php print base_url();?>js/demo.js"></script>
 <script type="text/javascript" src="<?php print base_url();?>js/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="<?php print base_url();?>js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript">
+$('#myModal2').modal();
 </script>
 </body>
 </html>

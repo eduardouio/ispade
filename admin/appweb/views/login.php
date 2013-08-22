@@ -25,13 +25,14 @@
         margin-bottom: 15px;
         padding: 7px 9px;
       
-      }      
+      }
+
       .box { 
 
-        background:rgb(130, 186, 0);         
+        background:rgb(0, 130, 153);         
         color #fff;
          padding: 5px;
-         height: 100px;         
+         height: 25px;         
          margin-top: 50px;
          margin-right: auto;
          margin-bottom: 5px;
