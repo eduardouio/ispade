@@ -42,18 +42,17 @@
     </style>
 <body>
      <div class="container">
-      <form class="form-signin">
+      <form class="form-signin" action="<?php print base_url();?>index.php/recibir" method="post">
         <h2 class="form-signin-heading">Ingrese Sus Datos</h2>
-        <input type="text" class="input-block-level" placeholder="Usuario">
-        <input type="password" class="input-block-level" placeholder="Contraseña">
+        <input type="text" class="input-block-level" placeholder="Usuario" required="required">
+        <input type="password" class="input-block-level" placeholder="Contraseña" required="required">
         <button class="btn btn-large btn-info" type="submit">Identificarme</button>
       </form>
 
       <div class="box">
         <small style="font-size: 11px;">    
-    <p style="text-align:center; backgorund-color:#EDF1F7;">
-      &copy; 2013 Instituto Técnico Superior Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a>
-      <br>Sitio Desarrollado Por Eduardo Villota <a href="http://twitter.com/eduardouio" blank="_blank">eduardouio7@gmail.com</a>
+    <p style="text-align:center; backgorund-color:#EDF1F7; color:#fff">
+      Bienvenido al Centro de control IanCMS, desde esta aplicación puede administrar su sitio.
     </p>
   </small>
       </div>

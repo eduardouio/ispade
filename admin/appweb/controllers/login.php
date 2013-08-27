@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Login extends CI_Controller {
 /**
-* Clase encargada de gestionar los contenidos de la pagina home del sitio
+* Clase encargada de mantener la secion en el sitio
 *
 * @pakage App Administracion del sitio Ispade 
 * @subpakage controladores
@@ -25,14 +25,26 @@ public function __construct(){
 	parent::__construct();				}	
 
 	/**
-	* genera la pagina completa, unico metodo de la clase
+	* Presentamos el formulario
 	*/
 	public function index()
 	{	
+		if (!$_POST){
 		$this->load->view('header');
 		$this->load->view('alert');
 		$this->load->view('login');
-		$this->load->view('foot');		
-		
+		$this->load->view('foot');				
 		}
+	}
+
+	/**
+	* Recibe los datos del formulario los procesa he inicia la sesion
+	*/
+	private function __Recibir(){
+		if ($_POST){
+			
+		}else{
+			$this->index();
+		}
+	}
 }
