@@ -40,7 +40,7 @@ public function __construct(){
 	/**
 	* Recibe los datos del formulario los procesa he inicia la sesion
 	*/
-	private function __Recibir(){
+	private function recibir(){
 		if ($_POST){
 			
 		}else{
