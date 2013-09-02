@@ -4,11 +4,11 @@
          <h3><span class=" icon-info-3">&nbsp;&nbsp;&nbsp;</span>Advertencia!...</h3>
       </div>
       <div class="modal-body">
-         <h4><?php print $title; ?></h4>
-         <p><?php print $message; ?></p>
-      </div>
+         <h4><?php print $alert['title']; ?></h4>
+         <p><?php print $alert['message']; ?></p>
+      </message>
       <div class="modal-footer">
-         <a class="btn  btn-inverse btn-large" data-dismiss="modal">Cancelar</a>
+         <a class="btn  btn-inverse btn-large" data-dismiss="modal" href="<?php $destino; ?>">Cancelar</a>
          <a class="btn btn-danger btn-large">Continuar</a>
       </div>
 </div>

@@ -4,22 +4,22 @@
       <div class="span12"> <!-- Menú titulo página -->
         <div id="header-container">
           <a id="backbutton" class="win-backbutton" href="#"></a>
-          <h5>Página Actual:</h5>
+          <h5>Estás en: <?php print $info_page['npage']; ?></h5>
           <div class="dropdown">
             <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#" >
-              Sección del sitio: Nosotros
+              Sección del sitio: <?php print $info_page['npage']  ?>
               <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-              <li><a href="#"><span class="icon-document"></span>&nbsp;Nuevo Artículo</a></li>
-              <li><a href="#"><span class="icon-search"></span>&nbsp;Buscar Artículo</a></li>
+              <li><a href="<?php print base_url() . 'index.php/' . $info_page['controller']; ?>/crear"><span class="icon-document"></span>&nbsp;Nuevo Artículo</a></li>
+              <li><a href="<?php print(base_url() . 'index.php/buscar/'); ?>"><span class="icon-search"></span>&nbsp;Buscar Artículo</a></li>
             </ul>
           </div>
         </div>
         <div id="top-info" class="pull-right">
           <div class="pull-left">
-            <a href="" class="btn btn-primary btn-large"><span class="icon-document"></span>&nbsp;Nuevo Artículo</a> 
-            <a href="" class="btn btn-primary btn-large"><span class="icon-search"></span>&nbsp;Buscar Artículo</a>
+            <a href="<?php print base_url() . 'index.php/' . $info_page['controller']; ?>/crear" class="btn btn-primary btn-large"><span class="icon-document"></span>&nbsp;Nuevo Artículo</a> 
+            <a href="<?php print(base_url() . 'index.php/buscar/'); ?>" class="btn btn-primary btn-large"><span class="icon-search"></span>&nbsp;Buscar Artículo</a>
           </div>
         </div>
       </div><!-- /Menú titulo página -->

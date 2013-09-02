@@ -177,6 +177,7 @@ class Dbsitio extends CI_Model{
 	* @param str $table => Contiene el nombre de la tabla a la que se le va a hacer la consulta
 	* @param str $condition => Recibe la condicion de la consulta, clave valor que indica el valor y nombre de la columna por la que se va a modificar
 	* @param int $limit => Limite de registros a obtener, vale 0 cero si no se recibe el parametro
+	* @param int $data => diccionario calve valor con los nombre de la columna y el valor a escribir
 	*/
 
 	public function updateRow($table, $data, $condition, $limit = FALSE){

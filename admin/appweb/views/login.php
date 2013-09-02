@@ -42,13 +42,12 @@
     </style>
 <body>
      <div class="container">
-      <form class="form-signin" action="<?php print base_url();?>index.php/recibir" method="post">
+      <form class="form-signin" action="<?php print base_url();?>index.php/login" method="post">
         <h2 class="form-signin-heading">Ingrese Sus Datos</h2>
-        <input type="text" class="input-block-level" placeholder="Usuario" required="required">
-        <input type="password" class="input-block-level" placeholder="Contraseña" required="required">
+        <input type="text" class="input-block-level" placeholder="Usuario" required="required" name="user">
+        <input type="password" class="input-block-level" placeholder="Contraseña" required="required" name ="pass">
         <button class="btn btn-large btn-info" type="submit">Identificarme</button>
       </form>
-
       <div class="box">
         <small style="font-size: 11px;">    
     <p style="text-align:center; backgorund-color:#EDF1F7; color:#fff">
