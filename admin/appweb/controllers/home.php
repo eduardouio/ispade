@@ -37,7 +37,12 @@ public function index()
 {	
 	if($this->_confirmSession()){			
 		$this->_setInfo();
-		$this->html_render->page_render($this->Data_);
+		$this->load->view('header');
+		$this->load->view('menu');
+		$this->load->view('edit');
+		$this->load->view('foot');
+
+		//$this->html_render->page_render($this->Data_);
 	}		
 }
 

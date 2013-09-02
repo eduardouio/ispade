@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="<?php print base_url();?>css/bootmetro-icons.css">
   <link rel="stylesheet" type="text/css" href="<?php print base_url();?>css/bootmetro-ui-light.css">
   <link rel="stylesheet" type="text/css" href="<?php print base_url();?>css/datepicker.css">
+  <link rel="stylesheet" type="text/css" href="<?php print base_url();?>css/bootstrap-wysihtml5.css"></link>
   <link rel="stylesheet" type="text/css" href= "<?php print base_url();?>js/google-code-prettify/prettify.css"></script>
   <link rel="shortcut icon" href="<?php print base_url();?>ico/favicon.ico">
 </head> <!--/Header-->
