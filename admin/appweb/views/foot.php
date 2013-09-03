@@ -1,4 +1,4 @@
-<div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF1F7;">  
+<div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF187;">  
   <small style="font-size: 11px;">    
     <p>
       &copy; 2013 Instituto Técnico Superior Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a>

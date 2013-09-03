@@ -35,7 +35,7 @@
                 print '<li><a href="'. base_url() .'index.php/' . $controller .'/present/'. $row['id_article'].'"><span class="icon-screen-2"></span>&nbsp;Presentar</a></li>';
                 print '<li><a href="'. base_url() .'index.php/' . $controller .'/edit/'. $row['id_article'] .'"><span class="icon-pencil"></span>&nbsp;Editar</a></li>
                                       <li class="divider"></li>
-                                      <li class="bg-color-orange"><a href="'. base_url() .'index.php/'. $controller .'/delete/'. $row['id_article'] .'"><span class="icon-trash"></span>&nbsp;Eliminar</a></li>
+                                      <li class="bg-color-red"><a href="'. base_url() .'index.php/'. $controller .'/delete/'. $row['id_article'] .'"><span class="icon-trash"></span>&nbsp;Eliminar</a></li>
                                     </ul>
                                   </div>
                                 </td>
