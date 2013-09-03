@@ -59,12 +59,9 @@ private function _setInfo(){
 	$this->Data_['info_page'] = array('npage' => $this->Npage_,
 										'controller' => $this->Controller_);
 	#obtenemos los registros de los artículos de la página	
-	$this->Data_['table'] = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page=' . $this->IdPage_);
-	$midata = array('controller' => $this->Controller_);
-	$arreglo = array_merge($this->Data_['table'],$midata);
+	$midata1 = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page=' . $this->IdPage_);
+	$midata2 = array('controller' => $this->Controller_);
+	$this->Data_['table'] = array_merge($midata1,$midata2);
 
-	var_dump($arreglo);	
-
-	
-}
+		}
 }
