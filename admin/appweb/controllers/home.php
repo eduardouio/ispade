@@ -18,8 +18,7 @@ class Home extends CI_Controller {
 	protected $IdPage_ = '1';
 	protected $Npage_ = 'Sitio/Inicio';
 	protected $Controller_ = 'home';
-	protected $V_articles_ ='v_ratings';
-	protected $V_lista_ = 'v_tablon';
+	protected $V_lista_ = 'article';
 	protected $Limit_;
 	protected $Offset_ = 5;
 	protected $Columns_;
@@ -37,12 +36,7 @@ public function index()
 {	
 	if($this->_confirmSession()){			
 		$this->_setInfo();
-		$this->load->view('header');
-		$this->load->view('menu');
-		$this->load->view('edit');
-		$this->load->view('foot');
-
-		//$this->html_render->page_render($this->Data_);
+		$this->html_render->page_render($this->Data_);
 	}		
 }
 
@@ -64,6 +58,13 @@ private function _setInfo(){
 	$this->Data_['menu'] = array($this->Controller_ => 'active');
 	$this->Data_['info_page'] = array('npage' => $this->Npage_,
 										'controller' => $this->Controller_);
+	#obtenemos los registros de los artículos de la página	
+	$this->Data_['table'] = $this->dbsitio->getRows($this->V_lista_,FALSE,'id_page=' . $this->IdPage_);
+	$midata = array('controller' => $this->Controller_);
+	$arreglo = array_merge($this->Data_['table'],$midata);
+
+	var_dump($arreglo);	
+
 	
 }
 }

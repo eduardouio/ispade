@@ -78,3 +78,6 @@ INSERT INTO `user` (`id_usuario`, `usuario`, `pass`, `last_failure`, `failure_co
 
 
 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_ratings` AS select `article`.`id_article` AS `id_article`,`article`.`id_page` AS `id_page`,`article`.`title` AS `title`,`article`.`counter` AS `counter` from `article` order by `article`.`counter` desc limit 10
+
+
+UPDATE `liposerv_ispade`.`article` SET `content`='No borre este artículo, este contenido se muestra cuando no existe un artículo en la base de datos.' WHERE `id_article`='42';

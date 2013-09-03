@@ -9,12 +9,11 @@
 		border-radius: 6px;
 	}
 </style>
-
 </head>
 <body>
 <div class="container">
 	<div class="hero-unit" style="margin-top:40px">
-		<h1 style="font-size:58px">IanCMS <small> &nbsp; Editor de Artículos</small></h1>
+		<h1 style="font-size:38px">IanCMS <small> &nbsp; Editor de Artículos</small></h1>
 		<hr/>
 		<form action="<?php print base_url() . 'index.php/'. $edit['controller']; ?>/guardar" method="post">			
 		<input name="title" type ="text" placeholder="Titulo">
