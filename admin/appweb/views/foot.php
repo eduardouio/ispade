@@ -1,4 +1,5 @@
-<div class = "hero-unit container" style="text-align:center; backgorund-color:#EDF187;">  
+<div class="container">
+<div class = "hero-unit" style="text-align:center; backgorund-color:#EDF187;">  
   <small style="font-size: 11px;">    
     <p>
       &copy; 2013 Instituto Técnico Superior Para El Desarrollo ISPADE  <a href="http://ispade.edu.ec/web/FrameTotal.html?id=home">Términos De Privacidad</a>
@@ -34,5 +35,6 @@ $('#myModal2').modal();
 <script type="text/javascript" charset="utf-8">
 	$(prettyPrint);
 </script>
+</div>
 </body>
 </html>

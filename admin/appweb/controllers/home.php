@@ -65,24 +65,28 @@ if (($idarticle > 0) && ($this->_confirmSession())){
 
 public function edit(){
 /**
-*Retorna un formulario con los datos del artículo
+* Método encargado de modificar el contenido de los artículos 
+* Si no recibe nada muestra el listado de todas los artículos de la página
+* Si recibe id_article retorna un formulario con esos datos
+* Si recibe algo por POST graba la información en la BD y retorna una mensaje
+* 	--Si la información está incompleta retorna el formulario con los mismos datos
 */
 	$idarticle = $this->uri->segment(3,0);
-	if (($idarticle > 0) && ($this->_confirmSession())){
-		if(!$_POST){
+
+	#muestra la pantalla de inicio
+	if (($idarticle == 0) || (!$this->_confirmSession()) || (!$_POST)){
+		$this->index();
+	}
+	#no se reciben datos por post
+	if (($idarticle > 0) && (!$_POST)){		
 			$this->_setInfo();
 			$midata1 = $this->dbsitio->getRows($this->Table_,FALSE,'id_article = ' . $idarticle);
 			$midata2 = array('controller' => $this->Controller_);
 			$this->Data_['form'] = array_merge($midata1,$midata2);
 			$this->html_render->page_render($this->Data_);
 		}else{
-			
+			print 'recibiendo informacion por post';
 		}
-	}else{
-		$this->index();
-	}
-
-
 
 }
 
