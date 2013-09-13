@@ -4,10 +4,10 @@
       <div class="span12"> <!-- Menú titulo página -->
         <div id="header-container">
           <a id="backbutton" class="win-backbutton" href="#"></a>
-          <h5>Estás en: <?php print $info_page['npage']; ?></h5>
+          <h5>Estás en la Pagina: <?php print $info_page['npage']; ?></h5>
           <div class="dropdown">
             <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#" >
-              Sección del sitio: <?php print $info_page['npage']  ?>
+              Sección del sitio: Sitio/<?php print $info_page['npage']  ?>
               <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">

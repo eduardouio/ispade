@@ -112,9 +112,7 @@ public function __construct(){
 	}
 
 	private function _setInfo(){
-		/**
-		* Hubica la información en las plantillas HTML
-		*/
+		/* Hubica la información en las plantillas HTML	*/
 		$this->Data_['header'] = array('title' => 'Bienvenido!...' );
 		$this->Data_['login'] = array('form'=>'form');
 		
