@@ -81,13 +81,22 @@ class Home extends CI_Controller {
 
 	public function saveForm(){
 	/*guarda los datos del formulario en la base de datos, no importa si es de editar o crear.*/
-		if($this->sesiones->isLogged()){
-
+		if(($this->sesiones->isLogged()) && ($this->_validateForm())){
+			print('arg');
 		}
 	}
 
 	private function _validateForm(){
 	/*valida los datos del formulario de acuerdo a reglas establecidas en CI*/
+		$this->form_validation->set_rules('id_article', 'Identificador Artículo', 'trim|required|min_length[2]|xss_clean');		
+		$this->form_validation->set_rules('title', 'Título Artículo', 'trim|xss_clean');		
+		$this->form_validation->set_rules('image', 'Imagen Artículo', 'trim|required|min_length[2]|xss_clean');
+		$this->form_validation->set_rules('content', 'Contenido Artículo', 'trim|required|min_length[10]|xss_clean');
+		if (!$this->form_validation->run()){
+			$this->_returnForm();
+		}else{
+			return TRUE;
+		}
 	}
 
 	private function _returnForm(){
