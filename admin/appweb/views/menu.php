@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="<?php print base_url(); ?>"> 
+      <a class="brand" href="<?php print base_url();?>index.php/home"> 
         <span class="icon-arrow-right-2"></span>&nbsp;Panel de Control&nbsp;<span class="icon-arrow-left-2"></span></a>
         <div class="nav-collapse">
           <ul class="nav">
