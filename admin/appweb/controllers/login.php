@@ -38,6 +38,7 @@ public function __construct(){
 		if(!$_POST){			
 			#Cargamos el formulario					
 			$this->_setInfo();
+			$this->session->sess_destroy();
 			$this->html_render->page_render($this->Data_);				
 		}else{
 			#valiamos el formulario

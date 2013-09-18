@@ -9,17 +9,17 @@
 						</a>
 					</div>
 				</div>
-				<form class="form-inline">
+				<form class="form-inline" method="post" action="<?php print base_url() ?>index.php/search/resultado">
 					<div class="input-prepend input-append">
 					<span class="add-on">Criterio &nbsp;&nbsp;&nbsp;</span>
-					<input type="text" class="input-xxlarge search-query" id="inputCriterio" placeholder="Ingrese un Texto">
+					<input name ="criterio" type="text" class="input-xxlarge search-query" id="inputCriterio" placeholder="Ingrese un Texto">
 				</div>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<div class="input-prepend input-append">
 					<span class="add-on">Seleccione &nbsp;&nbsp;&nbsp;</span>
-					<select>
-						<option selected="">Título</option>
-						<option>Contenido</option>						
+					<select name="campo">
+						<option selected="" name="title">Título</option>
+						<option name="content">Contenido</option>						
 					</select>
 				</div>
 					<div id="top-info" class="pull-right">

@@ -293,7 +293,7 @@ class Dbsitio extends CI_Model{
  */
  public function execQuery( $sql ){
    $result =  $this->db->query($sql);
-   return $result;
+      return $result->result_array();
   }
 
 } 

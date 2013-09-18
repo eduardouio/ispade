@@ -15,7 +15,7 @@
             <li class="<?php @print $menu['nosotros'];?>"><a href="<?php print base_url(); ?>index.php/nosotros"><i class="icon-users-2 icon-white" style="font-size: 32px;"></i> &nbsp; Nosotros</a></li>
             <li class="<?php @print $menu['noticias'];?>"><a href="<?php print base_url(); ?>index.php/noticias"><i class=" icon-newspaper icon-white" style="font-size: 32px;"></i>&nbsp; Noticias</a></li>
             <li class="<?php @print $menu['servicios'];?>"><a href="<?php print base_url(); ?>index.php/servicios"><i class=" icon-drawer-4  icon-white" style="font-size: 32px;"></i>&nbsp; Servicios</a></li>
-            <a href="" class ="btn btn-info pull-right"><span class="icon-logout" aria-hidden="true" style="font-size: 32px;"></span>&nbsp;Salir</a>
+            <a href="<?php print base_url(); ?>/index.php/login" class ="btn btn-info pull-right"><span class="icon-logout" aria-hidden="true" style="font-size: 32px;"></span>&nbsp;Salir</a>
           </ul>
         </div>
       </div>

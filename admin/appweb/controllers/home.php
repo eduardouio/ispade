@@ -76,13 +76,13 @@ class Home extends CI_Controller {
 
 	public function create(){
 	/* Muestra un formulario vacio para crear un artículo */
-		//$this->index();
-	if($this->sesiones->isLogged()){								
+		$this->index();
+		/*if($this->sesiones->isLogged()){								
 			$this->_setInfo();				
 			$this->Data_['form'] = array('controller' => $this->Controller_,
 										'id_article' => '0');
 			$this->html_render->page_render($this->Data_);
-		}
+		}*/
 	}
 
 	public function saveForm(){
