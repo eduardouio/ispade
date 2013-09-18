@@ -107,7 +107,8 @@ protected $Table_ = 'article';
 				$data1 = $this->input->post();
 				unset($data1['id_article']);
 				unset($data1['_wysihtml5_mode']);
-				$data2 = array('id_page' =>  $this->IdPage_);
+				$data2 = array('id_page' =>  $this->IdPage_,
+								'create_date' => date('Y-m-d H:i:s'));
 				$arreglo = array_merge($data2,$data1);
 				
 				$newId = $this->dbsitio->insertRow($this->Table_,
