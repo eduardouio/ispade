@@ -22,11 +22,12 @@ class Home extends CI_Controller {
 	protected $Offset_ = 5;
 
 
-	public function __construct(){
+	 function __construct() {
 	/**
 	* Inicializa la clase como objeto CI
 	*/
 		parent::__construct();	
+		$this->load->library('form_validation');
 		$this->load->model('sesiones');
 		}	
 
@@ -82,20 +83,22 @@ class Home extends CI_Controller {
 	public function saveForm(){
 	/*guarda los datos del formulario en la base de datos, no importa si es de editar o crear.*/
 		if(($this->sesiones->isLogged()) && ($this->_validateForm())){
-			print('arg');
+			
+		}else{			
+			$this->_returnForm();
 		}
 	}
 
 	private function _validateForm(){
 	/*valida los datos del formulario de acuerdo a reglas establecidas en CI*/
-		$this->form_validation->set_rules('id_article', 'Identificador Artículo', 'trim|required|min_length[2]|xss_clean');		
-		$this->form_validation->set_rules('title', 'Título Artículo', 'trim|xss_clean');		
-		$this->form_validation->set_rules('image', 'Imagen Artículo', 'trim|required|min_length[2]|xss_clean');
+		$this->form_validation->set_rules('id_article', 'Identificador Articulo', 'trim|required|min_length[1]|xss_clean');
+		$this->form_validation->set_rules('title', 'Titulo Articulo', 'trim|required|min_length[2]|xss_clean');		
+		$this->form_validation->set_rules('image', 'Imagen Articulo', 'trim|required|min_length[2]|xss_clean');
 		$this->form_validation->set_rules('content', 'Contenido Artículo', 'trim|required|min_length[10]|xss_clean');
-		if (!$this->form_validation->run()){
-			$this->_returnForm();
-		}else{
+		if ($this->form_validation->run()){
 			return TRUE;
+		}else{
+			return FALSE;
 		}
 	}
 
@@ -103,7 +106,12 @@ class Home extends CI_Controller {
 	/*Retorna un formulario con los datos ingresados por el usuario, solo se ejecuta esta 
 	funcion cuando _validateForm retorna false, se retorna el formulario como crear o editar 
 	dependiendo del parámetro id_article*/
-	
+		if($this->sesiones->isLogged()){								
+			$this->_setInfo();				
+			$this->Data_['form'] = array('controller' => $this->Controller_,
+										'id_article' => '0');
+			$this->html_render->page_render($this->Data_);
+		}
 
 	}
 

@@ -13,6 +13,7 @@
 <body>
 	<div class="container">
 	<div class="hero-unit" style="margin-top:40px">
+		<?php var_dump(validation_errors()); ?>
 		<h2>IanCMS <small> &nbsp; Editor de Artículos</small></h2>
 		<form action="<?php print base_url() . 'index.php/'. $form['controller']; ?>/saveForm" enctype="multipart/form-data" method="post">			
 		<input type="hidden" value="<?php @print $form[0]['id_article'];@print $form['id_article'];print set_value('id_article');?>" name="id_article"/>
