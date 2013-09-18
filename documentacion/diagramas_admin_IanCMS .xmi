@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2013-09-18T12:43:26" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2013-09-18T16:32:12" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
@@ -104,6 +104,12 @@
           <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="PcL5AdLgYEcM" comment="Retorna la cadena del último error en la base de datos" name="lastError"/>
           <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="xJTYDr5Z6Wa7" comment="Retorna la cadena de la última consulta realizada a la base de datos" name="lastQuery"/>
           <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Vv4HTHCtsXy2" comment="Ejecuta una consulta SQL en la base de datos, sin importar su contenido&#x9;&#xa;" name="execQuery"/>
+          <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="8IjgUJ0ScU0p" name="insertRow">
+           <UML:BehavioralFeature.parameter>
+            <UML:Parameter visibility="private" isSpecification="false" xmi.id="J3MPZuU4pZKH" type="IYYGj9Q8WomV" value="" comment="Nombre de la tabla&#x9;&#x9;&#x9;" name="table"/>
+            <UML:Parameter visibility="private" isSpecification="false" xmi.id="qWAi16j9OQnt" type="IYYGj9Q8WomV" value="" comment="Diccionario Clave valor con los datos del sistema&#x9;" name="values"/>
+           </UML:BehavioralFeature.parameter>
+          </UML:Operation>
          </UML:Classifier.feature>
         </UML:Class>
         <UML:Class visibility="public" isSpecification="false" namespace="NdP7yaww57Zz" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uQ1JgCzubgxn" comment="Clase encargada de funcionar los contenidos procesados por el controlador con las vistas de usuario." name="html_render">
@@ -159,7 +165,7 @@
             <UML:Parameter visibility="private" isSpecification="false" xmi.id="NFmHg5WZg9hk" type="UEWiVG2zWmVV" value="" comment="Identificador del artículo a editar" name="id_article"/>
            </UML:BehavioralFeature.parameter>
           </UML:Operation>
-          <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="V50dvFMhtvhl" name="delete">
+          <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="V50dvFMhtvhl" comment="Elimina un articulo de la base de datos" name="delete">
            <UML:BehavioralFeature.parameter>
             <UML:Parameter visibility="private" isSpecification="false" xmi.id="nmuzTCioPS35" type="UEWiVG2zWmVV" value="" comment="Identificador del artículo&#xa;" name="id_article"/>
            </UML:BehavioralFeature.parameter>
@@ -204,10 +210,10 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams>
-       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Diagrama de Clases" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="418" canvaswidth="1251" localid="-1" snapcsgrid="0" showgrid="1" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="106" xmi.id="K0TuL1aZKF4i" documentation="diagrama de clases de Ian CMS, en este diagrama se establece la estryctura logica del sistema, tomando en cuenta el patron de diseño del sistema mismo que es MVC (Modelo vista controlador), en este diagrama se explica el funcionamiento del sistema, se establece reglas para el uso de las cases, el ámbito de las mismas y su funcionalidad." showscope="1" snapgrid="0" showatts="1" type="1">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Diagrama de Clases" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="418" canvaswidth="1251" localid="-1" snapcsgrid="0" showgrid="1" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="89" xmi.id="K0TuL1aZKF4i" documentation="diagrama de clases de Ian CMS, en este diagrama se establece la estryctura logica del sistema, tomando en cuenta el patron de diseño del sistema mismo que es MVC (Modelo vista controlador), en este diagrama se explica el funcionamiento del sistema, se establece reglas para el uso de las cases, el ámbito de las mismas y su funcionalidad." showscope="1" snapgrid="0" showatts="1" type="1">
         <widgets>
          <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="1000" showattsigs="601" showstereotype="1" y="-180" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" width="534" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uQ1JgCzubgxn" showscope="1" height="70" showopsigs="601"/>
-         <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="1000" showattsigs="601" showstereotype="1" y="-504" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="NcjRkIQUtbID" showscope="1" height="238" showopsigs="601"/>
+         <classwidget linecolor="none" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="988" showattsigs="601" showstereotype="1" y="-466" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="NcjRkIQUtbID" showscope="1" height="252" showopsigs="601"/>
         </widgets>
         <messages/>
         <associations/>
@@ -229,9 +235,9 @@
         <messages/>
         <associations/>
        </diagram>
-       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="reglas_negocio" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="297" canvaswidth="426" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="161" xmi.id="VjrES0KdwD0k" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="reglas_negocio" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="312" canvaswidth="543" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="177" xmi.id="VjrES0KdwD0k" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
         <widgets>
-         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-619" showattsigs="601" showstereotype="1" y="-285" showattributes="1" font="Sans Serif,9,-1,5,75,0,0,0,0,0" width="271" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="UPIcohEXgXj7" showscope="1" height="297" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-709" showattsigs="601" showstereotype="1" y="-280" showattributes="1" font="Sans Serif,9,-1,5,75,0,0,0,0,0" width="271" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="UPIcohEXgXj7" showscope="1" height="297" showopsigs="601"/>
          <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-339" showattsigs="601" showstereotype="1" y="-273" showattributes="1" font="Sans Serif,9,-1,5,75,0,0,0,0,0" width="146" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="iMUgosHq4sl3" showscope="1" height="88" showopsigs="601"/>
         </widgets>
         <messages/>
@@ -256,7 +262,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="K0TuL1aZKF4i" uniqueid="Vv4HTHCtsXy2" documentation=""/>
+  <docsettings viewid="VjrES0KdwD0k" uniqueid="qWAi16j9OQnt" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component View"/>
@@ -289,6 +295,7 @@
        <listitem open="0" type="815" id="Vv4HTHCtsXy2"/>
        <listitem open="0" type="815" id="U0OhRfzLZgJW"/>
        <listitem open="0" type="815" id="aflAyC8yatDg"/>
+       <listitem open="0" type="815" id="8IjgUJ0ScU0p"/>
        <listitem open="0" type="815" id="PcL5AdLgYEcM"/>
        <listitem open="0" type="815" id="Yxvvojj9cvOX"/>
        <listitem open="0" type="815" id="xJTYDr5Z6Wa7"/>
