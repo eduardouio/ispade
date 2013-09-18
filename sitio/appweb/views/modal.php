@@ -5,7 +5,7 @@
   </div>
   <div class="modal-body">
     <p>
-      <img align="left" src="<?php print base_url() . $modal[0]['image']; ?>" alt="<?php print base_url() . $modal[0]['image']; ?>">
+      
       <?php print $modal[0]['content'];?>
     </p>
   </div>

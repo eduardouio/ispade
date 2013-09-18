@@ -42,15 +42,7 @@
 						</tr>
 						<tr>						
 							<td><b>Imágen</b></td>
-							<td  class="selected"><a target="_blank" href="<?php print base_url();?>img/cpanel.png" class="tile wide app"> 
-								<div class="image-wrapper">
-									<img src="<?php print base_url();?>img/cpanel.png" higth="100" width="100">
-								</div>
-								<div class="textover-wrapper"><div class="text2">
-									Ver imágen...
-								</div></div>
-
-							</a></td>
+							
 						</tr>
 						<tr>						
 							<td><b>Contenido</b></td>

@@ -18,7 +18,6 @@
 		<form action="<?php print base_url() . 'index.php/'. $form['controller']; ?>/saveForm" enctype="multipart/form-data" method="post">			
 		<input type="hidden" value="<?php @print $form[0]['id_article'];@print $form['id_article'];print set_value('id_article');?>" name="id_article"/>
 		<input name="title" class="input-xxlarge" type ="text" placeholder="Titulo" required="TRUE" autofocus="TRUE" value="<?php @print $form[0]['title']; print set_value('title'); ?>"> <br>
-		<input name="image" class="input-xxlarge" type ="text" placeholder="Imágen" value="<?php @print $form[0]['image']; print set_value('image');?>">		
 		<textarea class="textarea" placeholder="Ingrese un Texto ..." style="width: 1000px; height: 400px" name="content">
 			<?php @print $form[0]['content']; print set_value('content'); ?>
 		</textarea>

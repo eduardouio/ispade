@@ -175,8 +175,7 @@ setTimeout ("redireccionar()", 1000); //tiempo expresado en milisegundos
 	private function _validateForm(){
 	/*valida los datos del formulario de acuerdo a reglas establecidas en CI*/
 		$this->form_validation->set_rules('id_article', 'Identificador Articulo', 'trim|required|min_length[1]|xss_clean');
-		$this->form_validation->set_rules('title', 'Titulo Articulo', 'trim|required|min_length[2]|xss_clean');		
-		$this->form_validation->set_rules('image', 'Imagen Articulo', 'trim|required|min_length[2]|xss_clean');
+		$this->form_validation->set_rules('title', 'Titulo Articulo', 'trim|required|min_length[2]|xss_clean');				
 		$this->form_validation->set_rules('content', 'Contenido Artículo', 'trim|required|min_length[10]|xss_clean');
 		if ($this->form_validation->run()){
 			return TRUE;
