@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'elian';
+$db['default']['username'] = 'liposerv_ispade';
+$db['default']['password'] = '[.A(^=bqFUtn';
 $db['default']['database'] = 'liposerv_ispade';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://127.0.01/ispade/sitio/';
+$config['base_url']	= 'http://ispade.liposerve.com/';
 
 /*
 |--------------------------------------------------------------------------
