@@ -26,7 +26,7 @@
       <fontname>Dialog</fontname>
       <fontsize>12</fontsize>
       <defaultstereotypeview>0</defaultstereotypeview>
-      <activediagram>modelo</activediagram>
+      <activediagram>Diagrama de clase</activediagram>
     </settings>
     <searchpath href="PROJECT_DIR" />
     <members>
@@ -46,6 +46,10 @@
               name="Diagramas_admin_vista.pgml"
               diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
               diagramname="vista" />
+      <member type="pgml"
+              name="Diagramas_admin_Diagramadeclase.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="Diagrama de clase" />
       <member type="todo"
               name="Diagramas_admin.todo" />
     </members>
@@ -65,7 +69,7 @@
 			C++
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Sep 23 15:05:09 ECT 2013'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Tue Sep 24 11:55:32 ECT 2013'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -2752,7 +2756,7 @@ de no ser asi retorna un formulario para que lo haga</UML:TaggedValue.dataValue>
     </UML:Model>
   </XMI.content>
 </XMI>
-<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7A"
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7B"
       name="modelo"
 >
   <group name="Fig0"
@@ -3153,12 +3157,16 @@ de no ser asi retorna un formulario para que lo haga</UML:TaggedValue.dataValue>
     </group>
   </group>
 </pgml>
-<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7A"
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7C"
       name="controlador"
 >
 </pgml>
-<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7A"
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7D"
       name="vista"
+>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1-2dc16b98:141470848ce:-8000:0000000000000E7A"
+      name="Diagrama de clase"
 >
 </pgml>
 <todo>
