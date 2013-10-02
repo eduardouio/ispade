@@ -1,4 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `liposerv_ispade` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `liposerv_ispade`;
 -- MySQL dump 10.13  Distrib 5.5.32, for debian-linux-gnu (i686)
 --
