@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://127.0.0.1/ispade/admin/';
+$config['base_url']	= 'http://ispade.liposerve.com/admin/';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -245,7 +245,7 @@ $config['encryption_key'] = 'ispade';
 */
 $config['sess_cookie_name']		= 'ispade';
 $config['sess_expiration']		= 0;
-$config['sess_expire_on_close']	= TRUE;
+$config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= TRUE;
 $config['sess_table_name']		= 'sessions';
