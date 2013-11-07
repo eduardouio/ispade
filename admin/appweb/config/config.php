@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://ispade.liposerve.com/admin/';
+$config['base_url']	= 'http://localhost/ispade/admin/';
 /*
 |--------------------------------------------------------------------------
 | Index File
