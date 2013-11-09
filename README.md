@@ -242,3 +242,4 @@ El controlador es el encargado de hacer funcionar el sitio y se los va a dividir
 
 Eliminar article de la tabla article y por ende eliminarlo de las vistas
 
+Al fin  voy a corregir las faltas de ortografia
