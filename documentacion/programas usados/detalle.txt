@@ -1,0 +1,8 @@
+Detalle de programas usados
+
+├── ArgoUML-0.34-setup.exe (diagramas UML)
+├── Sublime Text 2.0.1 Setup.exe (Editor de Código)
+└── WampServer2.1e-x32.exe (Servidor de aplicaciones web)
+
+
+

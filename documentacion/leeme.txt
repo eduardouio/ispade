@@ -1,0 +1,4 @@
+En este directorio se tiene archivos de documentacion completa del sistema
+incluye desarrollo del trabajo de fin de carrera esquemas y diagramas, 
+archivos office tiene los archivos para abrir con office 
+archivos libreoffice contiene archivo para abrirlos con libreoffice (programa con el que se creó la documentación)
