@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/ispade/sitio/';
+$config['base_url']	= 'http://isp.treeoil-ec.com';
 
 /*
 |--------------------------------------------------------------------------

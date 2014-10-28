@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'elian';
-$db['default']['database'] = 'liposerv_ispade';
+$db['default']['username'] = 'treeoile_isp';
+$db['default']['password'] = 'm}T_xpUHRKUh';
+$db['default']['database'] = 'treeoile_isp';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
